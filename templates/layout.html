@@ -27,7 +27,7 @@
 <meta property="og:url" content="{{ url }}">
 <meta property="og:image" content="{{ '/static/images/item4.png' | asseturl }}">
 <meta property="og:description" content="{{ description }}">
-<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:site_name" content="About Jinsu Kim">
 <meta property="article:tag" name="keywords" content="김진수">
 <meta property="article:tag" name="keywords" content="item4">
 <meta property="article:tag" name="keywords" content="앗뎀">
@@ -46,7 +46,7 @@
 <meta itemprop="image" content="{{ '/static/images/item4.png' | url(external=True) }}">
 <meta name="description" content="{{ description }}">
 <title>{{ title }}</title>
-<link rel="stylesheet" href="{{ '/static/gen/styles.css' }}">
+<link rel="stylesheet" href="{{ '/static/gen/styles.css' | asseturl }}">
 <link rel="canonical" href="{{ url }}">
 </head>
 <body>
@@ -65,6 +65,6 @@
 <script>
 var gaKey = 'UA-55942858-2';
 </script>
-<script src="{{ '/static/gen/app.js' }}"></script>
+<script src="{{ '/static/gen/app.js' | asseturl }}"></script>
 </body>
 </html>
