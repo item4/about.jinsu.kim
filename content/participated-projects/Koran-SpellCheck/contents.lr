@@ -1,0 +1,23 @@
+name: Korean-SpellCheck
+---
+repo_url: https://github.com/item4/Korean-SpellCheck/
+---
+started_at: 2014-10-01
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2014-10-04
+---
+ended_at_format: YYYY-MM-dd
+---
+description:
+
+부산대 맞춤법 검사기를 활용하여 각종 text 파일의 한국어 맞춤법을 검사할 수 있는 프로그램입니다.
+
+Python 2와 3 양쪽에서 모두 동작합니다. 쉽게 설치할 수 있고, CLI에서 사용할 수 있습니다.
+---
+technologies:
+
+Python
+Requests
+Click

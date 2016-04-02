@@ -1,0 +1,25 @@
+name: Hikikomori
+---
+repo_url: https://github.com/item4/hikikomori/
+---
+started_at: 2015-02-11
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-04-06
+---
+ended_at_format: YYYY-MM-dd
+---
+description:
+
+Torrent Client인 Transmission을 기반으로 하여 지정한 파일명의 토렌트 다운로드를 자동화해주는 솔루션입니다.
+
+Daemonize를 지원하며, 정규식등을 이용한 패턴 지정 또한 지정합니다.
+
+현재 잠정 중단되었습니다.
+---
+technologies:
+
+Python 3
+Click
+SQLAlchemy

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/Person" prefix="og: http://ogp.me/ns#">
+{%- if this.title -%}
+{%- set title = this.title -%}
+{%- else -%}
+{%- set title = 'About Jinsu Kim' -%}
+{%- endif -%}
+{%- if this.description -%}
+{%- set description = this.description -%}
+{%- else -%}
+{%- set description = 'About Jinsu Kim' -%}
+{%- endif -%}
+{%- set url = this | url(external=True) -%}
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@item4">
+<meta name="twitter:title" content="{{ title }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ '/static/images/item4.png' | asseturl }}">
+<meta name="twitter:url" content="{{ url }}">
+<meta name="twitter:creator" content="@item4">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{ url }}">
+<meta property="og:image" content="{{ '/static/images/item4.png' | asseturl }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="article:tag" name="keywords" content="김진수">
+<meta property="article:tag" name="keywords" content="item4">
+<meta property="article:tag" name="keywords" content="앗뎀">
+<meta property="article:tag" name="keywords" content="Résumé">
+<meta property="article:tag" name="keywords" content="이력서">
+<meta property="article:tag" name="keywords" content="프로그래머">
+<meta property="article:tag" name="keywords" content="프로그래머 이력서">
+<meta property="article:tag" name="keywords" content="공개 이력서">
+<meta name="keywords" content="김진수, item4, 앗뎀, Résumé, 이력서, 프로그래머, 프로그래머 이력서, 공개 이력서">
+<meta property="fb:admins" content="100003319376396">
+<meta itemprop="name" content="김진수">
+<meta itemprop="alternateName" content="item4">
+<meta itemprop="url" content="{{ url }}">
+<meta itemprop="jobTitle" content="Software Engineer (Computer Programmer)">
+<meta itemprop="description" content="{{ description }}">
+<meta itemprop="image" content="{{ '/static/images/item4.png' | url(external=True) }}">
+<meta name="description" content="{{ description }}">
+<title>{{ title }}</title>
+<link rel="stylesheet" href="{{ '/static/gen/styles.css' | asseturl }}">
+<link rel="canonical" href="{{ url }}">
+</head>
+<body>
+<header>
+  <h1><a href="/">About Jinsu Kim</a></h1>
+  <nav>
+    <ul>
+      <li><a href="/resume/">Résumé</a></li>
+      <li><a href="/faq/">FAQ</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+{%- block body -%}{%- endblock -%}
+</main>
+<script>
+var gaKey = 'UA-55942858-2';
+</script>
+<script src="{{ '/static/gen/app.js' | asseturl }}"></script>
+</body>
+</html>

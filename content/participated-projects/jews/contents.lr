@@ -1,0 +1,26 @@
+name: jews
+---
+repo_url: https://github.com/disjukr/jews
+---
+started_at: 2015-10-13
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-10-13
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+최종찬(disjukr)님이 개발하신 Browser User Script입니다.
+
+User Script를 사용 가능한 환경이라면 어디서나 국내 각종 언론사에서 본문만 볼 수 있도록 만들어 줍니다.
+
+Travis CI를 통한 자동 릴리즈 시스템을 개발하였습니다.
+---
+technologies:
+
+JavaScript
+EcmaScript 6
+jQuery
+Webpack

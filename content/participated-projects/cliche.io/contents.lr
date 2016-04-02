@@ -1,0 +1,29 @@
+name: cliche.io
+---
+url: http://docs.dev.cliche.io/en/latest/
+---
+repo_url: https://github.com/clicheio/cliche
+---
+started_at: 2014-07-01
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-05-10
+---
+ended_at_format: YYYY-MM-dd
+---
+description:
+
+소프트웨어 마에스트로 1단계 프로젝트입니다. 1단계 종료 후에도 계속 진행중입니다.
+
+서브컬쳐 데이터를 이용한 온톨로지(Ontology) 및 검색, 시멘틱 웹(Semantic Web)을 다룹니다.
+---
+technologies:
+
+Python 3
+Flask
+SQLAlchemy
+Celery
+Click
+Sphinx
+test.py

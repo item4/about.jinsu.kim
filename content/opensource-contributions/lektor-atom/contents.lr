@@ -1,0 +1,12 @@
+name: lektor-atom
+---
+url: https://github.com/ajdavis/lektor-atom/
+---
+list:
+
+#### contribution ####
+num: 1
+----
+type: issue
+----
+url: https://github.com/ajdavis/lektor-atom/issues/1/

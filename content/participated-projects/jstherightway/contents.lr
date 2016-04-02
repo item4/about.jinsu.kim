@@ -1,0 +1,24 @@
+name: JS: The Right Way
+---
+url: http://jstherightway.org/
+---
+repo_url: https://github.com/braziljs/js-the-right-way
+---
+started_at: 2015-07-05
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-07-05
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+JavaScript를 잘 활용할 수 있는 방법을 소개하는 사이트인 JS: The Right Way의 i18n을 최초로 제안하고([#185](https://github.com/braziljs/js-the-right-way/issues/185)) 한국어(ko-kr)의 번역의 전체 지휘를 담당했습니다.
+
+현재 이 프로젝트는 7개국어로 번역되어 있습니다.
+---
+technologies:
+
+JavaScript
+Grunt

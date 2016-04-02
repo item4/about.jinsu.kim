@@ -1,0 +1,26 @@
+name: Software Maestro 5th
+---
+url: http://swmaestro.kr/
+---
+started_at: 2014-07-01
+---
+started_at_format: YYYY-MM
+---
+ended_at: 2014-11-30
+---
+ended_at_format: YYYY-MM
+---
+description:
+name:
+미래창조과학부, NIPA가 주관하는 소프트웨어 마에스트로 5기 연수생으로 활동했습니다.
+
+1단계 연수생 선발 경쟁률은 약 6.8:1이었고, Cliche.io 팀에서 활동했습니다.
+---
+technologies:
+
+Python 3
+Flask
+OAuth
+SQLAlchemy
+Click
+py.test

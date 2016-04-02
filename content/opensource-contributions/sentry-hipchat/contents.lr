@@ -1,0 +1,12 @@
+name: sentry-hipchat
+---
+url: https://github.com/linovia/sentry-hipchat/
+---
+list:
+
+#### contribution ####
+num: 28
+----
+type: pr
+----
+url: https://github.com/linovia/sentry-hipchat/pull/28/

@@ -1,0 +1,7 @@
+_model: page
+---
+_template: faq.html
+---
+title: FAQ(자주 묻는 질문)
+---
+description: 자주 받는 질문들을 정리해두었습니다.

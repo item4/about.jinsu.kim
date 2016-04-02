@@ -1,0 +1,19 @@
+name: DogBot
+---
+repo_url: https://github.com/item4/DogBot/
+---
+started_at: 2013-01-27
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-01-23
+---
+ended_at_format: YYYY-MM-dd
+---
+description:
+
+Multi-thread IRC Bot입니다. 다중 서버 접속과 다중 명령어 동시 실행을 지원합니다.
+---
+technologies:
+
+Python

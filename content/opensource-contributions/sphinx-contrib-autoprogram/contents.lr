@@ -1,0 +1,12 @@
+name: sphinx-contrib-autoprogram
+---
+url: http://pythonhosted.org/sphinxcontrib-autoprogram/
+---
+list:
+
+#### contribution ####
+num: 104
+----
+type: pr
+----
+url: https://bitbucket.org/birkenfeld/sphinx-contrib/pull-requests/104/

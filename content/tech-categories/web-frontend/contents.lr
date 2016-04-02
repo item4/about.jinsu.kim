@@ -1,0 +1,12 @@
+name: Web Frontend
+---
+elements:
+
+HTML5
+CSS
+Sass/SCSS
+JavaScript
+EcmaScript 2015
+Webpack
+---
+priority: 0

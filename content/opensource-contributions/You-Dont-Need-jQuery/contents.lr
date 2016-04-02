@@ -1,0 +1,47 @@
+name: You Don't Need jQuery
+---
+url: https://github.com/oneuijs/You-Dont-Need-jQuery
+---
+list:
+
+#### contribution ####
+num: 5
+----
+type: pr
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/pull/5/
+
+#### contribution ####
+num: 11
+----
+type: pr
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/pull/11/
+
+#### contribution ####
+num: 42
+----
+type: issue
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/issues/42/
+
+#### contribution ####
+num: 73
+----
+type: issue
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/issues/73/
+
+#### contribution ####
+num: 74
+----
+type: pr
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/pull/74/
+
+#### contribution ####
+num: 80
+----
+type: pr
+----
+url: https://github.com/oneuijs/You-Dont-Need-jQuery/pull/80/

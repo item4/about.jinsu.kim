@@ -1,0 +1,12 @@
+name: pypy
+---
+url: https://bitbucket.org/pypy/pypy
+---
+list:
+
+#### contribution ####
+num: 346
+----
+type: pr
+----
+url: https://bitbucket.org/pypy/pypy/pull-requests/346/

@@ -1,0 +1,22 @@
+name: XNova
+---
+started_at: 2009-01-01
+---
+started_at_format: YYYY년
+---
+ended_at: 2010-08-01
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+PHP와 JavaScript로 개발된 우주전쟁 배경의 전략시뮬레이션 웹 게임입니다.
+
+운영 당시 한국 내 동일 장르 게임 중 세 손가락 안에 꼽히는 접속자 수와 사용자 수를 보유했었습니다.
+
+동시접속과 실시간성 이벤트 처리 알고리즘, 보안 결함 등의 다양한 부분을 개선했었습니다.
+---
+technologies:
+
+PHP
+JavaScript

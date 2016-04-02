@@ -1,0 +1,27 @@
+name: Snoin FileStorage
+---
+started_at: 2009-01-01
+---
+started_at_format: YYYY년
+---
+ended_at: 2014-01-01
+---
+ended_at_format: YYYY년
+---
+description:
+name:
+
+Snoin에서 고등학생 때 만들어서 2014년까지 운영해왔던 클라우드 파일 저장소입니다.
+
+각자 자신의 계정을 두고 파일을 올리고 다운로드 할 수 있으며, 파일을 관리할 수도 있습니다.
+
+한때 월 1,000GB 이상의 전송량을 감당했었습니다.
+---
+technologies:
+
+PHP
+Python 3
+Wand
+JavaScript
+jQuery
+jQuery UI

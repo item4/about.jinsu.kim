@@ -1,0 +1,29 @@
+name: ugoira
+---
+repo_url: https://github.com/item4/ugoira
+---
+started_at: 2015-11-18
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-11-18
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+일본의 동인 이미지 사이트 Pixiv에서 제공하는 Ugoira(움직이는 이미지)는 일반적인 이미지 출력법을 사용하지 않아 통상적인 방법으로 다운로드 할 수 없는데, 이를 다운로드 할 수 있도록 하는 프로그램입니다.
+
+Python과 ImageMagick을 커맨드 라인에서 사용 가능한 환경이라면 사용 가능합니다.
+
+GIF 이미지 형식과 ZIP 압축 형식을 지원합니다.
+
+Travis CI를 통해 자동 테스트를 하고 있으며, readthedocs에도 사용법 및 API에 대한 문서가 업로드 되어 있습니다.
+---
+technologies:
+
+Python 3
+Wand
+Click
+requests
+py.test

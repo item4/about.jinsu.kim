@@ -1,0 +1,22 @@
+name: Fishing Arena
+---
+started_at: 2004-01-01
+---
+started_at_format: YYYY년
+---
+ended_at: 2010-06-26
+---
+ended_at_format: YYYY-MM-dd
+---
+description:
+
+중학생 때 만들어서 운영했던 간단한 낚시 관련 웹게임입니다.
+
+당시 국내 인디(indie) 웹 게임 중 자체 개발 된 몇 없는 게임이었습니다.
+
+2010년, 당시 게임물등급위원회의 시정요청으로 운영이 중지되었는데, 이 시기에 과도한 심의요청으로 국내 인디 웹 게임은 거의 다 운영을 정지하게 되었습니다.
+---
+technologies:
+
+PHP
+JavaScript

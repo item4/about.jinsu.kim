@@ -1,0 +1,24 @@
+name: Cute Polar Bear
+---
+started_at: 2015-07-10
+---
+started_at_format: YYYY-MM-dd
+---
+ended_at: 2015-07-10
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+Jekyll 테마인 Polar Bear를 Fork하여 보다 Python으로 개발된 정적 페이지 생성도구인 Lektor용으로 탈바꿈하였습니다.
+
+기존 스킨에 없던 Twitter Card, Facebook Open Graph, 소셜 공유 등의 다양한 기능을 지원합니다.
+---
+technologies:
+
+Python
+Lektor
+Jinja2
+Sass
+Webpack
+cookiecutter
