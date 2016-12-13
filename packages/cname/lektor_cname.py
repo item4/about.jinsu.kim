@@ -28,7 +28,7 @@ class CNAMEBuildProgram(BuildProgram):
 
     def build_artifact(self, artifact):
         with artifact.open('wb') as f:
-            f.write('about.jinsu.kim')
+            f.write('about.jinsu.kim'.encode())
 
 
 class CnamePlugin(Plugin):
