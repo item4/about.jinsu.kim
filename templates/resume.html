@@ -2,7 +2,7 @@
 {%- block body -%}
 <article>
   <h1>Résumé</h1>
-  <section id="info">
+  <section class="section--info" id="info">
     <h2>Jinsu Kim</h2>
     <dl>
       <dt>Name</dt>
@@ -24,7 +24,7 @@
       </dd>
     </dl>
   </section>
-  <section id="technologies">
+  <section class="section--technologies" id="technologies">
     <h2>Technologies</h2>
     {%- set tech_categories = site.get('tech-categories').children.include_undiscoverable(true).include_hidden(true).order_by('priority').all() -%}
     {%- for tech_category in tech_categories -%}
@@ -38,7 +38,7 @@
       </section>
     {%- endfor -%}
   </section>
-  <section id="work-experiences">
+  <section class="section--work-experiences" id="work-experiences">
     <h2>Work Experiences</h2>
     {%- set work_experiences = site.get('work-experiences').children.include_undiscoverable(true).include_hidden(true).order_by('-started_at', 'priority').all() -%}
     {%- for work in work_experiences -%}
@@ -55,7 +55,7 @@
       </section>
     {%- endfor -%}
   </section>
-  <section id="organizations">
+  <section class="section--organizations" id="organizations">
     <h2>Organizations</h2>
     {%- set organizations = site.get('organizations').children.include_undiscoverable(true).include_hidden(true).order_by('-started_at', 'priority').all() -%}
     {%- for org in organizations -%}
@@ -72,7 +72,7 @@
       </section>
     {%- endfor -%}
   </section>
-  <section id="projects">
+  <section class="section--projects" id="projects">
     <h2>Participated Projects</h2>
     {%- set participated_projects = site.get('participated-projects').children.include_undiscoverable(true).include_hidden(true).order_by('-started_at', 'priority').all() -%}
     {%- for project in participated_projects -%}
@@ -89,7 +89,7 @@
       </section>
     {%- endfor -%}
   </section>
-  <section id="opensource-contributions">
+  <section class="section--opensource-contributions" id="opensource-contributions">
     <h2>Open-Source Contributions</h2>
     {%- set opensource_contributions = site.get('opensource-contributions').children.include_undiscoverable(true).include_hidden(true).order_by('name').all() -%}
     {%- for contribution in opensource_contributions -%}
@@ -107,7 +107,7 @@
     </ul>
     {%- endfor -%}
   </section>
-  <section id="activities">
+  <section class="section--activities" id="activities">
     <h2>Activities</h2>
     {%- set activities = site.get('activities').children.include_undiscoverable(true).include_hidden(true).order_by('-date').all() -%}
     {%- for activity in activities -%}
@@ -117,7 +117,7 @@
       </section>
     {%- endfor -%}
   </section>
-  <section id="disorders">
+  <section class="section--disorders" id="disorders">
     <h2>Disorders</h2>
     {%- set disorders = site.get('disorders').children.include_undiscoverable(true).include_hidden(true).order_by('priority').all() -%}
     {%- for disorder in disorders -%}

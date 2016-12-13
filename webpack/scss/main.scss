@@ -53,25 +53,25 @@ header {
     padding: 10px;
     text-align: right;
     width: calc(55vw - 10px - 10px);
+  }
 
-    ul {
-      display: inline;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+  ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-      li {
-        display: inline;
-        margin: 0 5px 0 0;
+  li {
+    display: inline;
+    margin: 0 5px 0 0;
 
-        a,
-        a:visited,
-        a:hover {
-          color: white;
-          font-size: 1.4em;
-          line-height: 24px;
-        }
-      }
+    a,
+    a:visited,
+    a:hover {
+      color: white;
+      font-size: 1.4em;
+      line-height: 24px;
     }
   }
 }
@@ -100,163 +100,157 @@ main {
   padding-bottom: 5rem;
   width: 95vw;
   word-break: break-all;
+}
 
-  h1 {
-    font-family: 'Libre Baskerville', serif;
-    font-size: $font-size-h1 * 2;
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: $font-size-h1 * 2;
+}
+
+h2 {
+  font-size: $font-size-h2 * 0.8;
+}
+
+h3 {
+  font-size: $font-size-h3 * 0.8;
+}
+
+h4 {
+  font-size: $font-size-h4 * 0.8;
+}
+
+h5 {
+  font-size: $font-size-h5 * 0.8;
+}
+
+h6 {
+  font-size: $font-size-h6 * 0.8;
+}
+
+.pr,
+.issue {
+  @extend .label;
+}
+
+.pr {
+  @extend .label-success;
+
+  &::before {
+    content: 'PR ';
   }
+}
 
+.issue {
+  @extend .label-info;
+
+  &::before {
+    content: 'ISSUE ';
+  }
+}
+
+section {
   h2 {
-    font-size: $font-size-h2 * 0.8;
+    border-bottom: 1px dotted #aaa;
   }
 
   h3 {
-    font-size: $font-size-h3 * 0.8;
+    .date {
+      font-size: 0.7em;
+    }
   }
 
-  h4 {
-    font-size: $font-size-h4 * 0.8;
-  }
+  > dl,
+  > section,
+  > p {
+    margin: 0 20px;
 
-  h5 {
-    font-size: $font-size-h5 * 0.8;
-  }
-
-  h6 {
-    font-size: $font-size-h6 * 0.8;
-  }
-
-  section {
-    h2 {
-      border-bottom: 1px dotted #aaa;
-    }
-
-    h3 {
-      .date {
-        font-size: 0.7em;
-      }
-    }
-
-    .pr,
-    .issue {
-      @extend .label;
-    }
-
-    .pr {
-      @extend .label-success;
-
-      &::before {
-        content: 'PR ';
-      }
-    }
-
-    .issue {
-      @extend .label-info;
-
-      &::before {
-        content: 'ISSUE ';
-      }
-    }
-
-    > dl,
-    > section,
-    > p {
+    p,
+    ul {
       margin: 0 20px;
+    }
+  }
 
-      p,
-      ul {
-        margin: 0 20px;
+  > dl {
+    @include .clearfix;
+
+    dt {
+      float: left;
+      margin-right: 5px;
+      text-align: right;
+      width: 100px;
+
+      &::after {
+        content: ':';
       }
     }
 
-    > dl {
-      @include clearfix;
+    dd {
+      float: left;
+      width: calc(100% - 100px - 5px);
 
-      dt {
-        float: left;
-        margin-right: 5px;
-        text-align: right;
-        width: 100px;
-
-        &::after {
-          content: ':';
-        }
-      }
-
-      dd {
-        float: left;
-        width: calc(100% - 100px - 5px);
-
-        @include clearfix;
-      }
+      @include .clearfix;
     }
   }
+}
 
-  #info,
-  #technologies,
-  #work-experiences,
-  #organizations,
-  #projects {
-    ul {
-      @extend %inline-list;
-    }
+.section--info,
+.section--technologies,
+.section--work-experiences,
+.section--organizations,
+.section--projects {
+  ul {
+    @extend %inline-list;
+  }
+}
+
+.section--work-experiences,
+.section--organizations,
+.section--projects {
+  ul::before {
+    content: 'Used technologies: ';
   }
 
-  #work-experiences,
-  #organizations,
-  #projects {
-    ul::before {
-      content: 'Used technologies: ';
-    }
-
-    ul {
-      border-top: 1px dotted #bbb;
-      margin-top: 5px;
-      padding-top: 5px;
-    }
+  ul {
+    border-top: 1px dotted #bbb;
+    margin-top: 5px;
+    padding-top: 5px;
   }
+}
 
-  #info {
-    ul {
-      margin: 0;
-    }
+.section--info {
+  ul {
+    margin: 0;
   }
+}
 
-  #opensource-contributions {
-    ol {
+.section--opensource-contributions {
+  ol {
+    display: inline-block;
+    padding: 0;
+
+    li {
       display: inline-block;
-      padding: 0;
+      margin-right: 3px;
 
-      li {
-        display: inline-block;
-        margin-right: 3px;
+      &::after {
+        content: ',';
+      }
 
-        &::after {
-          content: ',';
-        }
-
-        &:last-child::after {
-          content: '';
-        }
+      &:last-child::after {
+        content: '';
       }
     }
   }
+}
 
-  #links {
-    ul {
-      margin: 0 20px;
-    }
+section.index {
+  h1 {
+    font-size: $font-size-h1;
   }
 
-  section.index {
-    h1 {
-      font-size: $font-size-h1;
-    }
-
-    ul {
-      li {
-        font-size: 1.4em;
-      }
+  ul {
+    li {
+      font-size: 1.4em;
     }
   }
 }
