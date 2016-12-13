@@ -3,8 +3,5 @@ name = about.jinsu.kim
 url = https://about.jinsu.kim
 url_style = absolute
 
-[packages]
-lektor-webpack-support = 0.1
-
 [servers.ghpages]
 target = ghpages+https://jinsu-kim/jinsu-kim.github.io
