@@ -74,3 +74,10 @@ num: 243
 type: issue
 ----
 url: https://github.com/lektor/lektor/issues/243/
+
+#### contribution ####
+num: 299
+----
+type: pr
+----
+url: https://github.com/lektor/lektor/pull/299/
