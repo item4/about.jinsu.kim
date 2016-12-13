@@ -55,4 +55,5 @@ target/
 
 assets/static/gen
 
+node_modules
 webpack/node_modules

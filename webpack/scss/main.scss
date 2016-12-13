@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import '../fonts/nanumbarungothic.css';
 
 $font-size-base: 14px;
@@ -50,15 +50,15 @@ header {
   nav {
     float: left;
     height: 48px;
-    text-align: right;
     padding: 10px;
+    text-align: right;
     width: calc(55vw - 10px - 10px);
 
     ul {
       display: inline;
       list-style-type: none;
-      padding: 0;
       margin: 0;
+      padding: 0;
 
       li {
         display: inline;
@@ -78,17 +78,18 @@ header {
 
 %inline-list {
   display: inline-block;
-  padding: 0;
   margin: 0 20px;
+  padding: 0;
 
   li {
     display: inline-block;
     margin-right: 3px;
 
-    &:after {
+    &::after {
       content: ',';
     }
-    &:last-child:after {
+
+    &:last-child::after {
       content: '';
     }
   }
@@ -97,55 +98,62 @@ header {
 main {
   margin: auto;
   padding-bottom: 5rem;
-  word-break: break-all;
   width: 95vw;
+  word-break: break-all;
 
   h1 {
     font-family: 'Libre Baskerville', serif;
     font-size: $font-size-h1 * 2;
   }
+
   h2 {
-    font-size: $font-size-h2 * .8;
+    font-size: $font-size-h2 * 0.8;
   }
+
   h3 {
-    font-size: $font-size-h3 * .8;
+    font-size: $font-size-h3 * 0.8;
   }
+
   h4 {
-    font-size: $font-size-h4 * .8;
+    font-size: $font-size-h4 * 0.8;
   }
+
   h5 {
-    font-size: $font-size-h5 * .8;
+    font-size: $font-size-h5 * 0.8;
   }
+
   h6 {
-    font-size: $font-size-h6 * .8;
+    font-size: $font-size-h6 * 0.8;
   }
 
   section {
     h2 {
       border-bottom: 1px dotted #aaa;
     }
+
     h3 {
       .date {
-        font-size: .7em;
+        font-size: 0.7em;
       }
     }
 
     .pr,
-    .issue,
-    {
+    .issue {
       @extend .label;
     }
+
     .pr {
       @extend .label-success;
 
-      &:before {
+      &::before {
         content: 'PR ';
       }
     }
+
     .issue {
       @extend .label-info;
 
-      &:before {
+      &::before {
         content: 'ISSUE ';
       }
     }
@@ -166,14 +174,15 @@ main {
 
       dt {
         float: left;
-        text-align: right;
         margin-right: 5px;
+        text-align: right;
         width: 100px;
 
-        &:after {
+        &::after {
           content: ':';
         }
       }
+
       dd {
         float: left;
         width: calc(100% - 100px - 5px);
@@ -196,13 +205,14 @@ main {
   #work-experiences,
   #organizations,
   #projects {
-    ul:before {
+    ul::before {
       content: 'Used technologies: ';
     }
+
     ul {
       border-top: 1px dotted #bbb;
-      padding-top: 5px;
       margin-top: 5px;
+      padding-top: 5px;
     }
   }
 
@@ -221,10 +231,11 @@ main {
         display: inline-block;
         margin-right: 3px;
 
-        &:after {
+        &::after {
           content: ',';
         }
-        &:last-child:after {
+
+        &:last-child::after {
           content: '';
         }
       }
@@ -241,6 +252,7 @@ main {
     h1 {
       font-size: $font-size-h1;
     }
+
     ul {
       li {
         font-size: 1.4em;
