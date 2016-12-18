@@ -1,4 +1,5 @@
 import gaFactory from './ga';
+import '../scss/main.scss';
 
 gaFactory();
 
