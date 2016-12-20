@@ -1,10 +1,27 @@
 name: Backend
 ---
+url: https://en.wikipedia.org/wiki/Front_and_back_ends
+---
 elements:
 
-Python 3
-Flask
-SQLAlchemy
-PHP 5
+#### tech ####
+name: Python
+----
+url: https://www.python.org/
+
+#### tech ####
+name: Flask
+----
+url: http://flask.pocoo.org/
+
+#### tech ####
+name: SQLAlchemy
+----
+url: http://www.sqlalchemy.org/
+
+#### tech ####
+name: PHP 5
+----
+url: http://php.net/
 ---
 priority: 1

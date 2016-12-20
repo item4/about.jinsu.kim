@@ -1,21 +1,23 @@
 {%- extends 'layout.html' -%}
 {%- block body -%}
-<article>
-  <h1>FAQ</h1>
-  {%- set questions = site.get('questions').children.include_undiscoverable(true).include_hidden(true).order_by('priority').all() -%}
-  <nav>
-    <h2>목차</h2>
-    <ol>
-      {%- for question in questions -%}
-        <li><a href="#faq-{{ question._id }}">{{ question.question }}</a></li>
-      {%- endfor -%}
-    </ol>
-  </section>
-  {%- for question in questions -%}
-    <section id="faq-{{ question._id }}">
-      <h2>{{ question.question }}</h2>
-      <p>{{ question.answer }}</p>
+<section typeOf="QAPage">
+  <h1 property="mainContentOfPage">FAQ</h1>
+  <div property="mainEntity">
+    {%- set questions = site.get('questions').children.include_undiscoverable(true).include_hidden(true).order_by('priority').all() -%}
+    <nav>
+      <h2>목차</h2>
+      <ol>
+        {%- for question in questions -%}
+          <li><a href="#faq-{{ question._id }}">{{ question.question }}</a></li>
+        {%- endfor -%}
+      </ol>
     </section>
-  {%- endfor -%}
-</article>
+    {%- for question in questions -%}
+      <section id="faq-{{ question._id }}" typeOf="Question">
+        <h2 property="mainEntity">{{ question.question }}</h2>
+        <p property="acceptedAnswer" typeOf="Answer"><span property="mainEntity">{{ question.answer }}</span></p>
+      </section>
+    {%- endfor -%}
+  </div>
+</section>
 {%- endblock -%}

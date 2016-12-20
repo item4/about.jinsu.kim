@@ -1,12 +1,32 @@
 name: Web Frontend
 ---
+url: https://en.wikipedia.org/wiki/Front-end_web_development
+---
 elements:
 
-HTML5
-CSS
-Sass/SCSS
-JavaScript
-EcmaScript 2015
-Webpack
+#### tech ####
+name: HTML5
+----
+url: https://www.w3.org/TR/html5/
+#### tech ####
+name: CSS
+----
+url: https://www.w3.org/Style/CSS/
+#### tech ####
+name: Sass/SCSS
+----
+url: http://sass-lang.com/
+#### tech ####
+name: JavaScript
+----
+url: https://www.javascript.com/
+#### tech ####
+name: EcmaScript 6+
+----
+url: https://www.ecma-international.org/publications/standards/Ecma-262.htm
+#### tech ####
+name: Webpack
+----
+url: https://webpack.github.io/
 ---
 priority: 0

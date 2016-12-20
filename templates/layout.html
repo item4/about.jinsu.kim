@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html itemscope itemtype="http://schema.org/Person" prefix="og: http://ogp.me/ns#">
+<html prefix="og: http://ogp.me/ns#">
 {%- if this.title -%}
 {%- set title = this.title -%}
 {%- else -%}
@@ -38,33 +38,37 @@
 <meta property="article:tag" name="keywords" content="공개 이력서">
 <meta name="keywords" content="김진수, item4, 앗뎀, Résumé, 이력서, 프로그래머, 프로그래머 이력서, 공개 이력서">
 <meta property="fb:admins" content="100003319376396">
-<meta itemprop="name" content="김진수">
-<meta itemprop="alternateName" content="item4">
-<meta itemprop="url" content="{{ url }}">
-<meta itemprop="jobTitle" content="Software Engineer (Computer Programmer)">
-<meta itemprop="description" content="{{ description }}">
-<meta itemprop="image" content="{{ '/static/images/item4.png' | url(external=True) }}">
+<meta property="name" content="김진수">
+<meta property="alternateName" content="item4">
+<meta property="url" content="{{ url }}">
+<meta property="jobTitle" content="Software Engineer (Computer Programmer)">
+<meta property="description" content="{{ description }}">
 <meta name="description" content="{{ description }}">
 <title>{{ title }}</title>
 <link rel="stylesheet" href="{{ '/static/gen/app.css' | url }}">
 <link rel="canonical" href="{{ url }}">
 </head>
-<body>
-<header>
-  <h1><a href="/">About Jinsu Kim</a></h1>
-  <nav>
-    <ul>
-      <li><a href="/resume/">Résumé</a></li>
-      <li><a href="/faq/">FAQ</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-{%- block body -%}{%- endblock -%}
-</main>
-<script>
-var gaKey = 'UA-55942858-2';
-</script>
-<script src="{{ '/static/gen/app.js' | url }}"></script>
+<body vocab="http://schema.org/" typeof="Website">
+  <div class="rdfa" style="display: none;" property="image" typeof="ImageObject">
+    <img property="url" src="{{ '/static/images/item4.png' | url(external=True) }}">
+    <meta property="height" content="1000">
+    <meta property="width" content="1000">
+  </div>
+  <header>
+    <h1><a href="/">About Jinsu Kim</a></h1>
+    <nav>
+      <ul>
+        <li><a href="/resume/">Résumé</a></li>
+        <li><a href="/faq/">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {%- block body -%}{%- endblock -%}
+  </main>
+  <script>
+    var gaKey = 'UA-55942858-2';
+  </script>
+  <script src="{{ '/static/gen/app.js' | url }}"></script>
 </body>
 </html>
