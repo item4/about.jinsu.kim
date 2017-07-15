@@ -1,6 +1,6 @@
 {%- extends 'layout.html' -%}
 {%- block body -%}
-<section typeOf="QAPage">
+<section property="mainEntity" typeOf="QAPage">
   <h1 property="mainContentOfPage">FAQ</h1>
   <div property="mainEntity">
     {%- set questions = site.get('questions').children.include_undiscoverable(true).include_hidden(true).order_by('priority').all() -%}
