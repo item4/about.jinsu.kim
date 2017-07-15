@@ -5,6 +5,7 @@ gaFactory();
 
 if (window.gaKey) {
   window.ga('create', window.gaKey, 'auto');
+  window.ga('require', 'maxScrollTracker');
   window.ga('require', 'cleanUrlTracker');
   window.ga('require', 'eventTracker');
   window.ga('require', 'impressionTracker');
