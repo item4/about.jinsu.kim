@@ -13,8 +13,11 @@ ended_at_format: YYYY-MM
 description:
 
 개인용 Slack 대화방을 위한 봇입니다.
+
 Python으로 개발되고 있으며, 추후 코어를 분리하여 프레임워크화 할 계획입니다.
+
 asyncio를 이용한 비동기 프로그램으로 작성되어있습니다.
+
 Python AST에 기반한 계산 기능을 지원합니다.
 ---
 technologies:
