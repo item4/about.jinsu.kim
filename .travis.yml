@@ -3,11 +3,13 @@ python: 2.7
 sudo: false
 cache:
   directories:
-    - $HOME/.cache/pip
-    - $HOME/.cache/lektor/builds
-    - webpack/node_modules
+  - $HOME/.cache/pip
+  - $HOME/.cache/lektor/builds
+  - webpack/node_modules
 before_install:
-- rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install stable && nvm use stable
+- rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm
+  && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm
+  install stable && nvm use stable
 - curl -o- -L https://yarnpkg.com/install.sh | bash
 - export PATH=$HOME/.yarn/bin:$PATH
 install:
@@ -23,4 +25,5 @@ script:
 after_success:
 - '[ "${TRAVIS_BRANCH}" = "src" ] && lektor deploy ghpages || false'
 notifications:
-  irc: "irc.ozinger.org#item4"
+  slack:
+    secure: Vez7J1JrKpdrLrDGhhXhTkjngay9eVvAA1SHY+2C14wiFd+9PyJ5p2ZJ7V9eq72AFRateY0ESLmzw/yJU0dx0dnBR/rQvWu+lemYhNMRkZjR3QMPKaReTziIMsy4QLtNa7ynjvWcYu71WSy08GmZBcdw7hgidlG9FJvOUYilpoM=
