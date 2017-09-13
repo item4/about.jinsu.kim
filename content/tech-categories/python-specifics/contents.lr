@@ -1,0 +1,48 @@
+name: Python-specifics
+---
+url: https://www.python.org/
+---
+elements:
+
+#### tech ####
+name: aiohttp
+----
+url: http://aiohttp.readthedocs.io/
+
+#### tech ####
+name: Flask
+----
+url: http://flask.pocoo.org/
+
+#### tech ####
+name: SQLAlchemy
+----
+url: http://www.sqlalchemy.org/
+
+#### tech ####
+name: requests
+----
+url: http://docs.python-requests.org/
+
+#### tech ####
+name: Click
+----
+url: http://click.pocoo.org/
+
+#### tech ####
+name: lxml
+----
+url: hhttp://lxml.de/
+
+#### tech ####
+name: pytest
+----
+url: https://docs.pytest.org/
+
+#### tech ####
+name: mypy
+----
+url: http://mypy-lang.org/
+
+---
+priority: 1
