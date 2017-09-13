@@ -1,0 +1,31 @@
+name: 후니홀릭 수능작전소
+---
+url: https://huniholicstudy.com/
+---
+started_at: 2016-09-04
+---
+started_at_format: YYYY-MM
+---
+ended_at: 2017-02-12
+---
+ended_at_format: YYYY-MM
+---
+description:
+
+외주로 개발한 학원 홈페이지입니다.
+
+IE를 통한 접속도 고려 대상이었기에 최신 Frontend 기술 중 IE 친화적인 것을 선별적으로 적용했습니다.
+
+Frontend는 Webpack+babel+SCSS를 통합적으로 사용할 수 있도록 기반을 구축했습니다.
+
+Backend는 Python 3과 Flask, SQLAlchemy를 통해 사이트를 전체 개발하였습니다.
+
+---
+technologies:
+
+Python 3
+Webpack
+Babel
+SCSS
+Flask
+SQLAlchemy
