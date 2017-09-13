@@ -6,7 +6,7 @@ started_at_format: YYYY년
 ---
 ended_at: 2010-06-26
 ---
-ended_at_format: YYYY-MM-dd
+ended_at_format: YYYY년 MM월 dd일
 ---
 description:
 

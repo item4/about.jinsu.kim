@@ -6,11 +6,11 @@ repo_url: https://github.com/braziljs/js-the-right-way
 ---
 started_at: 2015-07-05
 ---
-started_at_format: YYYY-MM-dd
+started_at_format: YYYY년 MM월 dd일
 ---
 ended_at: 2015-07-05
 ---
-ended_at_format: YYYY-MM
+ended_at_format: YYYY년 MM월
 ---
 description:
 

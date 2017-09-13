@@ -6,11 +6,11 @@ repo_url: https://github.com/clicheio/cliche
 ---
 started_at: 2014-07-01
 ---
-started_at_format: YYYY-MM-dd
+started_at_format: YYYY년 MM월 dd일
 ---
 ended_at: 2015-05-10
 ---
-ended_at_format: YYYY-MM-dd
+ended_at_format: YYYY년 MM월 dd일
 ---
 description:
 
