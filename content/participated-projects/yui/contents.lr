@@ -19,6 +19,10 @@ Python으로 개발되고 있으며, 추후 코어를 분리하여 프레임워�
 asyncio를 이용한 비동기 프로그램으로 작성되어있습니다.
 
 Python AST에 기반한 계산 기능을 지원합니다.
+
+SQLAlchemy와 결합되어 있어서 쉽게 ORM기반의 DB사용이 가능합니다.
+
+mypy를 사용해서 정적 타입검사를 하고, pytest등을 통해 품질 관리에 노력하고 있습니다.
 ---
 technologies:
 
@@ -26,3 +30,8 @@ Python 3
 ast
 asyncio
 aiohttp
+SQLALchemy
+Alembic
+lxml
+mypy
+pytest
