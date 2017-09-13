@@ -1,14 +1,14 @@
-name: jews
+name: just-news
 ---
-repo_url: https://github.com/disjukr/jews
+repo_url: https://github.com/disjukr/just-news/
 ---
 started_at: 2015-10-13
 ---
-started_at_format: YYYY-MM-dd
+started_at_format: YYYY년 MM월 dd일
 ---
 ended_at: 2015-10-13
 ---
-ended_at_format: YYYY-MM
+ended_at_format: YYYY년 MM월
 ---
 description:
 
@@ -24,3 +24,4 @@ JavaScript
 EcmaScript 6
 jQuery
 Webpack
+Travis-CI
