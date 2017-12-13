@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+$icon-font-path: '../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
-@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 @import '../fonts/nanumbarungothic.css';
 
 $font-size-base: 14px;
@@ -22,6 +22,31 @@ body {
   font-family: $font-family-main;
 }
 
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: $font-size-h1 * 2;
+}
+
+h2 {
+  font-size: $font-size-h2 * 0.8;
+}
+
+h3 {
+  font-size: $font-size-h3 * 0.8;
+}
+
+h4 {
+  font-size: $font-size-h4 * 0.8;
+}
+
+h5 {
+  font-size: $font-size-h5 * 0.8;
+}
+
+h6 {
+  font-size: $font-size-h6 * 0.8;
+}
+
 header {
   background: #39f;
 
@@ -29,6 +54,12 @@ header {
   @extend .hidden-xs;
 
   @include clearfix;
+
+  li a {
+    color: white;
+    font-size: 1.4em;
+    line-height: 24px;
+  }
 
   h1 {
     color: white;
@@ -66,7 +97,6 @@ header {
     display: inline;
     margin: 0 5px 0 0;
 
-    a,
     a:visited,
     a:hover {
       color: white;
@@ -100,31 +130,6 @@ main {
   padding-bottom: 5rem;
   width: 95vw;
   word-break: break-all;
-}
-
-h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: $font-size-h1 * 2;
-}
-
-h2 {
-  font-size: $font-size-h2 * 0.8;
-}
-
-h3 {
-  font-size: $font-size-h3 * 0.8;
-}
-
-h4 {
-  font-size: $font-size-h4 * 0.8;
-}
-
-h5 {
-  font-size: $font-size-h5 * 0.8;
-}
-
-h6 {
-  font-size: $font-size-h6 * 0.8;
 }
 
 .pr,
