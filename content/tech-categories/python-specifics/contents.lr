@@ -10,6 +10,16 @@ name: aiohttp
 url: http://aiohttp.readthedocs.io/
 
 #### tech ####
+name: Django
+----
+url: https://www.djangoproject.com/
+
+#### tech ####
+name: Django REST Framework
+----
+url: https://www.django-rest-framework.org/
+
+#### tech ####
 name: Flask
 ----
 url: http://flask.pocoo.org/
