@@ -14,9 +14,5 @@ name: nginx
 ----
 url: https://nginx.org/
 
-#### tech ####
-name: PHP 5
-----
-url: http://php.net/
 ---
 priority: 1
