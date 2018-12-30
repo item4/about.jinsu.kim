@@ -1,7 +1,5 @@
 name: Untouchable
 ---
-url: http://uta.item4.net
----
 started_at: 2005-01-01
 ---
 started_at_format: YYYY년
@@ -12,7 +10,7 @@ ended_at_format: YYYY년
 ---
 description:
 
-중학교 때부터 만들어서 운영해오고 있는 게이미피케이션(Gamification)이 적용된 미스터리 소설 플랫폼입니다.
+중학생때 만들어서 운영해왔던 게이미피케이션(Gamification)이 적용된 미스터리 소설 플랫폼입니다.
 
 소설에 사용자 참여 요소를 도입해 몰입도를 끌어올리고 있습니다.
 ---
