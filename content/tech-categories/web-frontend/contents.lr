@@ -17,6 +17,10 @@ name: Sass/SCSS
 ----
 url: http://sass-lang.com/
 #### tech ####
+name: TypeScript
+----
+url: https://www.typescriptlang.org/
+#### tech ####
 name: JavaScript
 ----
 url: https://www.javascript.com/
@@ -25,8 +29,16 @@ name: EcmaScript 6+
 ----
 url: https://www.ecma-international.org/publications/standards/Ecma-262.htm
 #### tech ####
+name: React
+----
+url: https://reactjs.org/
+#### tech ####
 name: Webpack
 ----
 url: https://webpack.github.io/
+#### tech ####
+name: Parcel
+----
+url: https://parceljs.org/
 ---
 priority: 0
