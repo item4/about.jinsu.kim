@@ -232,9 +232,8 @@ const ResumePage: React.FC<ResumePageProps> = ({
           <Section>
             <SectionTitle>Summary</SectionTitle>
             <SummaryParagraph>
-              한참 성장중인 스타트업에서 서버 개발자로 활동했던 웹 개발자.
-              서버를 중점적으로 다루지만 고객이 보는 화면을 못 다루는 것은 아닌 풀스택 지향 개발자.
-              안전하고 안정적이며 발전 가능한 프로그램을 만들고 싶은 개발자.
+              빠르게 성장하는 스타트업에서 백엔드 위주로 프론트까지 개발이 가능한 풀스택 지향 개발자.
+              전통적인서버, 범용 클라우드, Docker를 이용하여 테스트, CI, 배포, 모니터링등 전반적인 서비스 영역을 경험하고 개선이 가능.
             </SummaryParagraph>
           </Section>
           <Section typeof='ItemList'>
