@@ -1,4 +1,4 @@
-import { graphql } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
@@ -18,7 +18,10 @@ const IndexPage: React.FC<IndexPageProps> = ({
   return (
     <Layout location={location} metadata={metadata}>
       <h1>Index</h1>
-      <p>공사중</p>
+      <ul>
+        <li><Link to='/resume/'>이력서</Link></li>
+        <li><Link to='/faq/'>자주 묻는 질문</Link></li>
+      </ul>
     </Layout>
   );
 };
