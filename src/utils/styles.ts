@@ -66,28 +66,6 @@ export const globalStyles = css`
       url(/fonts/NanumBarunGothicBold.ttf) format('truetype');
   }
 
-  @font-face {
-    font-family: 'SAO UI';
-    font-style: normal;
-    font-weight: normal;
-    src: url(/fonts/SAOUI-Regular.eot);
-    src: url(/fonts/SAOUI-Regular.eot?#iefix) format('embedded-opentype'),
-      url(/fonts/SAOUI-Regular.woff2) format('woff2'),
-      url(/fonts/SAOUI-Regular.woff) format('woff'),
-      url(/fonts/SAOUI-Regular.ttf) format('truetype');
-  }
-
-  @font-face {
-    font-family: 'SAO UI';
-    font-style: normal;
-    font-weight: bold;
-    src: url(/fonts/SAOUI-Bold.eot);
-    src: url(/fonts/SAOUI-Bold.eot?#iefix) format('embedded-opentype'),
-      url(/fonts/SAOUI-Bold.woff2) format('woff2'),
-      url(/fonts/SAOUI-Bold.woff) format('woff'),
-      url(/fonts/SAOUI-Bold.ttf) format('truetype');
-  }
-
   body,
   h1,
   h2,
@@ -120,12 +98,12 @@ export const globalStyles = css`
   }
 
   h1 {
-    font-family: 'SAO UI', 'Nanum Barun Gothic', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 3rem;
     margin-bottom: 2rem;
   }
   h2 {
-    font-family: 'SAO UI', 'Nanum Barun Gothic', sans-serif;
+    font-family: 'Merriweather', serif;
   }
   a {
     color: ${darken(0.2, brandColor)};

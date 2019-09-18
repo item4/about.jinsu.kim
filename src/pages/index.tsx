@@ -14,7 +14,7 @@ const PageList = styled.ul`
   margin-left: 2.5rem;
 `;
 const PageLink = styled(Link)`
-  font-family: 'SAO UI', 'Nanum Barun Gothic', sans-serif;
+  font-family: 'Merriweather Sans', serif;
   font-size: 1.3rem;
 `;
 

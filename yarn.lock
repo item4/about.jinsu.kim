@@ -10491,6 +10491,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-merriweather-sans@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-merriweather-sans/-/typeface-merriweather-sans-0.0.72.tgz#7fe0c291f71a61050215d4c1c73b9b5556622a85"
+  integrity sha512-Mn1hvvDTXHx1nQVwJPM6Y5WIElzOMfH+UGOr98mGFTf+m90TdMjomc8Bh4t7rTaYM3/iGrtTaTOOjYeuDm7kjQ==
+
+typeface-merriweather@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-merriweather/-/typeface-merriweather-0.0.72.tgz#2b990f5293252052d51d170c82d3892319ff0555"
+  integrity sha512-gO0+fcZ1fTyKUsYY1ltYOOTI6FmBGeEdyIfeQg9NL8aInndk0feiJJVJsKHm/DiyYrnQEezraAQhz/KQoqMGtw==
+
 typeface-staatliches@^0.0.71:
   version "0.0.71"
   resolved "https://registry.yarnpkg.com/typeface-staatliches/-/typeface-staatliches-0.0.71.tgz#aad84049c201b2c332ebf16393edecf129e8111e"

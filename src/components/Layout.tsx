@@ -24,10 +24,17 @@ const HomeLink = styled(Link)`
 `;
 const NavLink = styled(Link)`
   color: white;
-  font-family: 'SAO UI', serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.25rem;
   margin: 0;
   line-height: 2rem;
+  text-decoration: none;
+
+  &:visited,
+  &:hover {
+    color: white;
+    text-decoration: underline;
+  }
 `;
 
 const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
