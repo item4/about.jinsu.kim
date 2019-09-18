@@ -49,7 +49,7 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
         property='image'
         typeof='http://schema.org/ImageObject'
       >
-        <img property='url' src={`${siteUrl}/static/item4.png`} />
+        <img property='url' src={`${siteUrl}/item4.png`} />
         <meta property='height' content='1000' />
         <meta property='width' content='1000' />
       </div>
