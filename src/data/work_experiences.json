@@ -43,7 +43,7 @@
     "url": "http://www.xsinc.co.kr/",
     "position": "웹 개발 인턴",
     "started_at": "2014년 12월",
-    "ended_at": "2015년 1일",
+    "ended_at": "2015년 1월",
     "descriptions": [
       "인터넷카페 관련 프로그램의 내부 배포 관리 시스템, Ready-APP을 WSGI 서버와 nginx를 이용하여 안정화시켰습니다.",
       "내부 관리 시스템인 ReadyBoot의 관리자 인터페이스를 개선하였습니다.",
