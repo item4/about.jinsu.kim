@@ -1,7 +1,0 @@
-[project]
-name = about.jinsu.kim
-url = https://about.jinsu.kim
-url_style = absolute
-
-[servers.ghpages]
-target = ghpages+https://jinsu-kim/jinsu-kim.github.io

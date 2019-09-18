@@ -1,31 +1,53 @@
 {
+  "name": "resume",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "autotrack": "^2.0.1",
-    "bootstrap-sass": "^3.3.7",
-    "jquery": "^3"
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@types/node": "^12.0.12",
+    "@types/react": "^16.8.23",
+    "@types/react-helmet": "^5.0.8",
+    "gatsby": "^2.13.3",
+    "gatsby-plugin-emotion": "^4.1.0",
+    "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-manifest": "^2.2.1",
+    "gatsby-plugin-offline": "^3.0.6",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-sitemap": "^2.2.3",
+    "gatsby-plugin-typescript": "^2.1.0",
+    "gatsby-plugin-typescript-checker": "^1.0.3",
+    "polished": "^3.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "typeface-staatliches": "^0.0.71",
+    "typescript": "^3.5.2"
   },
   "devDependencies": {
-    "autoprefixer": "^8.0.0",
-    "babel-core": "^6.26.0",
-    "babel-eslint": "^8.0.3",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.12.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.5.1",
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.2.0",
-    "stylelint": "^9.1.1",
-    "stylelint-config-standard": "^18.0.0",
-    "stylelint-order": "^0.8.0",
-    "stylelint-scss": "^3.1.0"
+    "gh-pages": "^2.1.1",
+    "husky": "^3.0.0",
+    "import-sort": "^6.0.0",
+    "import-sort-cli": "^6.0.0",
+    "import-sort-style-module": "^6.0.0",
+    "lint-staged": "^9.0.2",
+    "postcss-scss": "^2.0.0",
+    "prettier": "^1.18.2"
   },
   "scripts": {
-    "build": "parcel build js/main.js -d assets/static/gen",
-    "lint-js": "eslint js/**/*.js",
-    "lint-style": "stylelint --syntax scss scss/*.scss"
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "format": "prettier --write \"**\" && import-sort --write src/**/*.{js,jsx,ts,tsx}",
+    "deploy": "gh-pages -b master -d /public"
   },
-  "author": "item4"
+  "importSort": {
+    ".js, .jsx, .es6, .es, .mjs, .ts, .tsx": {
+      "parser": "babylon",
+      "style": "module"
+    }
+  }
 }

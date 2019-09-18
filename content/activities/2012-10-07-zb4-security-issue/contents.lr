@@ -1,9 +1,0 @@
-title: ZeroBoard4 보안 이슈 패치 발표
----
-date: 2012-10-07
----
-description:
-
-PHP로 개발된 유명 사이트 빌더 솔루션인 ZeroBoard 4의 보안상 문제점을 발견하여 수정법을 공개했습니다.
-이 패치는 SQL-Injection 취약점을 수정합니다.
-(현재는 ZeroBoard4 웹사이트가 폐쇄되어 확인할 수 없습니다.)

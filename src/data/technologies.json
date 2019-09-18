@@ -1,0 +1,89 @@
+[
+  {
+    "name": "Languages",
+    "items": [
+      { "name": "Python", "url": "https://www.python.org/" },
+      { "name": "HTML", "url": "https://www.w3.org/html/" },
+      { "name": "CSS", "url": "https://www.w3.org/Style/CSS/" },
+      {
+        "name": "JavaScript",
+        "url": "https://www.w3.org/standards/webdesign/script"
+      },
+      {
+        "name": "ECMAScript",
+        "url": "https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+      },
+      { "name": "TypeScript", "url": "https://www.typescriptlang.org/" },
+      { "name": "Sass (SCSS)", "url": "https://sass-lang.com/" }
+    ]
+  },
+  {
+    "name": "Web Frontend",
+    "items": [
+      { "name": "React", "url": "https://reactjs.org/" },
+      { "name": "Vue.js", "url": "https://vuejs.org/" },
+      { "name": "webpack", "url": "https://webpack.js.org/" },
+      { "name": "Parcel.js", "url": "https://parceljs.org/" },
+      { "name": "axios", "url": "https://github.com/axios/axios" }
+    ]
+  },
+  {
+    "name": "Backend and CLI",
+    "items": [
+      { "name": "Django", "url": "https://www.djangoproject.com/" },
+      {
+        "name": "Django REST framework",
+        "url": "https://www.django-rest-framework.org/"
+      },
+      { "name": "Flask", "url": "https://flask.palletsprojects.com/en/1.1.x/" },
+      { "name": "nginx", "url": "https://nginx.org/" },
+      { "name": "Click", "url": "https://click.palletsprojects.com/en/7.x/" },
+      { "name": "Docker", "url": "https://www.docker.com/" },
+      { "name": "docker-compose", "url": "https://docs.docker.com/compose/" }
+    ]
+  },
+  {
+    "name": "Networking and Crawling",
+    "items": [
+      { "name": "requests", "url": "https://2.python-requests.org/en/master/" },
+      { "name": "aiohttp", "url": "https://aiohttp.readthedocs.io/" },
+      { "name": "lxml", "url": "https://lxml.de/" },
+      { "name": "pyppeteer", "url": "https://github.com/miyakogi/pyppeteer/" }
+    ]
+  },
+  {
+    "name": "Database and ORM",
+    "items": [
+      { "name": "PostgreSQL", "url": "https://www.postgresql.org/" },
+      { "name": "MySQL", "url": "https://www.mysql.com" },
+      { "name": "MariaDB", "url": "https://mariadb.org/" },
+      { "name": "SQLite", "url": "https://www.sqlite.org/" },
+      { "name": "SQLAlchemy", "url": "https://www.sqlalchemy.org" }
+    ]
+  },
+  {
+    "name": "Code and Code Quality Managing",
+    "items": [
+      { "name": "Git", "url": "https://git-scm.com/" },
+      { "name": "GitHub", "url": "https://github.com" },
+      { "name": "Travis-CI", "url": "https://travis-ci.org/" },
+      {
+        "name": "GitHub Actions",
+        "url": "https://github.com/features/actions"
+      },
+      { "name": "pytest", "url": "https://pytest.org/" },
+      { "name": "mypy", "url": "http://mypy-lang.org/" },
+      { "name": "Prettier", "url": "https://prettier.io/" }
+    ]
+  },
+  {
+    "name": "Documentation and Static Website",
+    "items": [
+      { "name": "Sphinx", "url": "http://sphinx-doc.org/" },
+      { "name": "drf-yasg", "url": "https://drf-yasg.readthedocs.io" },
+      { "name": "Swagger", "url": "https://swagger.io/" },
+      { "name": "Lektor", "url": "https://www.getlektor.com/" },
+      { "name": "Gatsby", "url": "https://www.gatsbyjs.org/" }
+    ]
+  }
+]
