@@ -103,6 +103,9 @@ const PullRequestLink = styled(ContributionLink)`
     content: 'PR ';
   }
 `;
+const SummaryParagraph = styled.p`
+  margin-left: 1.5rem;
+`;
 
 interface ResumePageProps extends PageProps {
   data: {
@@ -225,6 +228,14 @@ const ResumePage: React.FC<ResumePageProps> = ({
                 </InlineList>
               </dd>
             </DefineList>
+          </Section>
+          <Section>
+            <SectionTitle>Summary</SectionTitle>
+            <SummaryParagraph>
+              한참 성장중인 스타트업에서 서버 개발자로 활동했던 웹 개발자.
+              서버를 중점적으로 다루지만 고객이 보는 화면을 못 다루는 것은 아닌 풀스택 지향 개발자.
+              안전하고 안정적이며 발전 가능한 프로그램을 만들고 싶은 개발자.
+            </SummaryParagraph>
           </Section>
           <Section typeof='ItemList'>
             <SectionTitle>Technologies</SectionTitle>
