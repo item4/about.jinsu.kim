@@ -42,7 +42,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "format": "prettier --write \"**\" && import-sort --write src/**/*.{js,jsx,ts,tsx}",
-    "deploy": "gh-pages -b master -d /public"
+    "deploy": "gh-pages -b master -d /public -r https://$GITHUB_TOKEN@github.com/item4-website/about.jinsu.kim.git"
   },
   "importSort": {
     ".js, .jsx, .es6, .es, .mjs, .ts, .tsx": {
