@@ -3,7 +3,7 @@
     "name": "성 키우기 도구모음",
     "url": "https://item4.net/growcastle",
     "repo_url": "https://github.com/item4net/growcastle/",
-    "started_at": "2018년 12월 22일",
+    "started_at": "2018년 12월",
     "ended_at": "현재",
     "descriptions": [
       "심심풀이로 하고 있는 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."
@@ -14,7 +14,7 @@
     "name": "innocent static API",
     "url": "https://item4.net/docs/",
     "repo_url": "https://github.com/item4net",
-    "started_at": "2018년 12월 2일",
+    "started_at": "2018년 12월",
     "ended_at": "현재",
     "descriptions": [
       "기존에 운영하던 개인 홈페이지를 없애고 그 자리에 만든 API 서비스입니다.",
@@ -26,7 +26,7 @@
   {
     "name": "aiohttp-doh",
     "repo_url": "https://github.com/item4/aiohttp-doh/",
-    "started_at": "2018년 5월 13일",
+    "started_at": "2018년 5월",
     "ended_at": "현재",
     "descriptions": [
       "DNS 보안 기술인 DNS-over-HTTPS를 aiohttp에서 사용할 수 있게 하는 구현체입니다.",
@@ -37,7 +37,7 @@
   {
     "name": "yui",
     "repo_url": "https://github.com/item4/yui",
-    "started_at": "",
+    "started_at": "2017년 10월",
     "ended_at": "현재",
     "descriptions": [
       "Slack 대화방에서 사용 가능한 다목적 봇입니다.",
@@ -103,7 +103,7 @@
     "name": "ugoira",
     "url": "https://ugoira.readthedocs.io/en/latest/",
     "repo_url": "https://github.com/item4/ugoira",
-    "started_at": "2015년 11월 18일",
+    "started_at": "2015년 11월",
     "ended_at": "현재",
     "descriptions": [
       "일본의 동인 이미지 사이트 Pixiv에서 제공하는 Ugoira(움직이는 이미지)는 일반적인 이미지 출력법을 사용하지 않아 통상적인 방법으로 다운로드 할 수 없는데, 이를 다운로드 할 수 있도록 하는 프로그램입니다.",
@@ -116,7 +116,7 @@
   {
     "name": "just-news",
     "repo_url": "https://github.com/disjukr/just-news/",
-    "started_at": "2015년 10월 13일",
+    "started_at": "2015년 10월",
     "ended_at": "현재",
     "descriptions": [
       "최종찬(disjukr)님이 개발하신 Browser User Script입니다.",
@@ -129,8 +129,8 @@
     "name": "JS: The Right Way",
     "url": "http://jstherightway.org/",
     "repo_url": "https://github.com/braziljs/js-the-right-way",
-    "started_at": "2015년 7월 5일",
-    "ended_at": "2015년 7월 13일",
+    "started_at": "2015년 7월",
+    "ended_at": "2015년 7월",
     "descriptions": [
       "JavaScript를 잘 활용할 수 있는 방법을 소개하는 사이트인 JS: The Right Way를 한국어로 번역했습니다."
     ],
@@ -139,8 +139,8 @@
   {
     "name": "cliche.io",
     "repo_url": "https://github.com/clicheio/cliche",
-    "started_at": "2014년 7월 1일",
-    "ended_at": "2015년 5월 10일",
+    "started_at": "2014년 7월",
+    "ended_at": "2015년 5월",
     "descriptions": [
       "소프트웨어 마에스트로 1단계 프로젝트입니다. 1단계 종료 후에도 한동안 지속되었습니다.",
       "서브컬쳐 데이터를 이용한 온톨로지(Ontology) 및 검색, 시멘틱 웹(Semantic Web)을 다룹니다."
@@ -158,8 +158,8 @@
   {
     "name": "DogBot",
     "repo_url": "https://github.com/item4/DogBot/",
-    "started_at": "2013년 1월 27일",
-    "ended_at": "2015년 1월 23일",
+    "started_at": "2013년 1월",
+    "ended_at": "2015년 1월",
     "descriptions": [
       "Multi-thread IRC Bot입니다.",
       "다중 서버 접속과 다중 명령어 동시 실행을 지원합니다."
@@ -208,7 +208,7 @@
   {
     "name": "Fishing Arena",
     "started_at": "2004년",
-    "ended_at": "2010년 6월 26일",
+    "ended_at": "2010년 6월",
     "descriptions": [
       "중학생 때 만들어서 운영했던 간단한 낚시 관련 웹게임입니다.",
       "당시 국내 인디(indie) 웹 게임 중 자체 개발 된 몇 없는 게임이었습니다.",

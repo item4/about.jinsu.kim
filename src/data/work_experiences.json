@@ -4,7 +4,7 @@
     "url": "https://www.brandazine.kr",
     "position": "백엔드 개발자",
     "started_at": "2018년 4월",
-    "ended_at": "2019년 7월 12일",
+    "ended_at": "2019년 7월",
     "descriptions": [
       "초기 Django로만 작성된 코드를 DRF를 이용하여 상당부분 리팩토링하였습니다.",
       "실서버 배포시의 위험 방지를 위해 백엔드 구동환경을 Docker로 제한하고, QA용 베타 서버 시스템을 도입하였습니다.",
@@ -42,7 +42,7 @@
     "name": "XS Inc.",
     "url": "http://www.xsinc.co.kr/",
     "position": "웹 개발 인턴",
-    "started_at": "2014년, 12월",
+    "started_at": "2014년 12월",
     "ended_at": "2015년 1일",
     "descriptions": [
       "인터넷카페 관련 프로그램의 내부 배포 관리 시스템, Ready-APP을 WSGI 서버와 nginx를 이용하여 안정화시켰습니다.",
