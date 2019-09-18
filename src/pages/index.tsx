@@ -1,3 +1,4 @@
+import styled from '@emotion/styled';
 import { Link, graphql } from 'gatsby';
 import React from 'react';
 
@@ -9,6 +10,14 @@ interface IndexPageProps extends PageProps {
   };
 }
 
+const PageList = styled.ul`
+  margin-left: 2.5rem;
+`;
+const PageLink = styled(Link)`
+  font-family: 'SAO UI', 'Nanum Barun Gothic', sans-serif;
+  font-size: 1.3rem;
+`;
+
 const IndexPage: React.FC<IndexPageProps> = ({
   location,
   data: {
@@ -18,10 +27,10 @@ const IndexPage: React.FC<IndexPageProps> = ({
   return (
     <Layout location={location} metadata={metadata}>
       <h1>Index</h1>
-      <ul>
-        <li><Link to='/resume/'>이력서</Link></li>
-        <li><Link to='/faq/'>자주 묻는 질문</Link></li>
-      </ul>
+      <PageList>
+        <li><PageLink to='/resume/'>Résumé</PageLink></li>
+        <li><PageLink to='/faq/'>FAQ</PageLink></li>
+      </PageList>
     </Layout>
   );
 };
