@@ -461,5 +461,76 @@
         "number": "#176"
       }
     ]
+  },
+  {
+    "name": "xnuk/cinema-finder",
+    "url": "https://github.com/xnuk/cinema-finder",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/xnuk/cinema-finder/pull/1",
+        "number": "#1"
+      }
+    ]
+  },
+  {
+    "name": "planetarium/libplanet-explorer-frontend",
+    "url": "https://github.com/planetarium/libplanet-explorer-frontend",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/planetarium/libplanet-explorer-frontend/pull/34",
+        "number": "#34"
+      }
+    ]
+  },
+  {
+    "name": "dahlia/seonbi",
+    "url": "https://github.com/dahlia/seonbi",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/dahlia/seonbi/pull/4",
+        "number": "#34"
+      }
+    ]
+  },
+  {
+    "name": "dahlia/dahlia.github.com",
+    "url": "https://github.com/dahlia/dahlia.github.com",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/dahlia/dahlia.github.com/pull/1",
+        "number": "#1"
+      }
+    ]
+  },
+  {
+    "name": "gatsbyjs/gatsby",
+    "url": "https://github.com/gatsbyjs/gatsby",
+    "items": [
+      {
+        "type": "issue",
+        "url": "https://github.com/gatsbyjs/gatsby/issues/20310",
+        "number": "#20310"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/gatsbyjs/gatsby/pull/20654",
+        "number": "#20654"
+      }
+    ]
+  },
+  {
+    "name": "microsoft/TypeScript-Website",
+    "url": "https://github.com/microsoft/TypeScript-Website",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/microsoft/TypeScript-Website/pull/266",
+        "number": "#266"
+      }
+    ]
   }
 ]
