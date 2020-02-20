@@ -9,6 +9,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "@kfonts/nanum-barun-gothic-otf": "^0.0.5",
     "@types/node": "^12.0.12",
     "@types/react": "^16.8.23",
     "@types/react-helmet": "^5.0.8",

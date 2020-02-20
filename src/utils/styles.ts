@@ -12,60 +12,6 @@ export const baseFontSize = '0.9rem';
 export const baseLineHeight = '1.7rem';
 
 export const globalStyles = css`
-  @font-face {
-    font-family: 'Nanum Barun Gothic';
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-    src: url(/fonts/NanumBarunGothicUltraLight.eot);
-    src: local('Nanum Barun Gothic UltraLight'),
-      local('NanumBarunGothicUltraLight'),
-      url(/fonts/NanumBarunGothicUltraLight.eot?#iefix)
-        format('embedded-opentype'),
-      url(/fonts/NanumBarunGothicUltraLight.woff2) format('woff2'),
-      url(/fonts/NanumBarunGothicUltraLight.woff) format('woff'),
-      url(/fonts/NanumBarunGothicUltraLight.ttf) format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Nanum Barun Gothic';
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src: url(/fonts/NanumBarunGothicLight.eot);
-    src: local('Nanum Barun Gothic Light'), local('NanumBarunGothicLight'),
-      url(/fonts/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
-      url(/fonts/NanumBarunGothicLight.woff2) format('woff2'),
-      url(/fonts/NanumBarunGothicLight.woff) format('woff'),
-      url(/fonts/NanumBarunGothicLight.ttf) format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Nanum Barun Gothic';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(/fonts/NanumBarunGothic.eot);
-    src: local('Nanum Barun Gothic'), local('NanumBarunGothic'),
-      url(/fonts/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
-      url(/fonts/NanumBarunGothic.woff2) format('woff2'),
-      url(/fonts/NanumBarunGothic.woff) format('woff'),
-      url(/fonts/NanumBarunGothic.ttf) format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Nanum Barun Gothic';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(/fonts/NanumBarunGothicBold.eot);
-    src: local('Nanum Barun Gothic Bold'), local('NanumBarunGothicBold'),
-      url(/fonts/NanumBarunGothicBold.eot?#iefix) format('embedded-opentype'),
-      url(/fonts/NanumBarunGothicBold.woff2) format('woff2'),
-      url(/fonts/NanumBarunGothicBold.woff) format('woff'),
-      url(/fonts/NanumBarunGothicBold.ttf) format('truetype');
-  }
-
   body,
   h1,
   h2,
@@ -89,7 +35,7 @@ export const globalStyles = css`
   body {
     background-color: ${backgroudColor};
     color: ${textColor};
-    font-family: 'Nanum Barun Gothic', Helvetica, AppleSDGothic, Arial,
+    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', Helvetica, AppleSDGothic, Arial,
       sans-serif;
     font-size: ${baseFontSize};
     font-weight: 300;
