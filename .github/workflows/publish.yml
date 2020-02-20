@@ -16,7 +16,7 @@ jobs:
     - name: Setup nodejs
       uses: actions/setup-node@v1
       with:
-        node-version: '12.3'
+        node-version: '13.7'
 
     - name: Install
       uses: nuxt/actions-yarn@master
@@ -29,20 +29,8 @@ jobs:
         args: run build
 
     - name: 'Deploy into GitHub-Pages'
-      uses: peaceiris/actions-gh-pages@v2.3.0
+      uses: peaceiris/actions-gh-pages@v2.4.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
-  works:
-    name: Notification
-    needs: build-n-deploy
-    runs-on: ubuntu-18.04
-    steps:
-    - name: 'Slack Notification'
-      uses: homoluctus/slatify@master
-      with:
-        username: 'About Jinsu Kim'
-        type: ${{ job.status }}
-        job_name: 'Publish'
-        url: ${{ secrets.SLACK_WEBHOOK_URL }}
