@@ -5,12 +5,14 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import {
+  PageBreak,
   Section,
   SectionTitle,
   SubSection,
   SubSectionTitle,
 } from '../components/Section';
 import SEO from '../components/SEO';
+import styles from '../utils/styles';
 
 const InlineList = styled.ul`
   display: inline-block;
@@ -40,6 +42,15 @@ const ContributionList = styled(InlineList)`
   }
   li::after {
     content: none;
+  }
+
+  ${styles.mediaPrint} {
+    li::after {
+      content: ',';
+    }
+    li:last-child::after {
+      content: none;
+    }
   }
 `;
 const DefineList = styled.dl`
@@ -88,9 +99,18 @@ const ContributionLink = styled.a`
   &:hover {
     color: white;
   }
+
+  ${styles.mediaPrint} {
+    padding: 0;
+  }
 `;
 const IssueLink = styled(ContributionLink)`
   background: #5bc0de;
+
+  ${styles.mediaPrint} {
+    background: none;
+    color: #5bc0de;
+  }
 
   &::before {
     content: 'ISSUE ';
@@ -98,6 +118,11 @@ const IssueLink = styled(ContributionLink)`
 `;
 const PullRequestLink = styled(ContributionLink)`
   background: #5cb85c;
+
+  ${styles.mediaPrint} {
+    background: none;
+    color: #5cb85c;
+  }
 
   &::before {
     content: 'PR ';
@@ -188,6 +213,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
     site: { siteMetadata: metadata },
   },
 }) => {
+  let lineCount = 0;
   return (
     <Layout location={location} metadata={metadata}>
       <SEO page_name='Résumé' location={location} />
@@ -261,6 +287,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
               );
             })}
           </Section>
+          <PageBreak />
           <Section>
             <SectionTitle>Work Experiences</SectionTitle>
             {work_experiences.map(work => {
@@ -271,39 +298,48 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{work.name}</span>
               );
+              lineCount += 4 + work.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              let breaking = false;
+              if (lineCount >= 18) {
+                breaking = true;
+                lineCount = 0;
+              }
               return (
-                <SubSection
-                  property='worksFor'
-                  typeof='Organization'
-                  key={work.name}
-                >
-                  <SubSectionTitle>{name}</SubSectionTitle>
-                  <DefineList>
-                    <dt>포지션</dt>
-                    <dd>{work.position}</dd>
-                    <dt>근무기간</dt>
-                    <dd>
-                      <time property='startDate'>{work.started_at}</time>부터{' '}
-                      <time>{work.ended_at}</time>까지
-                    </dd>
-                    <dt>업무내용</dt>
-                    <dd>
-                      <WorkList>
-                        {work.descriptions.map((desc, index) => (
-                          <li key={index}>{desc}</li>
-                        ))}
-                      </WorkList>
-                    </dd>
-                    <dt>사용된 기술</dt>
-                    <dd>
-                      <InlineList>
-                        {work.technologes.map(tech => (
-                          <li key={tech}>{tech}</li>
-                        ))}
-                      </InlineList>
-                    </dd>
-                  </DefineList>
-                </SubSection>
+                <>
+                  <SubSection
+                    property='worksFor'
+                    typeof='Organization'
+                    key={work.name}
+                  >
+                    <SubSectionTitle>{name}</SubSectionTitle>
+                    <DefineList>
+                      <dt>포지션</dt>
+                      <dd>{work.position}</dd>
+                      <dt>근무기간</dt>
+                      <dd>
+                        <time property='startDate'>{work.started_at}</time>부터{' '}
+                        <time>{work.ended_at}</time>까지
+                      </dd>
+                      <dt>업무내용</dt>
+                      <dd>
+                        <WorkList>
+                          {work.descriptions.map((desc, index) => (
+                            <li key={index}>{desc}</li>
+                          ))}
+                        </WorkList>
+                      </dd>
+                      <dt>사용된 기술</dt>
+                      <dd>
+                        <InlineList>
+                          {work.technologes.map(tech => (
+                            <li key={tech}>{tech}</li>
+                          ))}
+                        </InlineList>
+                      </dd>
+                    </DefineList>
+                  </SubSection>
+                  {breaking ? <PageBreak /> : null}
+                </>
               );
             })}
           </Section>
@@ -317,43 +353,52 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{org.name}</span>
               );
+              lineCount += 4 + org.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              let breaking = false;
+              if (lineCount >= 18) {
+                breaking = true;
+                lineCount = 0;
+              }
               return (
-                <SubSection
-                  key={org.name}
-                  property='affiliation'
-                  typeof='Organization'
-                >
-                  <SubSectionTitle>{name}</SubSectionTitle>
-                  <DefineList>
-                    <dt>소속기간</dt>
-                    <dd>
-                      <time property='startDate'>{org.started_at}</time>부터{' '}
-                      <time>{org.ended_at}</time>까지
-                    </dd>
-                    <dt>활동내용</dt>
-                    <dd>
-                      <WorkList>
-                        {org.descriptions.map((desc, index) => (
-                          <li key={index}>{desc}</li>
-                        ))}
-                      </WorkList>
-                    </dd>
-                    <dt>사용된 기술</dt>
-                    <dd>
-                      <InlineList>
-                        {org.technologes.map(tech => (
-                          <li key={tech}>{tech}</li>
-                        ))}
-                      </InlineList>
-                    </dd>
-                  </DefineList>
-                </SubSection>
+                <>
+                  <SubSection
+                    key={org.name}
+                    property='affiliation'
+                    typeof='Organization'
+                  >
+                    <SubSectionTitle>{name}</SubSectionTitle>
+                    <DefineList>
+                      <dt>소속기간</dt>
+                      <dd>
+                        <time property='startDate'>{org.started_at}</time>부터{' '}
+                        <time>{org.ended_at}</time>까지
+                      </dd>
+                      <dt>활동내용</dt>
+                      <dd>
+                        <WorkList>
+                          {org.descriptions.map((desc, index) => (
+                            <li key={index}>{desc}</li>
+                          ))}
+                        </WorkList>
+                      </dd>
+                      <dt>사용된 기술</dt>
+                      <dd>
+                        <InlineList>
+                          {org.technologes.map(tech => (
+                            <li key={tech}>{tech}</li>
+                          ))}
+                        </InlineList>
+                      </dd>
+                    </DefineList>
+                  </SubSection>
+                  {breaking ? <PageBreak /> : null}
+                </>
               );
             })}
           </Section>
           <Section>
             <SectionTitle>Participated Projects</SectionTitle>
-            {projects.map(project => {
+            {projects.map((project, index) => {
               const name = project.url ? (
                 <a property='url' href={project.url} target='_blank'>
                   <span property='name'>{project.name}</span>
@@ -361,43 +406,52 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{project.name}</span>
               );
+              lineCount += 4 + project.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              let breaking = false;
+              if ((index === 0 && lineCount >= 18) || (index > 0 && lineCount >= 20)) {
+                breaking = true;
+                lineCount = 0;
+              }
               return (
-                <SubSection key={project.name}>
-                  <SubSectionTitle>{name}</SubSectionTitle>
-                  <DefineList>
-                    {project.repo_url ? (
-                      <>
-                        <dt>저장소</dt>
-                        <dd>
-                          <a href={project.repo_url} target='_blank'>
-                            {project.repo_url}
-                          </a>
-                        </dd>
-                      </>
-                    ) : null}
-                    <dt>참여기간</dt>
-                    <dd>
-                      <time property='startDate'>{project.started_at}</time>부터{' '}
-                      <time>{project.ended_at}</time>까지
-                    </dd>
-                    <dt>프로젝트 소개</dt>
-                    <dd>
-                      <WorkList>
-                        {project.descriptions.map((desc, index) => (
-                          <li key={index}>{desc}</li>
-                        ))}
-                      </WorkList>
-                    </dd>
-                    <dt>사용된 기술</dt>
-                    <dd>
-                      <InlineList>
-                        {project.technologes.map(tech => (
-                          <li key={tech}>{tech}</li>
-                        ))}
-                      </InlineList>
-                    </dd>
-                  </DefineList>
-                </SubSection>
+                <>
+                  <SubSection key={project.name}>
+                    <SubSectionTitle>{name}</SubSectionTitle>
+                    <DefineList>
+                      {project.repo_url ? (
+                        <>
+                          <dt>저장소</dt>
+                          <dd>
+                            <a href={project.repo_url} target='_blank'>
+                              {project.repo_url}
+                            </a>
+                          </dd>
+                        </>
+                      ) : null}
+                      <dt>참여기간</dt>
+                      <dd>
+                        <time property='startDate'>{project.started_at}</time>부터{' '}
+                        <time>{project.ended_at}</time>까지
+                      </dd>
+                      <dt>프로젝트 소개</dt>
+                      <dd>
+                        <WorkList>
+                          {project.descriptions.map((desc, index) => (
+                            <li key={index}>{desc}</li>
+                          ))}
+                        </WorkList>
+                      </dd>
+                      <dt>사용된 기술</dt>
+                      <dd>
+                        <InlineList>
+                          {project.technologes.map(tech => (
+                            <li key={tech}>{tech}</li>
+                          ))}
+                        </InlineList>
+                      </dd>
+                    </DefineList>
+                  </SubSection>
+                  {breaking ? <PageBreak /> : null}
+                </>
               );
             })}
           </Section>
@@ -426,6 +480,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
               })}
             </OpenSourceContributionList>
           </Section>
+          <PageBreak />
           <Section>
             <SectionTitle>Activities</SectionTitle>
             {activities.map((activity, index) => {

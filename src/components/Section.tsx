@@ -3,13 +3,19 @@ import styled from '@emotion/styled';
 export const Section = styled.section`
   margin-bottom: 1.5rem;
 `;
-export const SubSection = styled(Section)`
+export const SubSection = styled.section`
+  margin-bottom: 0.75rem;
+
   p {
     margin-left: 2.5rem;
 
     time {
       font-size: 0.8rem;
     }
+  }
+
+  @media print {
+    margin-bottom: 0.5rem;
   }
 `;
 export const SectionTitle = styled.h2`
@@ -23,4 +29,7 @@ export const SubSectionTitle = styled.h3`
   a {
     text-decoration: none;
   }
+`;
+export const PageBreak = styled.div`
+  break-before: page;
 `;

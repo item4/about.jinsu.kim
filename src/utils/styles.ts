@@ -46,6 +46,7 @@ export const globalStyles = css`
   h1 {
     font-family: 'Merriweather', serif;
     font-size: 3rem;
+    line-height: 3rem;
     margin-bottom: 2rem;
   }
   h2 {
@@ -58,6 +59,10 @@ export const globalStyles = css`
   a:hover {
     color: ${brandColor};
     text-decoration: underline;
+  }
+
+  @page {
+    size: A4 portrait;
   }
 `;
 
