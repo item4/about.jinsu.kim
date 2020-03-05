@@ -7,7 +7,7 @@ with contribution_json.open('r') as f:
     data = json.load(f)
 
 for project in data:
-    project['items'] = sorted(project['items'], key=lambda x: x['number'])
+    project['items'] = sorted(project['items'], key=lambda x: int(x['number'][1:]))
 
 data = sorted(data, key=lambda x: x['name'].split('/'))
 

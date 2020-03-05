@@ -37,16 +37,6 @@
     "url": "https://bitbucket.org/birkenfeld/pygments-main",
     "items": [
       {
-        "type": "issue",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1126",
-        "number": "#1126"
-      },
-      {
-        "type": "issue",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1161",
-        "number": "#1161"
-      },
-      {
         "type": "pr",
         "url": "https://bitbucket.org/birkenfeld/pygments-main/pull-request/484",
         "number": "#484"
@@ -60,6 +50,16 @@
         "type": "pr",
         "url": "https://bitbucket.org/birkenfeld/pygments-main/pull-requests/523",
         "number": "#523"
+      },
+      {
+        "type": "issue",
+        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1126",
+        "number": "#1126"
+      },
+      {
+        "type": "issue",
+        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1161",
+        "number": "#1161"
       }
     ]
   },
@@ -214,16 +214,6 @@
       },
       {
         "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/141",
-        "number": "#141"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/142",
-        "number": "#142"
-      },
-      {
-        "type": "issue",
         "url": "https://github.com/lektor/lektor/issues/20",
         "number": "#20"
       },
@@ -231,16 +221,6 @@
         "type": "issue",
         "url": "https://github.com/lektor/lektor/issues/22",
         "number": "#22"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/243",
-        "number": "#243"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/lektor/lektor/pull/299",
-        "number": "#299"
       },
       {
         "type": "pr",
@@ -251,6 +231,26 @@
         "type": "pr",
         "url": "https://github.com/lektor/lektor/pull/95",
         "number": "#95"
+      },
+      {
+        "type": "issue",
+        "url": "https://github.com/lektor/lektor/issues/141",
+        "number": "#141"
+      },
+      {
+        "type": "issue",
+        "url": "https://github.com/lektor/lektor/issues/142",
+        "number": "#142"
+      },
+      {
+        "type": "issue",
+        "url": "https://github.com/lektor/lektor/issues/243",
+        "number": "#243"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/lektor/lektor/pull/299",
+        "number": "#299"
       }
     ]
   },
@@ -304,23 +304,18 @@
     "items": [
       {
         "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/11",
-        "number": "#11"
+        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/5",
+        "number": "#5"
       },
       {
         "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/176",
-        "number": "#176"
+        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/11",
+        "number": "#11"
       },
       {
         "type": "issue",
         "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/issues/42",
         "number": "#42"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/5",
-        "number": "#5"
       },
       {
         "type": "issue",
@@ -336,6 +331,11 @@
         "type": "pr",
         "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/80",
         "number": "#80"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/176",
+        "number": "#176"
       }
     ]
   },
@@ -356,11 +356,6 @@
     "items": [
       {
         "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/122",
-        "number": "#122"
-      },
-      {
-        "type": "pr",
         "url": "https://github.com/parcel-bundler/website/pull/43",
         "number": "#43"
       },
@@ -378,6 +373,11 @@
         "type": "pr",
         "url": "https://github.com/parcel-bundler/website/pull/82",
         "number": "#82"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/parcel-bundler/website/pull/122",
+        "number": "#122"
       }
     ]
   },
