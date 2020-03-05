@@ -75,11 +75,7 @@ const SEO: React.FC<SEOProps> = props => {
         <meta name='author' content={author} />
         <meta name='description' content={description} />
         <meta name='keywords' content={tags.join(',')} />
-        <link
-          rel='icon'
-          type='image/x-icon'
-          href={`${siteUrl}/favicon.ico`}
-        />
+        <link rel='icon' type='image/x-icon' href={`${siteUrl}/favicon.ico`} />
 
         <meta name='referrer' content='always' />
         <meta

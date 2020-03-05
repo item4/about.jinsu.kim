@@ -258,8 +258,10 @@ const ResumePage: React.FC<ResumePageProps> = ({
           <Section>
             <SectionTitle>Summary</SectionTitle>
             <SummaryParagraph>
-              빠르게 성장하는 스타트업에서 백엔드 위주로 프론트까지 개발이 가능한 풀스택 지향 개발자.
-              전통적인서버, 범용 클라우드, Docker를 이용하여 테스트, CI, 배포, 모니터링등 전반적인 서비스 영역을 경험하고 개선이 가능.
+              빠르게 성장하는 스타트업에서 백엔드 위주로 프론트까지 개발이
+              가능한 풀스택 지향 개발자. 전통적인서버, 범용 클라우드, Docker를
+              이용하여 테스트, CI, 배포, 모니터링등 전반적인 서비스 영역을
+              경험하고 개선이 가능.
             </SummaryParagraph>
           </Section>
           <Section typeof='ItemList'>
@@ -298,7 +300,11 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{work.name}</span>
               );
-              lineCount += 4 + work.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              lineCount +=
+                4 +
+                work.descriptions
+                  .map(desc => (desc.length / 40) | 0)
+                  .reduce((p, c) => p + c, 0);
               let breaking = false;
               if (lineCount >= 18) {
                 breaking = true;
@@ -353,7 +359,11 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{org.name}</span>
               );
-              lineCount += 4 + org.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              lineCount +=
+                4 +
+                org.descriptions
+                  .map(desc => (desc.length / 40) | 0)
+                  .reduce((p, c) => p + c, 0);
               let breaking = false;
               if (lineCount >= 18) {
                 breaking = true;
@@ -406,9 +416,16 @@ const ResumePage: React.FC<ResumePageProps> = ({
               ) : (
                 <span property='name'>{project.name}</span>
               );
-              lineCount += 4 + project.descriptions.map(desc => desc.length / 40 | 0).reduce((p, c) => p + c, 0);
+              lineCount +=
+                4 +
+                project.descriptions
+                  .map(desc => (desc.length / 40) | 0)
+                  .reduce((p, c) => p + c, 0);
               let breaking = false;
-              if ((index === 0 && lineCount >= 18) || (index > 0 && lineCount >= 20)) {
+              if (
+                (index === 0 && lineCount >= 18) ||
+                (index > 0 && lineCount >= 20)
+              ) {
                 breaking = true;
                 lineCount = 0;
               }
@@ -429,8 +446,8 @@ const ResumePage: React.FC<ResumePageProps> = ({
                       ) : null}
                       <dt>참여기간</dt>
                       <dd>
-                        <time property='startDate'>{project.started_at}</time>부터{' '}
-                        <time>{project.ended_at}</time>까지
+                        <time property='startDate'>{project.started_at}</time>
+                        부터 <time>{project.ended_at}</time>까지
                       </dd>
                       <dt>프로젝트 소개</dt>
                       <dd>

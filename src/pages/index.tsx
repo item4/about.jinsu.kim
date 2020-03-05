@@ -28,8 +28,12 @@ const IndexPage: React.FC<IndexPageProps> = ({
     <Layout location={location} metadata={metadata}>
       <h1>Index</h1>
       <PageList>
-        <li><PageLink to='/resume/'>Résumé</PageLink></li>
-        <li><PageLink to='/faq/'>FAQ</PageLink></li>
+        <li>
+          <PageLink to='/resume/'>Résumé</PageLink>
+        </li>
+        <li>
+          <PageLink to='/faq/'>FAQ</PageLink>
+        </li>
       </PageList>
     </Layout>
   );

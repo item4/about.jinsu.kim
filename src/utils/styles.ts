@@ -35,8 +35,8 @@ export const globalStyles = css`
   body {
     background-color: ${backgroudColor};
     color: ${textColor};
-    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', Helvetica, AppleSDGothic, Arial,
-      sans-serif;
+    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', Helvetica,
+      AppleSDGothic, Arial, sans-serif;
     font-size: ${baseFontSize};
     font-weight: 300;
     line-height: ${baseLineHeight};
