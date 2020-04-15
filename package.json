@@ -29,7 +29,8 @@
     "typeface-merriweather": "^0.0.72",
     "typeface-merriweather-sans": "^0.0.72",
     "typeface-staatliches": "^0.0.71",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.2",
+    "webpack": "^4.42.1"
   },
   "devDependencies": {
     "gh-pages": "^2.1.1",
