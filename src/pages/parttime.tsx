@@ -63,7 +63,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
         </p>
         <p>
           지불수단은 기본적으로 KRW 기반의 계좌이체만 가능합니다.
-          CryptoCurrency는 절대로 취급하지 않으며, 상황에 따라 계좌이체 대신 구글 기프트 코드로 받을 수도 있습니다.
+          다만, 상황에 따라 계좌이체 대신 구글 기프트 코드(KRW 기준)를 받을 수도 있습니다.
         </p>
       </PartTimeJobSection>
       <PartTimeJobSection>
