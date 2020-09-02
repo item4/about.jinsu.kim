@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
@@ -41,7 +41,9 @@ const FAQPage: React.FC<FAQPageProps> = ({
       </FAQSection>
       <FAQSection>
         <SectionTitle>외주를 받으시나요?</SectionTitle>
-        <p>건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다.</p>
+        <p>건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다.
+          자세한 내용은 <Link to='/parttime/'>Part-time Job</Link> 페이지를 참조해주세요.
+        </p>
       </FAQSection>
       <FAQSection>
         <SectionTitle>병역(군대) 문제는 어떻게 되어 있나요?</SectionTitle>

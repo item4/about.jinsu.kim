@@ -105,6 +105,9 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
               <NavLink to='/resume/'>Résumé</NavLink>
             </li>
             <li>
+              <NavLink to='/parttime/'>Part-time Job</NavLink>
+            </li>
+            <li>
               <NavLink to='/faq/'>FAQ</NavLink>
             </li>
           </ul>

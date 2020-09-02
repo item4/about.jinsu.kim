@@ -32,6 +32,9 @@ const IndexPage: React.FC<IndexPageProps> = ({
           <PageLink to='/resume/'>Résumé</PageLink>
         </li>
         <li>
+          <PageLink to='/parttime/'>Part-time Job</PageLink>
+        </li>
+        <li>
           <PageLink to='/faq/'>FAQ</PageLink>
         </li>
       </PageList>
