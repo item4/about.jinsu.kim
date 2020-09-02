@@ -99,6 +99,15 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
                 display: inline;
                 margin: 0 5px 0 0;
               }
+              li::after {
+                color: #fff;
+                content: '/';
+                margin-left: 5px;
+              }
+              li:last-child::after {
+                content: none;
+                margin: 0;
+              }
             `}
           >
             <li>
