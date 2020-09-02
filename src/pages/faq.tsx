@@ -37,10 +37,7 @@ const FAQPage: React.FC<FAQPageProps> = ({
         <SectionTitle>
           구직중이신가요? 구직중이라면 어떤 회사를 찾으시나요?
         </SectionTitle>
-        <p>
-          제 건강상태를 배려해주실 수 있는 회사를 찾고 있습니다. 풀리모트가
-          가능해야하며, 자율근무제 회사를 원합니다.
-        </p>
+        <p>현재 ODK Media에 재직중입니다. 이력서를 참조해주세요.</p>
       </FAQSection>
       <FAQSection>
         <SectionTitle>외주를 받으시나요?</SectionTitle>
