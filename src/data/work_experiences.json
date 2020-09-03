@@ -8,11 +8,7 @@
     "descriptions": [
       "Python && Django && django-rest-framework 기반의 API서버를 담당합니다."
     ],
-    "technologes": [
-      "Python",
-      "Django",
-      "django-rest-framework"
-    ]
+    "technologes": ["Python", "Django", "django-rest-framework"]
   },
   {
     "name": "브랜더진",

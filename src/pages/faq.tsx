@@ -41,8 +41,9 @@ const FAQPage: React.FC<FAQPageProps> = ({
       </FAQSection>
       <FAQSection>
         <SectionTitle>외주를 받으시나요?</SectionTitle>
-        <p>건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다.
-          자세한 내용은 <Link to='/parttime/'>Part-time Job</Link> 페이지를 참조해주세요.
+        <p>
+          건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다. 자세한 내용은{' '}
+          <Link to='/parttime/'>Part-time Job</Link> 페이지를 참조해주세요.
         </p>
       </FAQSection>
       <FAQSection>
