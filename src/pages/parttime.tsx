@@ -55,16 +55,22 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
         </p>
       </PartTimeJobSection>
       <PartTimeJobSection>
-        <SectionTitle>가격 및 지불수단</SectionTitle>
+        <SectionTitle>가격 산정</SectionTitle>
         <p>
           기본적으로 업무 난이도에 따라 30,000 KRW에서 50,000 KRW 정도의 시급을 기반으로 예상 소요시간과 실제 소요시간을 이용해 가격을 책정합니다.
           목표 설정이 일상생활과 정신건강에 무리가 되지 않는 선에서만 하는 것인지라 너무 큰 단위의 업무는 가급적 지양하고 있습니다.
           대략적으로 한 번에 최저 10,000 KRW에서 최대 1,000,000 KRW 이내만 가능하다고 이해해주시면 감사하겠습니다.
         </p>
-        <p>
-          지불수단은 기본적으로 KRW 기반의 계좌이체만 가능합니다.
-          다만, 상황에 따라 계좌이체 대신 구글 기프트 코드(KRW 기준)를 받을 수도 있습니다.
-        </p>
+      </PartTimeJobSection>
+      <PartTimeJobSection>
+        <SectionTitle>지불 수단</SectionTitle>
+        <ul>
+          <li>KRW 계좌이체 (default, recommand)</li>
+          <li>KRW Google Gift Card (fallback)</li>
+          <li>BTC: 35Y8fGLru7LpcR9auaD4PiNKU79keevpjd (KRW 대비 가격 10% 할증)</li>
+          <li>ETH: 0xfcf871a37f396fad5b16917f081f3cb970b9020a (KRW 대비 가격 10% 할증)</li>
+          <li>기타 수단: 상담 필요</li>
+        </ul>
       </PartTimeJobSection>
       <PartTimeJobSection>
         <SectionTitle>작업 완료 목록</SectionTitle>
