@@ -1,4 +1,4 @@
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import darken from 'polished/lib/color/darken';
 
 export const brandColor = '#39f';

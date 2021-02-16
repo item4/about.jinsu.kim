@@ -1,4 +1,5 @@
-import { Global, css } from '@emotion/core';
+/// <reference types="@emotion/react/types/css-prop" />
+import { Global, css } from '@emotion/react';
 import styled from '@emotion/styled';
 import { Link } from 'gatsby';
 import React from 'react';
