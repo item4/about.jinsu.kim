@@ -4,9 +4,14 @@
     "url": "https://www.odkmedia.net",
     "position": "백엔드 개발자",
     "started_at": "2020년 4월",
-    "ended_at": "재직중",
+    "ended_at": "2021년 2월",
     "descriptions": [
-      "Python && Django && django-rest-framework 기반의 API서버를 담당합니다."
+      "현재 운영중인 서비스와, 그것의 신규버전 양쪽 모두, Python과 django, drf를 활용하여 유지보수 및 기능개발에 참여했습니다.",
+      "페이지 캐싱로직을 개발하여 중국 컨텐츠 서비스 및 범용 국제 서비스의 속도를 향상시켰습니다.",
+      "현재 운영중인 서비스의 컨텐츠 정보를 새로 개발될 API 서버로 이식하기 위한 마이그레이션 개발에 참여하였습니다.",
+      "기존 Python 코드에 Type Annotation 추가를 권장하여 프로젝트의 IDE 친화도를 증진시켰습니다.",
+      "Shopify 기반 쇼핑몰의 UI 추가/개선 및 SEO 진행으로 사용성을 증진시켰습니다.",
+      "TypeScript로 서비스 상태 모니터링 시스템을 개발 및 구축하였으며, k8s 환경에 자동배포 되도록 세팅하였습니다."
     ],
     "technologes": ["Python", "Django", "django-rest-framework"]
   },
