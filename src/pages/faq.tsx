@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { graphql, Link } from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
@@ -37,7 +37,7 @@ const FAQPage: React.FC<FAQPageProps> = ({
         <SectionTitle>
           구직중이신가요? 구직중이라면 어떤 회사를 찾으시나요?
         </SectionTitle>
-        <p>현재 ODK Media에 재직중입니다. 이력서를 참조해주세요.</p>
+        <p>현재 구직중입니다. 이력서를 참조해주세요.</p>
       </FAQSection>
       <FAQSection>
         <SectionTitle>외주를 받으시나요?</SectionTitle>
