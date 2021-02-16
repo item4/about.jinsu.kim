@@ -4,7 +4,6 @@ import darken from 'polished/lib/color/darken';
 export const brandColor = '#39f';
 export const backgroudColor = '#fff';
 export const textColor = '#000';
-export const grayColor = '#626262';
 export const screenSMMin = '768px';
 export const mediaSM = `@media (max-width: ${screenSMMin})`;
 export const mediaPrint = '@media print';
