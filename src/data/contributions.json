@@ -11,6 +11,17 @@
     ]
   },
   {
+    "name": "aio-libs/aiomcache",
+    "url": "https://github.com/aio-libs/aiomcache",
+    "items": [
+      {
+        "type": "issue",
+        "url": "https://github.com/aio-libs/aiomcache/pull/214",
+        "number": "#214"
+      }
+    ]
+  },
+  {
     "name": "ajdavis/lektor-atom",
     "url": "https://github.com/ajdavis/lektor-atom",
     "items": [
@@ -113,6 +124,17 @@
     ]
   },
   {
+    "name": "dropbox/sqlalchemy-stubs",
+    "url": "https://github.com/dropbox/sqlalchemy-stubs",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/dropbox/sqlalchemy-stubs/pull/142",
+        "number": "#142"
+      }
+    ]
+  },
+  {
     "name": "earthreader/libearth",
     "url": "https://github.com/earthreader/libearth",
     "items": [
@@ -152,6 +174,11 @@
         "type": "pr",
         "url": "https://github.com/gatsbyjs/gatsby/pull/20654",
         "number": "#20654"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/gatsbyjs/gatsby/pull/22518",
+        "number": "#22518"
       }
     ]
   },
@@ -299,6 +326,17 @@
     ]
   },
   {
+    "name": "lxml/lxml-stubs",
+    "url": "https://github.com/lxml/lxml-stubs",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/lxml/lxml-stubs/pull/20",
+        "number": "#20"
+      }
+    ]
+  },
+  {
     "name": "microsoft/TypeScript-Website",
     "url": "https://github.com/microsoft/TypeScript-Website",
     "items": [
@@ -389,6 +427,17 @@
         "type": "pr",
         "url": "https://github.com/parcel-bundler/website/pull/122",
         "number": "#122"
+      }
+    ]
+  },
+  {
+    "name": "planetarium/bencodex-viewer",
+    "url": "https://github.com/planetarium/bencodex-viewer",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/planetarium/bencodex-viewer/pull/2",
+        "number": "#2"
       }
     ]
   },
