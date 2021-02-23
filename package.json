@@ -10,16 +10,16 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@kfonts/nanum-barun-gothic-otf": "^0.1.2",
-    "gatsby": "^2.32.4",
+    "gatsby": "^2.32.3",
     "gatsby-plugin-emotion": "^5.4.0",
     "gatsby-plugin-google-analytics": "^2.11.0",
     "gatsby-plugin-manifest": "^2.12.0",
-    "gatsby-plugin-offline": "^3.10.1",
+    "gatsby-plugin-offline": "^3.10.0",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sitemap": "^2.12.0",
     "gatsby-plugin-typescript": "^2.12.0",
     "gatsby-plugin-typescript-checker": "^1.1.1",
-    "polished": "^4.1.1",
+    "polished": "^4.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
@@ -27,10 +27,10 @@
     "typeface-merriweather-sans": "^1.1.13",
     "typeface-staatliches": "^1.1.13",
     "typescript": "^4.1.5",
-    "webpack": "^5.24.0"
+    "webpack": "^5.22.0"
   },
   "devDependencies": {
-    "@types/node": "^14.14.31",
+    "@types/node": "^14.14.28",
     "@types/react": "^17.0.2",
     "@types/react-helmet": "^6.1.0",
     "husky": "^5.0.9",
@@ -48,15 +48,8 @@
     "deploy": "gh-pages -b master -d /public -r https://$GITHUB_TOKEN@github.com/item4-website/about.jinsu.kim.git"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "import-sort --write",
-      "git add"
-    ],
-    "*.{json,md,css,scss}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,jsx,ts,tsx}": ["prettier --write", "import-sort --write", "git add"],
+    "*.{json,md,css,scss}": ["prettier --write", "git add"]
   },
   "importSort": {
     ".js, .jsx, .es6, .es, .mjs, .ts, .tsx": {
