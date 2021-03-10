@@ -8,14 +8,7 @@
       "미래창조과학부, NIPA가 주관하는 소프트웨어 마에스트로 5기 연수생으로 활동했습니다.",
       "1단계 연수생 선발 경쟁률은 약 6.8:1이었고, Cliche.io 팀에서 활동했습니다."
     ],
-    "technologes": [
-      "Python 3",
-      "Flask",
-      "oauthlib",
-      "SQLAlchemy",
-      "Click",
-      "pytest"
-    ]
+    "skills": ["Python 3", "Flask", "oauthlib", "SQLAlchemy", "Click", "pytest"]
   },
   {
     "name": "Snoin",
@@ -26,7 +19,7 @@
       "웹 서비스 개발 동호회인 Snoin에서 개발자로 활동하고 있습니다.",
       "인터넷 24시간 음악 방송국인 KKaul Cast, 파일 공유 서비스인 Snoin 파일창고 등의 서비스를 개발하였습니다."
     ],
-    "technologes": [
+    "skills": [
       "Python",
       "Flask",
       "SQLAlchemy",

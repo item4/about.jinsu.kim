@@ -13,7 +13,7 @@
       "Shopify 기반 쇼핑몰의 UI 추가/개선 및 SEO 진행으로 사용성을 증진시켰습니다.",
       "TypeScript로 서비스 상태 모니터링 시스템을 개발 및 구축하였으며, k8s 환경에 자동배포 되도록 세팅하였습니다."
     ],
-    "technologes": ["Python", "Django", "django-rest-framework"]
+    "skills": ["Python", "Django", "django-rest-framework"]
   },
   {
     "name": "브랜더진",
@@ -35,7 +35,7 @@
       "실 접속자 증가에 따른 서버 부하를 분산하기 위해 인스턴스 업스케일과 Elasticache를 도입하였습니다.",
       "프론트엔드 개발 공수가 부족한 상황에서는 Vue.js와 TypeScript를 이용하여 서비스 개선에 참여했습니다."
     ],
-    "technologes": [
+    "skills": [
       "Python",
       "Django",
       "django-rest-framework",
@@ -65,7 +65,7 @@
       "내부 관리 시스템인 ReadyBoot의 관리자 인터페이스를 개선하였습니다.",
       "내부 인증 서버의 보안성을 향상시키고 관리 기능을 추가하였습니다."
     ],
-    "technologes": [
+    "skills": [
       "Python",
       "Django",
       "Gunicorn",
@@ -88,6 +88,6 @@
       "기존 사내 솔루션의 SMS 연동 부분을 개량하고 쏜다넷, 가비아의 SMS 기능을 사내 솔루션과 연동하여 자체 솔루션에서 보다 많은 SMS 벤더를 지원할 수 있게 되었습니다.",
       "그 외에도 이미지링크(특수형태의 쇼핑몰 개발), 세마스포츠마케팅, 오앤오컨설팅 등 여러 사이트의 개발에 참여하였습니다."
     ],
-    "technologes": ["PHP", "JavaScirpt", "jQuery"]
+    "skills": ["PHP", "JavaScirpt", "jQuery"]
   }
 ]

@@ -32,7 +32,7 @@ const InlineList = styled.ul`
     }
   }
 `;
-const TechList = styled(InlineList)`
+const SkillList = styled(InlineList)`
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 `;
@@ -141,13 +141,13 @@ interface RelatedLink {
   name: string;
   url: string;
 }
-interface TechnologyItem {
+interface SkillItem {
   name: string;
   url: string;
 }
-interface Technology {
+interface Skill {
   name: string;
-  items: TechnologyItem[];
+  items: SkillItem[];
 }
 interface WorkExperience {
   name: string;
@@ -156,7 +156,7 @@ interface WorkExperience {
   started_at: string;
   ended_at: string;
   descriptions: string[];
-  technologes: string[];
+  skills: string[];
 }
 interface Organization {
   name: string;
@@ -164,7 +164,7 @@ interface Organization {
   started_at: string;
   ended_at: string;
   descriptions: string[];
-  technologes: string[];
+  skills: string[];
 }
 interface Project {
   name: string;
@@ -173,7 +173,7 @@ interface Project {
   started_at: string;
   ended_at: string;
   descriptions: string[];
-  technologes: string[];
+  skills: string[];
 }
 interface Contribution {
   type: 'issue' | 'pr';
@@ -199,7 +199,7 @@ interface Disability {
 }
 
 const related_links: RelatedLink[] = require('../data/related_links.json');
-const topics: Technology[] = require('../data/technologies.json');
+const skills: Skill[] = require('../data/skills.json');
 const work_experiences: WorkExperience[] = require('../data/work_experiences.json');
 const organizations: Organization[] = require('../data/organizations.json');
 const projects: Project[] = require('../data/projects.json');
@@ -266,15 +266,15 @@ const ResumePage: React.FC<ResumePageProps> = ({
             </SectionParagraph>
           </Section>
           <Section typeof='ItemList'>
-            <SectionTitle>Technologies</SectionTitle>
-            {topics.map(topic => {
+            <SectionTitle>Skills</SectionTitle>
+            {skills.map(skill => {
               return (
-                <SubSection key={topic.name}>
+                <SubSection key={skill.name}>
                   <SubSectionTitle property='name'>
-                    {topic.name}
+                    {skill.name}
                   </SubSectionTitle>
-                  <TechList>
-                    {topic.items.map((item, index) => {
+                  <SkillList>
+                    {skill.items.map((item, index) => {
                       return (
                         <li key={index}>
                           <meta property='position' content={`${index}`} />
@@ -285,7 +285,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
                         </li>
                       );
                     })}
-                  </TechList>
+                  </SkillList>
                 </SubSection>
               );
             })}
@@ -338,8 +338,8 @@ const ResumePage: React.FC<ResumePageProps> = ({
                       <dt>사용된 기술</dt>
                       <dd>
                         <InlineList>
-                          {work.technologes.map(tech => (
-                            <li key={tech}>{tech}</li>
+                          {work.skills.map(skill => (
+                            <li key={skill}>{skill}</li>
                           ))}
                         </InlineList>
                       </dd>
@@ -395,8 +395,8 @@ const ResumePage: React.FC<ResumePageProps> = ({
                       <dt>사용된 기술</dt>
                       <dd>
                         <InlineList>
-                          {org.technologes.map(tech => (
-                            <li key={tech}>{tech}</li>
+                          {org.skills.map(skill => (
+                            <li key={skill}>{skill}</li>
                           ))}
                         </InlineList>
                       </dd>
@@ -461,8 +461,8 @@ const ResumePage: React.FC<ResumePageProps> = ({
                       <dt>사용된 기술</dt>
                       <dd>
                         <InlineList>
-                          {project.technologes.map(tech => (
-                            <li key={tech}>{tech}</li>
+                          {project.skills.map(skill => (
+                            <li key={skill}>{skill}</li>
                           ))}
                         </InlineList>
                       </dd>
