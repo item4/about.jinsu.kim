@@ -16,7 +16,7 @@ jobs:
       - name: Setup nodejs
         uses: actions/setup-node@v1
         with:
-          node-version: '15.8'
+          node-version: '15.11'
 
       - name: Get yarn cache
         id: yarn-cache
@@ -42,4 +42,3 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
           publish_branch: gh-pages
-

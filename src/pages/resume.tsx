@@ -128,7 +128,7 @@ const PullRequestLink = styled(ContributionLink)`
     content: 'PR ';
   }
 `;
-const SummaryParagraph = styled.p`
+const SectionParagraph = styled.p`
   margin-left: 1.5rem;
 `;
 
@@ -191,7 +191,7 @@ interface Activity {
   date: string;
   description: string;
 }
-interface Disorder {
+interface Disability {
   name: string;
   name_en: string;
   url: string;
@@ -205,7 +205,7 @@ const organizations: Organization[] = require('../data/organizations.json');
 const projects: Project[] = require('../data/projects.json');
 const opensource_contributions: OpenSource[] = require('../data/contributions.json');
 const activities: Activity[] = require('../data/activities.json');
-const disorders: Disorder[] = require('../data/disorders.json');
+const disabilities: Disability[] = require('../data/disabilities.json');
 
 const ResumePage: React.FC<ResumePageProps> = ({
   location,
@@ -257,12 +257,13 @@ const ResumePage: React.FC<ResumePageProps> = ({
           </Section>
           <Section>
             <SectionTitle>Summary</SectionTitle>
-            <SummaryParagraph>
+            <SectionParagraph>
               빠르게 성장하는 스타트업에서 백엔드 위주로 프론트까지 개발이
               가능한 풀스택 지향 개발자. 전통적인서버, 범용 클라우드, Docker를
               이용하여 테스트, CI, 배포, 모니터링등 전반적인 서비스 영역을
-              경험하고 개선이 가능.
-            </SummaryParagraph>
+              경험하고 개선이 가능. 다만 음성언어로 의사소통이 곤란하고 심리적
+              안정감이 낮은 환경에서의 근로에 어려움이 있음.
+            </SectionParagraph>
           </Section>
           <Section typeof='ItemList'>
             <SectionTitle>Technologies</SectionTitle>
@@ -520,11 +521,14 @@ const ResumePage: React.FC<ResumePageProps> = ({
             })}
           </Section>
           <Section>
-            <SectionTitle>Disorders</SectionTitle>
-            {disorders.map((disorder, index) => {
-              const name = `${disorder.name} (${disorder.name_en})`;
-              const title = disorder.url ? (
-                <a href={disorder.url} target='_blank'>
+            <SectionTitle>Disabilities</SectionTitle>
+            <SectionParagraph>
+              저는 다음과 같은 문제들로 정기적으로 병원 진료를 받고 있습니다.
+            </SectionParagraph>
+            {disabilities.map((disablity, index) => {
+              const name = `${disablity.name} (${disablity.name_en})`;
+              const title = disablity.url ? (
+                <a href={disablity.url} target='_blank'>
                   {name}
                 </a>
               ) : (
@@ -534,7 +538,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
                 <SubSection key={index}>
                   <SubSectionTitle>{title}</SubSectionTitle>
                   <UnorderedList>
-                    {disorder.descriptions.map((desc, i) => (
+                    {disablity.descriptions.map((desc, i) => (
                       <li key={i}>{desc}</li>
                     ))}
                   </UnorderedList>

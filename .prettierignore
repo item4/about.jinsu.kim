@@ -20,3 +20,7 @@ public
 *.txt
 .editorconfig
 CNAME
+.husky
+.idea
+.node-version
+*.py
