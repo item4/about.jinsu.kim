@@ -34,10 +34,10 @@ export const globalStyles = css`
   body {
     background-color: ${backgroudColor};
     color: ${textColor};
-    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', Helvetica,
-      AppleSDGothic, Arial, sans-serif;
+    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', '나눔바른고딕',
+      'nanum-barun-gothic', Helvetica, AppleSDGothic, Arial, sans-serif;
     font-size: ${baseFontSize};
-    font-weight: 300;
+    font-weight: 400;
     line-height: ${baseLineHeight};
     text-size-adjust: 100%;
   }
