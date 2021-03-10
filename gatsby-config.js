@@ -30,19 +30,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `item4 dev story`,
-        short_name: `item4 blog`,
-        start_url: `/`,
-        lang: `ko`,
-        background_color: `#ffffff`,
-        theme_color: `#2a7ae2`,
-        display: `standalone`,
-        icon: `static/item4.png`,
-      },
-    },
-    {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: 'UA-55942858-2',
