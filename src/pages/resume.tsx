@@ -32,10 +32,6 @@ const InlineList = styled.ul`
     }
   }
 `;
-const SkillList = styled(InlineList)`
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-`;
 const ContributionList = styled(InlineList)`
   li {
     margin-right: 0.25rem;
@@ -137,18 +133,12 @@ interface ResumePageProps extends PageProps {
     site: SiteMetadataWrapper;
   };
 }
+
 interface RelatedLink {
   name: string;
   url: string;
 }
-interface SkillItem {
-  name: string;
-  url: string;
-}
-interface Skill {
-  name: string;
-  items: SkillItem[];
-}
+
 interface WorkExperience {
   name: string;
   url?: string;
@@ -158,6 +148,7 @@ interface WorkExperience {
   descriptions: string[];
   skills: string[];
 }
+
 interface Organization {
   name: string;
   url: string;
@@ -166,6 +157,7 @@ interface Organization {
   descriptions: string[];
   skills: string[];
 }
+
 interface Project {
   name: string;
   url?: string;
@@ -175,31 +167,33 @@ interface Project {
   descriptions: string[];
   skills: string[];
 }
+
 interface Contribution {
   type: 'issue' | 'pr';
   url: string;
   number: string;
 }
+
 interface OpenSource {
   name: string;
   url: string;
   items: Contribution[];
 }
+
 interface Activity {
   name: string;
   url?: string;
   date: string;
   description: string;
 }
+
 interface Disability {
   name: string;
-  name_en: string;
   url: string;
   descriptions: string[];
 }
 
 const related_links: RelatedLink[] = require('../data/related_links.json');
-const skills: Skill[] = require('../data/skills.json');
 const work_experiences: WorkExperience[] = require('../data/work_experiences.json');
 const organizations: Organization[] = require('../data/organizations.json');
 const projects: Project[] = require('../data/projects.json');
@@ -213,7 +207,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
     site: { siteMetadata: metadata },
   },
 }) => {
-  let lineCount = 0;
+  let lineCount = 14; // before works
   return (
     <Layout location={location} metadata={metadata}>
       <SEO page_name='Résumé' location={location} />
@@ -240,7 +234,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
                 </a>
               </dd>
               <dt>Objective</dt>
-              <dd property='jobTitle'>웹 개발자</dd>
+              <dd property='jobTitle'>웹 백엔드 개발자</dd>
               <dt>Links</dt>
               <dd>
                 <InlineList>
@@ -257,40 +251,22 @@ const ResumePage: React.FC<ResumePageProps> = ({
           </Section>
           <Section>
             <SectionTitle>Summary</SectionTitle>
-            <SectionParagraph>
-              빠르게 성장하는 스타트업에서 백엔드 위주로 프론트까지 개발이
-              가능한 풀스택 지향 개발자. 전통적인서버, 범용 클라우드, Docker를
-              이용하여 테스트, CI, 배포, 모니터링등 전반적인 서비스 영역을
-              경험하고 개선이 가능. 다만 음성언어를 사용한 의사소통과 심리적
-              안정감이 낮은 환경에서의 근로에 불편함이 있음.
-            </SectionParagraph>
+            <UnorderedList>
+              <li>
+                Python의 Django 기반의 백엔드 개발이 특기지만 React 등을 활용한
+                프론트까지 개발이 가능한 풀스택 지향 개발자.
+              </li>
+              <li>
+                전통적인 서버, 범용 클라우드, Docker를 이용하여 테스트, CI,
+                배포, 모니터링등 전반적인 서비스 영역을 경험.
+              </li>
+              <li>
+                풀 리모트 근무만 가능함. 의사 소통시 전달 수단은 텍스트 채팅만
+                가능. (상세는 하단 <a href='#NotablePoints'>Notable Points</a>{' '}
+                참조)
+              </li>
+            </UnorderedList>
           </Section>
-          <Section typeof='ItemList'>
-            <SectionTitle>Skills</SectionTitle>
-            {skills.map(skill => {
-              return (
-                <SubSection key={skill.name}>
-                  <SubSectionTitle property='name'>
-                    {skill.name}
-                  </SubSectionTitle>
-                  <SkillList>
-                    {skill.items.map((item, index) => {
-                      return (
-                        <li key={index}>
-                          <meta property='position' content={`${index}`} />
-                          <a href={item.url} property='item' typeof='Webpage'>
-                            <meta property='url' content={item.url} />
-                            <span property='name'>{item.name}</span>
-                          </a>
-                        </li>
-                      );
-                    })}
-                  </SkillList>
-                </SubSection>
-              );
-            })}
-          </Section>
-          <PageBreak />
           <Section>
             <SectionTitle>Work Experiences</SectionTitle>
             {work_experiences.map(work => {
@@ -324,8 +300,9 @@ const ResumePage: React.FC<ResumePageProps> = ({
                       <dd>{work.position}</dd>
                       <dt>근무기간</dt>
                       <dd>
-                        <time property='startDate'>{work.started_at}</time>부터{' '}
-                        <time>{work.ended_at}</time>까지
+                        <time property='startDate'>{work.started_at}</time>
+                        부터 <time>{work.ended_at}</time>
+                        까지
                       </dd>
                       <dt>업무내용</dt>
                       <dd>
@@ -381,8 +358,9 @@ const ResumePage: React.FC<ResumePageProps> = ({
                     <DefineList>
                       <dt>소속기간</dt>
                       <dd>
-                        <time property='startDate'>{org.started_at}</time>부터{' '}
-                        <time>{org.ended_at}</time>까지
+                        <time property='startDate'>{org.started_at}</time>
+                        부터 <time>{org.ended_at}</time>
+                        까지
                       </dd>
                       <dt>활동내용</dt>
                       <dd>
@@ -409,7 +387,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
           </Section>
           <Section>
             <SectionTitle>Participated Projects</SectionTitle>
-            {projects.map((project, index) => {
+            {projects.map(project => {
               const name = project.url ? (
                 <a property='url' href={project.url} target='_blank'>
                   <span property='name'>{project.name}</span>
@@ -423,10 +401,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
                   .map(desc => (desc.length / 40) | 0)
                   .reduce((p, c) => p + c, 0);
               let breaking = false;
-              if (
-                (index === 0 && lineCount >= 18) ||
-                (index > 0 && lineCount >= 20)
-              ) {
+              if (lineCount >= 20) {
                 breaking = true;
                 lineCount = 0;
               }
@@ -513,7 +488,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
                 <SubSection key={index}>
                   <SubSectionTitle>{name}</SubSectionTitle>
                   <p>
-                    <time>({activity.date}) </time>
+                    <time>({activity.date})</time>
                     {activity.description}
                   </p>
                 </SubSection>
@@ -521,24 +496,24 @@ const ResumePage: React.FC<ResumePageProps> = ({
             })}
           </Section>
           <Section>
-            <SectionTitle>Disabilities</SectionTitle>
+            <a id='NotablePoints' />
+            <SectionTitle>Notable Points</SectionTitle>
             <SectionParagraph>
               저는 다음과 같은 문제들로 정기적으로 병원 진료를 받고 있습니다.
             </SectionParagraph>
-            {disabilities.map((disablity, index) => {
-              const name = `${disablity.name} (${disablity.name_en})`;
-              const title = disablity.url ? (
-                <a href={disablity.url} target='_blank'>
-                  {name}
+            {disabilities.map((disability, index) => {
+              const title = disability.url ? (
+                <a href={disability.url} target='_blank'>
+                  {disability.name}
                 </a>
               ) : (
-                name
+                disability.name
               );
               return (
                 <SubSection key={index}>
                   <SubSectionTitle>{title}</SubSectionTitle>
                   <UnorderedList>
-                    {disablity.descriptions.map((desc, i) => (
+                    {disability.descriptions.map((desc, i) => (
                       <li key={i}>{desc}</li>
                     ))}
                   </UnorderedList>

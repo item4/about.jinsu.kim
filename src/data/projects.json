@@ -21,7 +21,7 @@
     "descriptions": [
       "심심풀이로 하고 있는 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."
     ],
-    "skills": ["Create-React-App", "TypeScript", "React"]
+    "skills": ["TypeScript", "React"]
   },
   {
     "name": "innocent static API",
@@ -45,7 +45,7 @@
       "DNS 보안 기술인 DNS-over-HTTPS를 aiohttp에서 사용할 수 있게 하는 구현체입니다.",
       "이 라이브러리를 사용하면 간편하게 DNS 패킷 도청 및 변조를 방지할 수 있습니다."
     ],
-    "skills": ["Python 3", "asyncio", "aiohttp"]
+    "skills": ["Python", "asyncio", "aiohttp"]
   },
   {
     "name": "yui",
@@ -61,13 +61,11 @@
       "mypy를 사용해서 정적 타입검사를 하고, pytest등을 통해 품질 관리에 노력하고 있습니다."
     ],
     "skills": [
-      "Python 3",
+      "Python",
       "ast",
       "asyncio",
       "aiohttp",
       "SQLALchemy",
-      "Alembic",
-      "lxml",
       "pyppeteer",
       "mypy",
       "pytest"
@@ -83,18 +81,10 @@
       "초창기에는 Python Django REST Framework 기반의 Backend와 React 기반의 Frontend로 구성되어 있었습니다.",
       "Frontend 기반을 잡고 API 서버와 통신 결과 처리 작업을 했었습니다."
     ],
-    "skills": [
-      "Python",
-      "Django",
-      "django-rest-framework",
-      "React",
-      "redux",
-      "axios"
-    ]
+    "skills": ["Python", "Django", "django-rest-framework", "React"]
   },
   {
     "name": "후니홀릭 수능작전소",
-    "url": "https://huniholicstudy.com/",
     "started_at": "2016년 9월",
     "ended_at": "2017년 2월",
     "descriptions": [
@@ -103,7 +93,7 @@
       "Frontend는 Webpack+babel+SCSS를 통합적으로 사용하는 기반을 구축했습니다.",
       "Backend는 Python 3과 Flask, SQLAlchemy를 통해 사이트 전체를 개발하였습니다."
     ],
-    "skills": ["Python 3", "webpack", "SCSS", "Flask", "SQLAlchemy", "jQuery"]
+    "skills": ["Python", "webpack", "SCSS", "Flask", "SQLAlchemy"]
   },
   {
     "name": "ugoira",
@@ -113,11 +103,11 @@
     "ended_at": "현재",
     "descriptions": [
       "일본의 동인 이미지 사이트 Pixiv에서 제공하는 Ugoira(움직이는 이미지)는 일반적인 이미지 출력법을 사용하지 않아 통상적인 방법으로 다운로드 할 수 없는데, 이를 다운로드 할 수 있도록 하는 프로그램입니다.",
-      "Python과 ImageMagick을 커맨드 라인에서 사용 가능한 환경이라면 사용 가능합니다.",
-      "GIF 이미지 형식과 ZIP 압축 형식을 지원합니다.",
-      "Travis CI를 통해 자동 테스트를 하고 있으며, readthedocs에도 사용법 및 API에 대한 문서가 업로드 되어 있습니다."
+      "Python3 커맨드 라인에서 사용 가능한 환경이라면 사용 가능합니다.",
+      "GIF 등의 움직이는 이미지 형식과 ZIP 압축 형식을 지원합니다.",
+      "GitHub Actions를 통해 자동 테스트를 하고 있으며, readthedocs에도 사용법 및 API에 대한 문서가 업로드 되어 있습니다."
     ],
-    "skills": ["Python 3", "Wand", "Click", "requests", "pytest"]
+    "skills": ["Python", "pytest"]
   },
   {
     "name": "just-news",
@@ -151,26 +141,7 @@
       "소프트웨어 마에스트로 1단계 프로젝트입니다. 1단계 종료 후에도 한동안 지속되었습니다.",
       "서브컬쳐 데이터를 이용한 온톨로지(Ontology) 및 검색, 시멘틱 웹(Semantic Web)을 다룹니다."
     ],
-    "skills": [
-      "Python 3",
-      "Flask",
-      "SQLAlchemy",
-      "Celery",
-      "Click",
-      "Sphinx",
-      "pytest"
-    ]
-  },
-  {
-    "name": "DogBot",
-    "repo_url": "https://github.com/item4/DogBot/",
-    "started_at": "2013년 1월",
-    "ended_at": "2015년 1월",
-    "descriptions": [
-      "Multi-thread IRC Bot입니다.",
-      "다중 서버 접속과 다중 명령어 동시 실행을 지원합니다."
-    ],
-    "skills": ["Python"]
+    "skills": ["Python", "Flask", "SQLAlchemy", "Sphinx", "pytest"]
   },
   {
     "name": "XNova",
@@ -192,27 +163,6 @@
       "각자 자신의 계정을 두고 파일을 올리고 다운로드 할 수 있으며, 파일을 관리할 수도 있습니다.",
       "한때 월 1,000GB 이상의 전송량을 처리했었습니다."
     ],
-    "skills": ["PHP", "Python 3", "Wand", "JavaScript", "jQuery", "jQuery UI"]
-  },
-  {
-    "name": "Untouchable",
-    "started_at": "2005년",
-    "ended_at": "2015년",
-    "descriptions": [
-      "중학생때 만들어서 운영했었던 게이미피케이션(Gamification)이 적용된 미스터리 소설 플랫폼입니다.",
-      "소설에 사용자 참여 요소를 도입해 몰입도를 끌어올리고 있습니다."
-    ],
-    "skills": ["PHP", "JavaScript"]
-  },
-  {
-    "name": "Fishing Arena",
-    "started_at": "2004년",
-    "ended_at": "2010년 6월",
-    "descriptions": [
-      "중학생 때 만들어서 운영했던 간단한 낚시 관련 웹게임입니다.",
-      "당시 국내 인디(indie) 웹 게임 중 자체 개발 된 몇 없는 게임이었습니다.",
-      "2010년, 당시 게임물등급위원회의 시정요청으로 운영이 중지되었는데, 이 시기에 과도한 심의요청으로 국내 인디 웹 게임은 거의 다 운영을 정지하게 되었습니다."
-    ],
-    "skills": ["PHP", "JavaScript"]
+    "skills": ["PHP", "Python", "Wand", "JavaScript", "jQuery", "jQuery UI"]
   }
 ]

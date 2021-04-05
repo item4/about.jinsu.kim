@@ -1,7 +1,6 @@
 [
   {
     "name": "선택적 함구증",
-    "name_en": "Selective Mutism",
     "url": "http://terms.naver.com/entry.nhn?docId=2094299&cid=41991&categoryId=41991",
     "descriptions": [
       "다른 사람의 말을 듣는 것은 가능하지만 입으로 소리를 내는 행위를 하지 못합니다.",
@@ -9,12 +8,11 @@
     ]
   },
   {
-    "name": "불안장애",
-    "name_en": "Anxiety Disorder",
-    "url": "http://terms.naver.com/entry.nhn?docId=927185&mobile&cid=51007&categoryId=51007",
+    "name": "사회 불안 장애",
+    "url": "https://terms.naver.com/entry.naver?docId=2094310&cid=41991&categoryId=41991",
     "descriptions": [
-      "불안장애로 인해 외출이 힘들어서 출근보다는 리모트 근무를 선호합니다.",
-      "심리적 안정감이 유지되는 직장에서 풀리모트 근무를 진행하는데에는 문제가 없습니다."
+      "사회 불안 장애로 인해 외출이 힘들어서 풀 리모트 근무를 선호합니다.",
+      "심리적 안정감이 유지되는 직장에서 풀 리모트 근무를 진행하는것은 문제가 없습니다."
     ]
   }
 ]
