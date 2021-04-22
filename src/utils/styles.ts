@@ -60,8 +60,14 @@ export const globalStyles = css`
     text-decoration: underline;
   }
 
-  @page {
-    size: A4 portrait;
+  ${mediaPrint} {
+    @page {
+      size: A4 portrait;
+      margin: 0;
+    }
+    body {
+      margin-top: 1cm;
+    }
   }
 `;
 
