@@ -3,8 +3,8 @@ import { graphql } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
-import { Section, SectionTitle } from '../components/Section';
 import SEO from '../components/SEO';
+import { Section, SectionTitle } from '../components/Section';
 
 interface PartTimeJobPageProps extends PageProps {
   data: {
@@ -84,7 +84,11 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
         <ul>
           <li>
             50,000 KRW - disjukr님 (
-            <a href='https://github.com/disjukr/just-news/' target='_blank'>
+            <a
+              href='https://github.com/disjukr/just-news/'
+              target='_blank'
+              rel='noreferrer'
+            >
               disjukr/just-news
             </a>
             ,{' '}
@@ -99,7 +103,11 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
           <li>15,000 KRW - 익명 (정규식을 이용한 자료정리)</li>
           <li>
             50,000 KRW - disjukr님 (
-            <a href='https://github.com/disjukr/just-news/' target='_blank'>
+            <a
+              href='https://github.com/disjukr/just-news/'
+              target='_blank'
+              rel='noreferrer'
+            >
               disjukr/just-news
             </a>
             ,{' '}
@@ -116,7 +124,11 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
           </li>
           <li>
             50,000 KRW - disjukr님 (
-            <a href='https://github.com/disjukr/just-news/' target='_blank'>
+            <a
+              href='https://github.com/disjukr/just-news/'
+              target='_blank'
+              rel='noreferrer'
+            >
               disjukr/just-news
             </a>
             ,{' '}
@@ -128,11 +140,19 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
           <li>50,000 KRW - 익명 (TypeScript로 작성된 코드의 검색 기능 개선)</li>
           <li>
             50,000 KRW - hongminhee님 (
-            <a href='https://github.com/dahlia/seonbi' target='_blank'>
+            <a
+              href='https://github.com/dahlia/seonbi'
+              target='_blank'
+              rel='noreferrer'
+            >
               dahlia/seonbi
             </a>
             ,{' '}
-            <a href='https://github.com/dahlia/seonbi/pull/4' target='_blank'>
+            <a
+              href='https://github.com/dahlia/seonbi/pull/4'
+              target='_blank'
+              rel='noreferrer'
+            >
               [PR#4]
             </a>
             , Elm으로 작성된 웹페이지 오작동 수정)
@@ -152,6 +172,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/microsoft/TypeScript-Website'
               target='_blank'
+              rel='noreferrer'
             >
               microsoft/TypeScript-Website
             </a>
@@ -159,6 +180,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/microsoft/TypeScript-Website/pull/266'
               target='_blank'
+              rel='noreferrer'
             >
               [PR#266]
             </a>
@@ -193,7 +215,11 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
       <PartTimeJobSection>
         <SectionTitle>연락처</SectionTitle>
         <p>
-          <a href='https://open.kakao.com/o/s54NXY0b' target='_blank'>
+          <a
+            href='https://open.kakao.com/o/s54NXY0b'
+            target='_blank'
+            rel='noreferrer'
+          >
             카카오톡 1:1 오픈채팅
           </a>
         </p>

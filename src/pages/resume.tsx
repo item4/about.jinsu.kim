@@ -4,6 +4,7 @@ import clearFix from 'polished/lib/mixins/clearFix';
 import React from 'react';
 
 import Layout from '../components/Layout';
+import SEO from '../components/SEO';
 import {
   PageBreak,
   Section,
@@ -11,7 +12,6 @@ import {
   SubSection,
   SubSectionTitle,
 } from '../components/Section';
-import SEO from '../components/SEO';
 import styles from '../utils/styles';
 
 const InlineList = styled.ul`
@@ -82,11 +82,10 @@ const OpenSourceContributionList = styled.ul`
 `;
 const OpenSourceNameLink = styled.a`
   margin-right: 1rem;
-  margin-right: 1rem;
 `;
 const ContributionLink = styled.a`
-  color: white;
   border-radius: 0.2rem;
+  color: white;
   font-size: 0.75rem;
   font-weight: bold;
   padding: 0.15rem 0.25rem;
@@ -193,13 +192,13 @@ interface Disability {
   descriptions: string[];
 }
 
-const related_links: RelatedLink[] = require('../data/related_links.json');
-const work_experiences: WorkExperience[] = require('../data/work_experiences.json');
+const activities: Activity[] = require('../data/activities.json');
+const opensource_contributions: OpenSource[] = require('../data/contributions.json');
+const disabilities: Disability[] = require('../data/disabilities.json');
 const organizations: Organization[] = require('../data/organizations.json');
 const projects: Project[] = require('../data/projects.json');
-const opensource_contributions: OpenSource[] = require('../data/contributions.json');
-const activities: Activity[] = require('../data/activities.json');
-const disabilities: Disability[] = require('../data/disabilities.json');
+const related_links: RelatedLink[] = require('../data/related_links.json');
+const work_experiences: WorkExperience[] = require('../data/work_experiences.json');
 
 const ResumePage: React.FC<ResumePageProps> = ({
   location,
@@ -271,7 +270,12 @@ const ResumePage: React.FC<ResumePageProps> = ({
             <SectionTitle>Work Experiences</SectionTitle>
             {work_experiences.map(work => {
               const name = work.url ? (
-                <a property='url' href={work.url} target='_blank'>
+                <a
+                  property='url'
+                  href={work.url}
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <span property='name'>{work.name}</span>
                 </a>
               ) : (
@@ -331,7 +335,12 @@ const ResumePage: React.FC<ResumePageProps> = ({
             <SectionTitle>Organizations</SectionTitle>
             {organizations.map(org => {
               const name = org.url ? (
-                <a property='url' href={org.url} target='_blank'>
+                <a
+                  property='url'
+                  href={org.url}
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <span property='name'>{org.name}</span>
                 </a>
               ) : (
@@ -389,7 +398,12 @@ const ResumePage: React.FC<ResumePageProps> = ({
             <SectionTitle>Participated Projects</SectionTitle>
             {projects.map(project => {
               const name = project.url ? (
-                <a property='url' href={project.url} target='_blank'>
+                <a
+                  property='url'
+                  href={project.url}
+                  target='_blank'
+                  rel='noreferrer'
+                >
                   <span property='name'>{project.name}</span>
                 </a>
               ) : (
@@ -414,7 +428,11 @@ const ResumePage: React.FC<ResumePageProps> = ({
                         <>
                           <dt>저장소</dt>
                           <dd>
-                            <a href={project.repo_url} target='_blank'>
+                            <a
+                              href={project.repo_url}
+                              target='_blank'
+                              rel='noreferrer'
+                            >
                               {project.repo_url}
                             </a>
                           </dd>
@@ -478,7 +496,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
             <SectionTitle>Activities</SectionTitle>
             {activities.map((activity, index) => {
               const name = activity.url ? (
-                <a href={activity.url} target='_blank'>
+                <a href={activity.url} target='_blank' rel='noreferrer'>
                   {activity.name}
                 </a>
               ) : (
@@ -503,7 +521,7 @@ const ResumePage: React.FC<ResumePageProps> = ({
             </SectionParagraph>
             {disabilities.map((disability, index) => {
               const title = disability.url ? (
-                <a href={disability.url} target='_blank'>
+                <a href={disability.url} target='_blank' rel='noreferrer'>
                   {disability.name}
                 </a>
               ) : (

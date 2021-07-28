@@ -52,7 +52,7 @@ export const globalStyles = css`
     font-family: 'Merriweather', serif;
   }
   a {
-    color: ${darken(0.2, brandColor)};
+    color: ${darken(0.2, brandcolor)};
     text-decoration: underline;
   }
   a:hover {
@@ -62,8 +62,8 @@ export const globalStyles = css`
 
   ${mediaPrint} {
     @page {
-      size: A4 portrait;
       margin: 0;
+      size: a4 portrait;
     }
     body {
       margin-top: 1cm;

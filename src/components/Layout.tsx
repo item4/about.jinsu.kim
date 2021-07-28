@@ -27,8 +27,8 @@ const NavLink = styled(Link)`
   color: white;
   font-family: 'Merriweather Sans', sans-serif;
   font-size: 1.25rem;
-  margin: 0;
   line-height: 2rem;
+  margin: 0;
   text-decoration: none;
 
   &:visited,
@@ -60,8 +60,8 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
         css={css`
           background: #39f;
           display: flex;
-          justify-content: space-between;
           height: 3rem;
+          justify-content: space-between;
           margin-bottom: 2rem;
           width: 100vw;
 

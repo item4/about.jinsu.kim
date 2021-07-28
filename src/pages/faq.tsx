@@ -3,8 +3,8 @@ import { Link, graphql } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
-import { Section, SectionTitle } from '../components/Section';
 import SEO from '../components/SEO';
+import { Section, SectionTitle } from '../components/Section';
 
 interface FAQPageProps extends PageProps {
   data: {
@@ -79,8 +79,9 @@ const FAQPage: React.FC<FAQPageProps> = ({
         <SectionTitle>말은 영영 할 수 없는건가요?</SectionTitle>
         <p>
           치료 경과에 따라 다르겠지만 치료에 난항을 겪고 있는 것은 사실입니다.
-          다만, 좋아진다는 보장이 없으므로 "언젠가는 말을 할 수 있을 것"이라는
-          전제를 깔고 저를 대하시면 제가 심적으로 부담이 가기에 곤란합니다.
+          다만, 좋아진다는 보장이 없으므로 &ldquo;언젠가는 말을 할 수 있을
+          것&rdquo;이라는 전제를 깔고 저를 대하시면 제가 심적으로 부담이 가기에
+          곤란합니다.
         </p>
       </FAQSection>
       <FAQSection>
