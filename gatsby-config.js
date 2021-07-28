@@ -35,7 +35,6 @@ module.exports = {
         trackingId: 'UA-55942858-2',
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-typescript-checker`,
