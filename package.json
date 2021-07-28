@@ -53,7 +53,7 @@
     "build": "gatsby build",
     "lint": "stylelint \"src/{*,*/**}.{ts,tsx}\" && eslint \"src/{*,*/**}.{ts,tsx}\"",
     "format": "stylelint --fix \"src/{*,*/**}.{ts,tsx}\" && eslint --fix \"src/{*,*/**}.{ts,tsx}\" && prettier --write \"**\"",
-    "deploy": "gh-pages -b master -d /public -r https://$GITHUB_TOKEN@github.com/item4-website/about.jinsu.kim.git"
+    "deploy": "gh-pages -b master -d /public -r https://$GITHUB_TOKEN@github.com/item4/about.jinsu.kim.git"
   },
   "lint-staged": {
     "src/{*,**/*}.{js,jsx,ts,tsx}": [
