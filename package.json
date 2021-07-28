@@ -56,12 +56,13 @@
     "deploy": "gh-pages -b master -d /public -r https://$GITHUB_TOKEN@github.com/item4-website/about.jinsu.kim.git"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
+    "src/{*,**/*}.{js,jsx,ts,tsx}": [
       "stylelint --fix",
       "eslint --fix",
+      "prettier --write",
       "git add"
     ],
+    "*.{js,jsx,ts,tsx}": ["prettier --write", "git add"],
     "*.{json,md,css,scss}": ["prettier --write", "git add"]
   }
 }
