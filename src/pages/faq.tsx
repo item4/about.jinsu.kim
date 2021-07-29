@@ -60,12 +60,12 @@ const FAQPage: React.FC<FAQPageProps> = ({
       <FAQSection>
         <SectionTitle>최종 학력이 어떻게 되나요?</SectionTitle>
         <p>
-          고등학교 졸업 후 4년제 대학에 입학했으나 형편상 휴학중입니다. 학력을
-          이력서에 명시하지 않은 이유는 다음과 같습니다.
+          고등학교 졸업 후 4년제 대학에 입학했으나 형편상 자퇴 하였습니다.
+          학력을 이력서에 명시하지 않은 이유는 다음과 같습니다.
         </p>
         <ol>
           <li>학벌 위주의 인사평가를 받고 싶지 않음</li>
-          <li>형편상 졸업이 확실치 못함</li>
+          <li>형편상 졸업이 곤란하여 자퇴하였음</li>
         </ol>
       </FAQSection>
       <FAQSection>
