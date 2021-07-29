@@ -93,12 +93,16 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/disjukr/just-news/'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               disjukr/just-news
             </a>
             ,{' '}
-            <a href='https://github.com/disjukr/just-news/commit/63705b878c621acaa8c071deae107f611ba059c9'>
+            <a
+              href='https://github.com/disjukr/just-news/commit/63705b878c621acaa8c071deae107f611ba059c9'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               [commit log]
             </a>
             , GitHub Actions 도입)
@@ -112,12 +116,16 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/disjukr/just-news/'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               disjukr/just-news
             </a>
             ,{' '}
-            <a href='https://github.com/disjukr/just-news/commit/d62fb916d6fcb7a507d1adaf7e5116296bfcd9d2'>
+            <a
+              href='https://github.com/disjukr/just-news/commit/d62fb916d6fcb7a507d1adaf7e5116296bfcd9d2'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               [commit log]
             </a>
             , GitHub Actions 개선)
@@ -133,12 +141,16 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/disjukr/just-news/'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               disjukr/just-news
             </a>
             ,{' '}
-            <a href='https://github.com/disjukr/just-news/commit/5e082dc64fc6899dacb831cc1d11a92d33fab3ef'>
+            <a
+              href='https://github.com/disjukr/just-news/commit/5e082dc64fc6899dacb831cc1d11a92d33fab3ef'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               [commit log]
             </a>
             , GitHub Actions에서 puppeteer 사용하는 문제 개선)
@@ -149,7 +161,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/dahlia/seonbi'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               dahlia/seonbi
             </a>
@@ -157,7 +169,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/dahlia/seonbi/pull/4'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               [PR#4]
             </a>
@@ -178,7 +190,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/microsoft/TypeScript-Website'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               microsoft/TypeScript-Website
             </a>
@@ -186,7 +198,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             <a
               href='https://github.com/microsoft/TypeScript-Website/pull/266'
               target='_blank'
-              rel='noreferrer'
+              rel='noopener noreferrer'
             >
               [PR#266]
             </a>
@@ -225,7 +237,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
           <a
             href='https://open.kakao.com/o/s54NXY0b'
             target='_blank'
-            rel='noreferrer'
+            rel='noopener noreferrer'
           >
             카카오톡 1:1 오픈채팅
           </a>
