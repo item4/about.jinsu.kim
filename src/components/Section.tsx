@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-import { mediaPrint } from '../utils/styles';
+import { media_print } from '../utils/styles';
 
 export const Section = styled.section`
   margin-bottom: 1.5rem;
@@ -33,7 +33,7 @@ export const SubSectionTitle = styled.h3`
   }
 `;
 export const PageBreak = styled.div`
-  ${mediaPrint} {
+  ${media_print} {
     break-before: page;
     & ~ section {
       padding-top: 0.3cm;

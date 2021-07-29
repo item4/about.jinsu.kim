@@ -1,14 +1,14 @@
 import { css } from '@emotion/react';
 import darken from 'polished/lib/color/darken';
 
-export const brandColor = '#39f';
-export const backgroudColor = '#fff';
-export const textColor = '#000';
-export const screenSMMin = '768px';
-export const mediaSM = `@media (max-width: ${screenSMMin})`;
-export const mediaPrint = '@media print';
-export const baseFontSize = '0.9rem';
-export const baseLineHeight = '1.7rem';
+export const brand_color = '#39f';
+export const background_color = '#fff';
+export const text_color = '#000';
+export const screen_sm_min = '768px';
+export const media_sm = `@media (max-width: ${screen_sm_min})`;
+export const media_print = '@media print';
+export const base_font_size = '0.9rem';
+export const base_line_height = '1.7rem';
 
 export const globalStyles = css`
   body,
@@ -32,14 +32,13 @@ export const globalStyles = css`
   }
 
   body {
-    background-color: ${backgroudColor};
-    color: ${textColor};
+    background-color: ${background_color};
+    color: ${text_color};
     font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', '나눔바른고딕',
       'nanum-barun-gothic', Helvetica, AppleSDGothic, Arial, sans-serif;
-    font-size: ${baseFontSize};
+    font-size: ${base_font_size};
     font-weight: 400;
-    line-height: ${baseLineHeight};
-    text-size-adjust: 100%;
+    line-height: ${base_line_height};
   }
 
   h1 {
@@ -52,15 +51,15 @@ export const globalStyles = css`
     font-family: 'Merriweather', serif;
   }
   a {
-    color: ${darken(0.2, brandcolor)};
+    color: ${darken(0.2, brand_color)};
     text-decoration: underline;
   }
   a:hover {
-    color: ${brandColor};
+    color: ${brand_color};
     text-decoration: underline;
   }
 
-  ${mediaPrint} {
+  ${media_print} {
     @page {
       margin: 0;
       size: a4 portrait;
@@ -72,12 +71,12 @@ export const globalStyles = css`
 `;
 
 const styles = {
-  brandColor,
-  screenSMMin,
-  mediaSM,
-  mediaPrint,
-  baseFontSize,
-  baseLineHeight,
+  brand_color,
+  screen_sm_min,
+  media_sm,
+  media_print,
+  base_font_size,
+  base_line_height,
   globalStyles,
 };
 

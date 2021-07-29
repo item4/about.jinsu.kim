@@ -40,7 +40,7 @@ const ContributionList = styled(InlineList)`
     content: none;
   }
 
-  ${styles.mediaPrint} {
+  ${styles.media_print} {
     li::after {
       content: ',';
     }
@@ -95,14 +95,14 @@ const ContributionLink = styled.a`
     color: white;
   }
 
-  ${styles.mediaPrint} {
+  ${styles.media_print} {
     padding: 0;
   }
 `;
 const IssueLink = styled(ContributionLink)`
   background: #5bc0de;
 
-  ${styles.mediaPrint} {
+  ${styles.media_print} {
     background: none;
     color: #5bc0de;
   }
@@ -114,7 +114,7 @@ const IssueLink = styled(ContributionLink)`
 const PullRequestLink = styled(ContributionLink)`
   background: #5cb85c;
 
-  ${styles.mediaPrint} {
+  ${styles.media_print} {
     background: none;
     color: #5cb85c;
   }

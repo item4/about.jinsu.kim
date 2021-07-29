@@ -68,7 +68,7 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
           @media (max-width: 575.98px) {
             display: none;
           }
-          ${styles.mediaPrint} {
+          ${styles.media_print} {
             display: none;
           }
         `}
@@ -130,7 +130,7 @@ const Layout: React.FC<LayoutProps> = ({ children, metadata: { siteUrl } }) => {
           width: 95vw;
           word-break: break-all;
 
-          ${styles.mediaPrint} {
+          ${styles.media_print} {
             width: 100vw;
           }
         `}
