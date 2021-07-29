@@ -1,5 +1,24 @@
 [
   {
+    "name": "Alicorn",
+    "url": "https://www.rocketpunch.com/",
+    "position": "백엔드 개발자",
+    "started_at": "2021년 6월",
+    "ended_at": "현재",
+    "descriptions": [
+      "Django와 django-rest-framework, graphene 등을 사용하여 여러가지 API를 제공하는 작업을 진행하여 서비스를 개선하였습니다.",
+      "사용자 보안정책 개발에 참여하여 사용자의 계정 안전성을 증진하고 있습니다.",
+      "신규 서비스의 프론트엔드를 next.js 기반으로 기틀을 잡는데에 참여하여 프론트엔드팀과 합업하기 용이하게 준비하였습니다."
+    ],
+    "skills": [
+      "Python",
+      "Django",
+      "django-rest-framework",
+      "graphene",
+      "next.js"
+    ]
+  },
+  {
     "name": "ODK Media",
     "url": "https://www.odkmedia.net",
     "position": "백엔드 개발자",
