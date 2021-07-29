@@ -80,6 +80,12 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
         </ul>
       </PartTimeJobSection>
       <PartTimeJobSection>
+        <SectionTitle>단골 목록</SectionTitle>
+        <ul>
+          <li>익명(법인) - express/flutter 기반 서비스 유지보수</li>
+        </ul>
+      </PartTimeJobSection>
+      <PartTimeJobSection>
         <SectionTitle>작업 완료 목록</SectionTitle>
         <ul>
           <li>
