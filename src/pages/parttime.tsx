@@ -196,6 +196,7 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
             40,000 KRW - lazygyu님 (TypeScript로 근태 메시지 파싱 함수 작성)
           </li>
           <li>40,000 KRW - 익명 (Git/GitHub 기초적인 사용법 과외)</li>
+          <li>60,000 KRW - 익명 (Slack API 활용한 자료 Sync)</li>
         </ul>
       </PartTimeJobSection>
       <PartTimeJobSection>
