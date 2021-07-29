@@ -23,12 +23,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
-    {
-      resolve: `gatsby-plugin-sitemap`,
-      options: {
-        sitemapSize: 1000,
-      },
-    },
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
