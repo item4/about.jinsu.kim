@@ -36,6 +36,7 @@ const ContributionList = styled(InlineList)`
   li {
     margin-right: 0.25rem;
   }
+
   li::after {
     content: none;
   }
@@ -44,6 +45,7 @@ const ContributionList = styled(InlineList)`
     li::after {
       content: ',';
     }
+
     li:last-child::after {
       content: none;
     }

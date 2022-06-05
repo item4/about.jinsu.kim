@@ -3,16 +3,18 @@ interface PageProps {
     pathname: string;
   };
 }
+
 interface SiteMetadata {
-  siteUrl: string;
-  title: string;
   author: string;
   description: string;
+  siteUrl: string;
+  tags: string[];
+  title: string;
   socials: {
     twitter: string;
   };
-  tags: string[];
 }
+
 interface SiteMetadataWrapper {
   siteMetadata: SiteMetadata;
 }

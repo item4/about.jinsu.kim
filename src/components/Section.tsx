@@ -35,6 +35,7 @@ export const SubSectionTitle = styled.h3`
 export const PageBreak = styled.div`
   ${media_print} {
     break-before: page;
+
     & ~ section {
       padding-top: 0.3cm;
     }

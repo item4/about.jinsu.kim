@@ -17,6 +17,7 @@ const FAQSection = styled(Section)`
     margin-left: 1.5rem;
     margin-right: 1.5rem;
   }
+
   ol {
     margin-left: 2.5rem;
     margin-right: 2.5rem;

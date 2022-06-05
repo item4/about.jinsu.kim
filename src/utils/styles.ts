@@ -9,6 +9,7 @@ export const media_sm = `@media (max-width: ${screen_sm_min})`;
 export const media_print = '@media print';
 export const base_font_size = '0.9rem';
 export const base_line_height = '1.7rem';
+export const link_color = darken(0.2, brand_color);
 
 export const globalStyles = css`
   body,
@@ -34,26 +35,29 @@ export const globalStyles = css`
   body {
     background-color: ${background_color};
     color: ${text_color};
-    font-family: '나눔바른고딕OTF', 'nanum-barun-gothic-otf', '나눔바른고딕',
-      'nanum-barun-gothic', Helvetica, AppleSDGothic, Arial, sans-serif;
+    font-family: '나눔바른고딕OTF', nanum-barun-gothic-otf, '나눔바른고딕',
+      nanum-barun-gothic, Helvetica, AppleSDGothic, Arial, sans-serif;
     font-size: ${base_font_size};
     font-weight: 400;
     line-height: ${base_line_height};
   }
 
   h1 {
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather, serif;
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 2rem;
   }
+
   h2 {
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather, serif;
   }
+
   a {
-    color: ${darken(0.2, brand_color)};
+    color: ${link_color};
     text-decoration: underline;
   }
+
   a:hover {
     color: ${brand_color};
     text-decoration: underline;
@@ -64,6 +68,7 @@ export const globalStyles = css`
       margin: 0;
       size: a4 portrait;
     }
+
     body {
       margin-top: 1cm;
     }
