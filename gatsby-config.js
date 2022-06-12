@@ -25,9 +25,9 @@ module.exports = {
   plugins: [
     `gatsby-plugin-sitemap`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-55942858-2',
+        trackingIds: ['G-M4NT06GWMW'],
       },
     },
     `gatsby-plugin-react-helmet`,
