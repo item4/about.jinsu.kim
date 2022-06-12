@@ -14,12 +14,11 @@
   },
   {
     "name": "성 키우기 도구모음",
-    "url": "https://item4.net/growcastle",
     "repo_url": "https://github.com/item4net/growcastle/",
     "started_at": "2018년 12월",
-    "ended_at": "현재",
+    "ended_at": "2022년 6월",
     "descriptions": [
-      "심심풀이로 하고 있는 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."
+      "예전에 즐겨했던 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."
     ],
     "skills": ["TypeScript", "React"]
   },
