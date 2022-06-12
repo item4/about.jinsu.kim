@@ -1,5 +1,26 @@
 [
   {
+    "name": "Fate-Grand-Automata/FGA",
+    "url": "https://github.com/Fate-Grand-Automata/FGA",
+    "items": [
+      {
+        "type": "pr",
+        "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787",
+        "number": "#787"
+      },
+      {
+        "type": "pr",
+        "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787",
+        "number": "#790"
+      },
+      {
+        "type": "issue",
+        "url": "https://github.com/Fate-Grand-Automata/FGA/issues/1049",
+        "number": "#1049"
+      }
+    ]
+  },
+  {
     "name": "aheui/rpaheui",
     "url": "https://github.com/aheui/rpaheui",
     "items": [
