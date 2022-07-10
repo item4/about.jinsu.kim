@@ -1,12 +1,12 @@
 import React from 'react';
 
 interface HTMLProps {
-  htmlAttributes: object;
-  headComponents: object[];
-  bodyAttributes: object[];
-  preBodyComponents: object[];
+  htmlAttributes: React.HTMLAttributes<HTMLHtmlElement>;
+  headComponents: React.ReactNode;
+  bodyAttributes: React.HTMLAttributes<HTMLBodyElement>;
+  preBodyComponents: React.ReactNode;
   body: string;
-  postBodyComponents: object[];
+  postBodyComponents: React.ReactNode;
 }
 
 const HTML: React.FC<HTMLProps> = props => {
