@@ -18,7 +18,6 @@ module.exports = {
       'Python',
       '파이썬',
       'Django',
-      'Flask',
     ],
   },
   pathPrefix: '/',
@@ -32,7 +31,6 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
-    `gatsby-plugin-typescript-checker`,
     `gatsby-plugin-emotion`,
   ],
 };
