@@ -19,8 +19,11 @@ public
 *.css
 *.txt
 .editorconfig
-CNAME
-.husky
+*.log
+public
 .idea
 .node-version
-*.py
+.husky
+.next
+out
+next-env.d.ts

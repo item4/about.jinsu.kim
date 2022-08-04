@@ -1,60 +1,40 @@
+import type { NextPage } from 'next';
+
 import styled from '@emotion/styled';
-import { Link, graphql } from 'gatsby';
-import React from 'react';
+import Link from 'next/link';
 
-import Layout from '../components/Layout';
-
-interface IndexPageProps extends PageProps {
-  data: {
-    site: SiteMetadataWrapper;
-  };
-}
+import Layout from '@/components/Layout';
 
 const PageList = styled.ul`
   margin-left: 2.5rem;
 `;
-const PageLink = styled(Link)`
+const PageLink = styled.a`
   font-family: 'Merriweather Sans', serif;
   font-size: 1.3rem;
 `;
 
-const IndexPage: React.FC<IndexPageProps> = ({
-  location,
-  data: {
-    site: { siteMetadata: metadata },
-  },
-}) => {
+const IndexPage: NextPage = () => {
   return (
-    <Layout location={location} metadata={metadata}>
+    <Layout>
       <h1>Index</h1>
       <PageList>
         <li>
-          <PageLink to='/resume/'>Résumé</PageLink>
+          <Link href='/resume/'>
+            <PageLink>Résumé</PageLink>
+          </Link>
         </li>
         <li>
-          <PageLink to='/parttime/'>Part-time Job</PageLink>
+          <Link href='/parttime/'>
+            <PageLink>Part-time Job</PageLink>
+          </Link>
         </li>
         <li>
-          <PageLink to='/faq/'>FAQ</PageLink>
+          <Link href='/faq/'>
+            <PageLink>FAQ</PageLink>
+          </Link>
         </li>
       </PageList>
     </Layout>
   );
 };
 export default IndexPage;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        siteUrl
-        title
-        description
-        tags
-        socials {
-          twitter
-        }
-      }
-    }
-  }
-`;

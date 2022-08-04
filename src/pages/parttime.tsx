@@ -1,16 +1,9 @@
 import styled from '@emotion/styled';
-import { graphql } from 'gatsby';
-import React from 'react';
+import { NextPage } from 'next';
 
-import Layout from '../components/Layout';
-import SEO from '../components/SEO';
-import { Section, SectionTitle } from '../components/Section';
-
-interface PartTimeJobPageProps extends PageProps {
-  data: {
-    site: SiteMetadataWrapper;
-  };
-}
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
+import { Section, SectionTitle } from '@/components/Section';
 
 const PartTimeJobSection = styled(Section)`
   p {
@@ -25,15 +18,13 @@ const PartTimeJobSection = styled(Section)`
   }
 `;
 
-const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
-  location,
-  data: {
-    site: { siteMetadata: metadata },
-  },
-}) => {
+const PartTimeJobPage: NextPage = () => {
   return (
-    <Layout location={location} metadata={metadata}>
-      <SEO page_name='Part-time Job' location={location} />
+    <Layout>
+      <SEO
+        title='Part-time Job'
+        description='item4가 진행하는 Part-time job에 대한 소개'
+      />
       <h1>Part-time Job</h1>
       <PartTimeJobSection>
         <SectionTitle>간략 소개</SectionTitle>
@@ -129,19 +120,3 @@ const PartTimeJobPage: React.FC<PartTimeJobPageProps> = ({
   );
 };
 export default PartTimeJobPage;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        siteUrl
-        title
-        description
-        tags
-        socials {
-          twitter
-        }
-      }
-    }
-  }
-`;

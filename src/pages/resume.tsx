@@ -1,18 +1,18 @@
-import styled from '@emotion/styled';
-import { graphql } from 'gatsby';
-import clearFix from 'polished/lib/mixins/clearFix';
-import React from 'react';
+import type { NextPage } from 'next';
 
-import Layout from '../components/Layout';
-import SEO from '../components/SEO';
+import styled from '@emotion/styled';
+import clearFix from 'polished/lib/mixins/clearFix';
+
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 import {
   PageBreak,
   Section,
   SectionTitle,
   SubSection,
   SubSectionTitle,
-} from '../components/Section';
-import styles from '../utils/styles';
+} from '@/components/Section';
+import styles from '@/core/styles';
 
 const InlineList = styled.ul`
   display: inline-block;
@@ -32,45 +32,40 @@ const InlineList = styled.ul`
     }
   }
 `;
-const ContributionList = styled(InlineList)`
-  li {
-    margin-right: 0.25rem;
-  }
+const ContributionList = styled(InlineList)({
+  li: {
+    marginRight: '0.25rem',
+  },
+  'li::after': {
+    content: '',
+  },
+  [`${styles.media_print}`]: {
+    'li::after': {
+      content: ',',
+    },
+    'li:last-child::after': {
+      content: '',
+    },
+  },
+});
 
-  li::after {
-    content: none;
-  }
-
-  ${styles.media_print} {
-    li::after {
-      content: ',';
-    }
-
-    li:last-child::after {
-      content: none;
-    }
-  }
-`;
-const DefineList = styled.dl`
-  ${clearFix()}
-
-  > dt {
-    float: left;
-    font-weight: bold;
-    margin-right: 5px;
-    text-align: right;
-    width: 120px;
-
-    &::after {
-      content: ':';
-    }
-  }
-
-  > dd {
-    float: left;
-    width: calc(100% - 120px - 5px);
-  }
-`;
+const DefineList = styled.dl({
+  ...clearFix(),
+  '> dt': {
+    float: 'left',
+    fontWeight: 'bold',
+    marginRight: '5px',
+    textAlign: 'right',
+    width: '120px',
+    '&::after': {
+      content: ':',
+    },
+  },
+  '> dd': {
+    float: 'left',
+    width: 'calc(100% - 120px - 5px)',
+  },
+});
 const UnorderedList = styled.ul`
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -85,55 +80,43 @@ const OpenSourceContributionList = styled.ul`
 const OpenSourceNameLink = styled.a`
   margin-right: 1rem;
 `;
-const ContributionLink = styled.a`
-  border-radius: 0.2rem;
-  color: white;
-  font-size: 0.75rem;
-  font-weight: bold;
-  padding: 0.15rem 0.25rem;
-  text-decoration: none;
-
-  &:hover {
-    color: white;
-  }
-
-  ${styles.media_print} {
-    padding: 0;
-  }
-`;
-const IssueLink = styled(ContributionLink)`
-  background: #5bc0de;
-
-  ${styles.media_print} {
-    background: none;
-    color: #5bc0de;
-  }
-
-  &::before {
-    content: 'ISSUE ';
-  }
-`;
-const PullRequestLink = styled(ContributionLink)`
-  background: #5cb85c;
-
-  ${styles.media_print} {
-    background: none;
-    color: #5cb85c;
-  }
-
-  &::before {
-    content: 'PR ';
-  }
-`;
+const ContributionLink = styled.a({
+  borderRadius: '0.2rem',
+  color: 'white',
+  fontSize: '0.75rem',
+  fontWeight: 'bold',
+  padding: '0.15rem 0.25rem',
+  textDecoration: 'none',
+  '&:hover': {
+    color: 'white',
+  },
+  [`${styles.media_print}`]: {
+    padding: 0,
+  },
+});
+const IssueLink = styled(ContributionLink)({
+  backgroundColor: '#5bc0de',
+  [`${styles.media_print}`]: {
+    backgroundColor: 'none',
+    color: '#5bc0de',
+  },
+  '&::before': {
+    content: 'ISSUE ',
+  },
+});
+const PullRequestLink = styled(ContributionLink)({
+  backgroundColor: '#5cb85c',
+  [`${styles.media_print}`]: {
+    backgroundColor: 'none',
+    color: '#5cb85c',
+  },
+  '&::before': {
+    content: 'PR ',
+  },
+});
 const SectionParagraph = styled.p`
   margin-left: 1.5rem;
 `;
-
-interface ResumePageProps extends PageProps {
-  data: {
-    site: SiteMetadataWrapper;
-  };
-}
 
 interface RelatedLink {
   name: string;
@@ -194,24 +177,19 @@ interface Disability {
   descriptions: string[];
 }
 
-const activities: Activity[] = require('../data/activities.json');
-const opensource_contributions: OpenSource[] = require('../data/contributions.json');
-const disabilities: Disability[] = require('../data/disabilities.json');
-const organizations: Organization[] = require('../data/organizations.json');
-const projects: Project[] = require('../data/projects.json');
-const related_links: RelatedLink[] = require('../data/related_links.json');
-const work_experiences: WorkExperience[] = require('../data/work_experiences.json');
+const activities: Activity[] = require('@/data/activities.json');
+const opensource_contributions: OpenSource[] = require('@/data/contributions.json');
+const disabilities: Disability[] = require('@/data/disabilities.json');
+const organizations: Organization[] = require('@/data/organizations.json');
+const projects: Project[] = require('@/data/projects.json');
+const related_links: RelatedLink[] = require('@/data/related_links.json');
+const work_experiences: WorkExperience[] = require('@/data/work_experiences.json');
 
-const ResumePage: React.FC<ResumePageProps> = ({
-  location,
-  data: {
-    site: { siteMetadata: metadata },
-  },
-}) => {
+const ResumePage: NextPage = () => {
   let lineCount = 14; // before works
   return (
-    <Layout location={location} metadata={metadata}>
-      <SEO page_name='Résumé' location={location} />
+    <Layout>
+      <SEO title='Résumé' description='김진수(item4)의 공개 이력서' />
       <section property='mainEntity' typeof='ProfilePage'>
         <h1 property='mainContentOfPage'>Résumé</h1>
         <meta property='inLanguage' content='ko-KR' />
@@ -547,19 +525,3 @@ const ResumePage: React.FC<ResumePageProps> = ({
   );
 };
 export default ResumePage;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        siteUrl
-        title
-        description
-        tags
-        socials {
-          twitter
-        }
-      }
-    }
-  }
-`;

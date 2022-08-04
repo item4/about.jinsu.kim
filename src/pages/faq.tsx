@@ -1,16 +1,11 @@
+import type { NextPage } from 'next';
+
 import styled from '@emotion/styled';
-import { Link, graphql } from 'gatsby';
-import React from 'react';
+import Link from 'next/link';
 
-import Layout from '../components/Layout';
-import SEO from '../components/SEO';
-import { Section, SectionTitle } from '../components/Section';
-
-interface FAQPageProps extends PageProps {
-  data: {
-    site: SiteMetadataWrapper;
-  };
-}
+import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
+import { Section, SectionTitle } from '@/components/Section';
 
 const FAQSection = styled(Section)`
   p {
@@ -24,15 +19,10 @@ const FAQSection = styled(Section)`
   }
 `;
 
-const FAQPage: React.FC<FAQPageProps> = ({
-  location,
-  data: {
-    site: { siteMetadata: metadata },
-  },
-}) => {
+const FAQPage: NextPage = () => {
   return (
-    <Layout location={location} metadata={metadata}>
-      <SEO page_name='FAQ' location={location} />
+    <Layout>
+      <SEO title='FAQ' description='자주 묻는 질문들을 정리해두었습니다' />
       <h1>FAQ</h1>
       <FAQSection>
         <SectionTitle>
@@ -44,7 +34,10 @@ const FAQPage: React.FC<FAQPageProps> = ({
         <SectionTitle>외주를 받으시나요?</SectionTitle>
         <p>
           건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다. 자세한 내용은{' '}
-          <Link to='/parttime/'>Part-time Job</Link> 페이지를 참조해주세요.
+          <Link href='/parttime/'>
+            <a>Part-time Job</a>
+          </Link>{' '}
+          페이지를 참조해주세요.
         </p>
       </FAQSection>
       <FAQSection>
@@ -101,19 +94,3 @@ const FAQPage: React.FC<FAQPageProps> = ({
   );
 };
 export default FAQPage;
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        siteUrl
-        title
-        description
-        tags
-        socials {
-          twitter
-        }
-      }
-    }
-  }
-`;
