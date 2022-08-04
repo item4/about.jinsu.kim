@@ -55,6 +55,7 @@ export const globalStyles = css`
 
   a {
     color: ${link_color};
+    cursor: pointer;
     text-decoration: underline;
   }
 
