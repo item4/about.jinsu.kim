@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import Link from 'next/link';
 
 import Layout from '@/components/Layout';
+import SEO from '@/components/SEO';
 
 const PageList = styled.ul`
   margin-left: 2.5rem;
@@ -16,6 +17,7 @@ const PageLink = styled.a`
 const IndexPage: NextPage = () => {
   return (
     <Layout>
+      <SEO />
       <h1>Index</h1>
       <PageList>
         <li>
