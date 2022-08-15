@@ -5,7 +5,6 @@ const Document = () => {
     <Html lang='ko' prefix='og: https://ogp.me/ns#'>
       <Head>
         <meta charSet='utf-8' />
-        <meta name='viewport' content='width=device-width' />
 
         <link rel='icon' href='/favicon.ico' />
         <link rel='icon' href='/icons/favicon-16x16.png' sizes='16x16' />
