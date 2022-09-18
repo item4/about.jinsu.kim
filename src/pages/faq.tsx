@@ -28,7 +28,7 @@ const FAQPage: NextPage = () => {
         <SectionTitle>
           구직중이신가요? 구직중이라면 어떤 회사를 찾으시나요?
         </SectionTitle>
-        <p>현재 구직중입니다. 이력서를 참조해주세요.</p>
+        <p>현재 알리콘에 재직중입니다. 이력서를 참조해주세요.</p>
       </FAQSection>
       <FAQSection>
         <SectionTitle>외주를 받으시나요?</SectionTitle>
