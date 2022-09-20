@@ -119,17 +119,17 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <Nav>
           <NavList>
             <li>
-              <Link href='/resume/'>
+              <Link href='/resume'>
                 <NavLink>Résumé</NavLink>
               </Link>
             </li>
             <li>
-              <Link href='/parttime/'>
+              <Link href='/parttime'>
                 <NavLink>Part-time Job</NavLink>
               </Link>
             </li>
             <li>
-              <Link href='/faq/'>
+              <Link href='/faq'>
                 <NavLink>FAQ</NavLink>
               </Link>
             </li>

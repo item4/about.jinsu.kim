@@ -34,7 +34,7 @@ const FAQPage: NextPage = () => {
         <SectionTitle>외주를 받으시나요?</SectionTitle>
         <p>
           건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다. 자세한 내용은{' '}
-          <Link href='/parttime/'>
+          <Link href='/parttime'>
             <a>Part-time Job</a>
           </Link>{' '}
           페이지를 참조해주세요.

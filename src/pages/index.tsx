@@ -21,17 +21,17 @@ const IndexPage: NextPage = () => {
       <h1>Index</h1>
       <PageList>
         <li>
-          <Link href='/resume/'>
+          <Link href='/resume'>
             <PageLink>Résumé</PageLink>
           </Link>
         </li>
         <li>
-          <Link href='/parttime/'>
+          <Link href='/parttime'>
             <PageLink>Part-time Job</PageLink>
           </Link>
         </li>
         <li>
-          <Link href='/faq/'>
+          <Link href='/faq'>
             <PageLink>FAQ</PageLink>
           </Link>
         </li>
