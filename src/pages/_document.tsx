@@ -67,7 +67,12 @@ const Document = () => {
           name='google-site-verification'
           content='ugqR2ABFvbdKXqPaS7hh5-0b4kSbF8jf2OWBkooJ-O0'
         />
-        <link rel='me' href='https://qdon.space/@item4' />
+        <link rel='me' href='https://qdon.space/@item4' key='qdon.space' />
+        <link
+          rel='me'
+          href='https://social.silicon.moe/@item4'
+          key='sliicon.moe'
+        />
       </Head>
       <body>
         <Main />
