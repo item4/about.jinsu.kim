@@ -57,7 +57,6 @@ main {
   margin: auto;
   padding-block-end: 2rem;
   width: 95vw;
-  word-break: break-all;
 }
 section > :is(section, dl, ul, ol, p) {
   padding-inline: 1rem;
@@ -83,6 +82,7 @@ main:not(.index) ul:not(.inline, .contribution) li::before {
 }
 ul.inline {
   display: flex;
+  flex-wrap: wrap;
 }
 ul.inline li {
   flex-basis: fit-content;
@@ -141,8 +141,14 @@ dd:has(> section) {
 dd > section > dl {
   margin-inline: 1rem;
 }
+dd > section > dl :is(dd, .inline) {
+  max-width: calc(90vw - 12rem);
+}
 dd > ul {
   margin: 0;
+}
+dd > ul > li {
+  line-height: 1.5;
 }
 
 dd > section:not(:last-of-type) {
