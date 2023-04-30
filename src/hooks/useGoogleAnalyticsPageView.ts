@@ -10,7 +10,7 @@ type gtagParams = Record<string, string | number | boolean> & {
 type gtagFunctionJs = (method: 'js', value: Date) => void;
 type gtagFunctionConfig = (
   method: 'config',
-  measurement_id: string,
+  measurementId: string,
   config: gtagParams & { send_page_view?: boolean },
 ) => void;
 type gtagFunctionExtra = (method: 'event', category: string, params?: gtagParams) => void;
@@ -22,7 +22,7 @@ declare global {
   }
 }
 
-export const useGoogleAnalyticsPageView = (measurement_id: string) => {
+export const useGoogleAnalyticsPageView = (measurementId: string) => {
   const router = useRouter();
   useEffect(() => {
     window.dataLayer = window.dataLayer || [];
@@ -33,7 +33,7 @@ export const useGoogleAnalyticsPageView = (measurement_id: string) => {
         window.dataLayer.push(arguments);
       };
     window.gtag('js', new Date());
-    window.gtag('config', measurement_id, {
+    window.gtag('config', measurementId, {
       send_page_view: false,
     });
     if (router.isReady) {

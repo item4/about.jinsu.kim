@@ -19,7 +19,7 @@ const Site: FC<AppProps> = ({ Component, pageProps }) => {
       <Head>
         <meta name='viewport' content='width=device-width' />
       </Head>
-      <GoogleAnalyticsScript measurement_id={GOOGLE_ANALYTICS_MEASUREMENT_ID} />
+      <GoogleAnalyticsScript measurementId={GOOGLE_ANALYTICS_MEASUREMENT_ID} />
       <Component {...pageProps} />
     </>
   );
