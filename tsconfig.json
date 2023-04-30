@@ -1,19 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "types": ["node"],
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "jsxImportSource": "@emotion/react",
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "removeComments": false,
@@ -24,8 +23,10 @@
       "@/components/*": ["src/components/*"],
       "@/core/*": ["src/core/*"],
       "@/data/*": ["src/data/*"],
-      "@/hooks/*": ["src/hooks/*"]
-    }
+      "@/hooks/*": ["src/hooks/*"],
+      "@/types/*": ["src/types/*"]
+    },
+    "typeRoots": ["./src/types", "./node_modules/@types"]
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

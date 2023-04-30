@@ -19,16 +19,6 @@
       "웹 서비스 개발 동호회인 Snoin에서 개발자로 활동하고 있습니다.",
       "인터넷 24시간 음악 방송국인 KKaul Cast, 파일 공유 서비스인 Snoin 파일창고 등의 서비스를 개발하였습니다."
     ],
-    "skills": [
-      "Python",
-      "Flask",
-      "SQLAlchemy",
-      "Click",
-      "pytest",
-      "Wand",
-      "PHP 5",
-      "JavaScript",
-      "jQuery"
-    ]
+    "skills": ["Python", "Flask", "SQLAlchemy", "Click", "pytest", "Wand", "PHP 5", "JavaScript", "jQuery"]
   }
 ]

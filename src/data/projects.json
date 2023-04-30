@@ -17,9 +17,7 @@
     "repo_url": "https://github.com/item4net/growcastle/",
     "started_at": "2018년 12월",
     "ended_at": "2022년 6월",
-    "descriptions": [
-      "예전에 즐겨했던 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."
-    ],
+    "descriptions": ["예전에 즐겨했던 모바일 게임 <성 키우기>와 관련된 계산을 도와주는 WebApp입니다."],
     "skills": ["TypeScript", "React"]
   },
   {
@@ -59,16 +57,7 @@
       "SQLAlchemy와 결합되어 있어서 쉽게 ORM기반의 DB사용이 가능합니다.",
       "mypy를 사용해서 정적 타입검사를 하고, pytest등을 통해 품질 관리에 노력하고 있습니다."
     ],
-    "skills": [
-      "Python",
-      "ast",
-      "asyncio",
-      "aiohttp",
-      "SQLALchemy",
-      "pyppeteer",
-      "mypy",
-      "pytest"
-    ]
+    "skills": ["Python", "ast", "asyncio", "aiohttp", "SQLALchemy", "pyppeteer", "mypy", "pytest"]
   },
   {
     "name": "TalkYou",

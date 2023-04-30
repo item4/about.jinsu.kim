@@ -3,615 +3,255 @@
     "name": "Fate-Grand-Automata/FGA",
     "url": "https://github.com/Fate-Grand-Automata/FGA",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787",
-        "number": "#787"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787",
-        "number": "#790"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/Fate-Grand-Automata/FGA/issues/1049",
-        "number": "#1049"
-      }
+      { "type": "pr", "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787", "number": "#787" },
+      { "type": "pr", "url": "https://github.com/Fate-Grand-Automata/FGA/pull/787", "number": "#790" },
+      { "type": "issue", "url": "https://github.com/Fate-Grand-Automata/FGA/issues/1049", "number": "#1049" }
     ]
   },
   {
     "name": "aheui/rpaheui",
     "url": "https://github.com/aheui/rpaheui",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/aheui/rpaheui/issues/1",
-        "number": "#1"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/aheui/rpaheui/issues/1", "number": "#1" }]
   },
   {
     "name": "aio-libs/aiomcache",
     "url": "https://github.com/aio-libs/aiomcache",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/aio-libs/aiomcache/pull/214",
-        "number": "#214"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/aio-libs/aiomcache/pull/214", "number": "#214" }]
   },
   {
     "name": "ajdavis/lektor-atom",
     "url": "https://github.com/ajdavis/lektor-atom",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/ajdavis/lektor-atom/issues/1",
-        "number": "#1"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/ajdavis/lektor-atom/issues/1", "number": "#1" }]
   },
   {
     "name": "ajdavis/lektor-tags",
     "url": "https://github.com/ajdavis/lektor-tags",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/ajdavis/lektor-tags/issues/7",
-        "number": "#7"
-      }
-    ]
-  },
-  {
-    "name": "birkenfeld/pygments-main",
-    "url": "https://bitbucket.org/birkenfeld/pygments-main",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/pull-request/484",
-        "number": "#484"
-      },
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/pull-requests/510",
-        "number": "#510"
-      },
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/pull-requests/523",
-        "number": "#523"
-      },
-      {
-        "type": "issue",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1126",
-        "number": "#1126"
-      },
-      {
-        "type": "issue",
-        "url": "https://bitbucket.org/birkenfeld/pygments-main/issues/1161",
-        "number": "#1161"
-      }
-    ]
-  },
-  {
-    "name": "birkenfeld/sphinxcontrib-autoprogram",
-    "url": "https://bitbucket.org/birkenfeld/sphinx-contrib",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/birkenfeld/sphinx-contrib/pull-requests/104",
-        "number": "#104"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/ajdavis/lektor-tags/issues/7", "number": "#7" }]
   },
   {
     "name": "braziljs/js-the-right-way",
     "url": "https://github.com/braziljs/js-the-right-way",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/braziljs/js-the-right-way/issues/185",
-        "number": "#185"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/braziljs/js-the-right-way/pull/199",
-        "number": "#199"
-      }
+      { "type": "issue", "url": "https://github.com/braziljs/js-the-right-way/issues/185", "number": "#185" },
+      { "type": "pr", "url": "https://github.com/braziljs/js-the-right-way/pull/199", "number": "#199" }
     ]
   },
   {
     "name": "dahlia/dahlia.github.com",
     "url": "https://github.com/dahlia/dahlia.github.com",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/dahlia/dahlia.github.com/pull/1",
-        "number": "#1"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/dahlia/dahlia.github.com/pull/1", "number": "#1" }]
   },
   {
     "name": "dahlia/seonbi",
     "url": "https://github.com/dahlia/seonbi",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/dahlia/seonbi/pull/4",
-        "number": "#34"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/dahlia/seonbi/pull/4", "number": "#34" }]
   },
   {
     "name": "dropbox/sqlalchemy-stubs",
     "url": "https://github.com/dropbox/sqlalchemy-stubs",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/dropbox/sqlalchemy-stubs/pull/142",
-        "number": "#142"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/dropbox/sqlalchemy-stubs/pull/142", "number": "#142" }]
   },
   {
     "name": "earthreader/libearth",
     "url": "https://github.com/earthreader/libearth",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/earthreader/libearth/pull/69",
-        "number": "#69"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/earthreader/libearth/pull/74",
-        "number": "#74"
-      }
+      { "type": "pr", "url": "https://github.com/earthreader/libearth/pull/69", "number": "#69" },
+      { "type": "pr", "url": "https://github.com/earthreader/libearth/pull/74", "number": "#74" }
     ]
   },
   {
     "name": "emcconville/wand",
     "url": "https://github.com/emcconville/wand",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/emcconville/wand/pull/263",
-        "number": "#263"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/emcconville/wand/pull/263", "number": "#263" }]
   },
   {
     "name": "gatsbyjs/gatsby",
     "url": "https://github.com/gatsbyjs/gatsby",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/gatsbyjs/gatsby/issues/20310",
-        "number": "#20310"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/gatsbyjs/gatsby/pull/20654",
-        "number": "#20654"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/gatsbyjs/gatsby/pull/22518",
-        "number": "#22518"
-      }
+      { "type": "issue", "url": "https://github.com/gatsbyjs/gatsby/issues/20310", "number": "#20310" },
+      { "type": "pr", "url": "https://github.com/gatsbyjs/gatsby/pull/20654", "number": "#20654" },
+      { "type": "pr", "url": "https://github.com/gatsbyjs/gatsby/pull/22518", "number": "#22518" }
     ]
   },
   {
     "name": "gawel/aiocron",
     "url": "https://github.com/gawel/aiocron",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/gawel/aiocron/issues/9",
-        "number": "#9"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/gawel/aiocron/issues/9", "number": "#9" }]
   },
   {
     "name": "iamport/iamport-rest-client-python",
     "url": "https://github.com/iamport/iamport-rest-client-python",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/iamport/iamport-rest-client-python/pull/34",
-        "number": "#34"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/iamport/iamport-rest-client-python/pull/34", "number": "#34" }]
   },
   {
     "name": "joke2k/faker",
     "url": "https://github.com/joke2k/faker",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/joke2k/faker/issues/393",
-        "number": "#393"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/joke2k/faker/pull/398",
-        "number": "#398"
-      }
+      { "type": "issue", "url": "https://github.com/joke2k/faker/issues/393", "number": "#393" },
+      { "type": "pr", "url": "https://github.com/joke2k/faker/pull/398", "number": "#398" }
     ]
   },
   {
     "name": "kvesteri/sqlalchemy-utils",
     "url": "https://github.com/kvesteri/sqlalchemy-utils",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/kvesteri/sqlalchemy-utils/issues/259",
-        "number": "#259"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/kvesteri/sqlalchemy-utils/issues/259", "number": "#259" }]
   },
   {
     "name": "lektor/lektor",
     "url": "https://github.com/lektor/lektor",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/10",
-        "number": "#10"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/11",
-        "number": "#11"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/12",
-        "number": "#12"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/20",
-        "number": "#20"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/22",
-        "number": "#22"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/lektor/lektor/pull/91",
-        "number": "#91"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/lektor/lektor/pull/95",
-        "number": "#95"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/141",
-        "number": "#141"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/142",
-        "number": "#142"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/lektor/lektor/issues/243",
-        "number": "#243"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/lektor/lektor/pull/299",
-        "number": "#299"
-      }
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/10", "number": "#10" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/11", "number": "#11" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/12", "number": "#12" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/20", "number": "#20" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/22", "number": "#22" },
+      { "type": "pr", "url": "https://github.com/lektor/lektor/pull/91", "number": "#91" },
+      { "type": "pr", "url": "https://github.com/lektor/lektor/pull/95", "number": "#95" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/141", "number": "#141" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/142", "number": "#142" },
+      { "type": "issue", "url": "https://github.com/lektor/lektor/issues/243", "number": "#243" },
+      { "type": "pr", "url": "https://github.com/lektor/lektor/pull/299", "number": "#299" }
     ]
   },
   {
     "name": "lektor/lektor-website",
     "url": "https://github.com/lektor/lektor-website",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/lektor/lektor-website/pull/52",
-        "number": "#52"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/lektor/lektor-website/pull/52", "number": "#52" }]
   },
   {
     "name": "lexifdev/checkdnskr",
     "url": "https://github.com/lexifdev/checkdnskr",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/lexifdev/checkdnskr/pull/1",
-        "number": "#1"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/lexifdev/checkdnskr/pull/1", "number": "#1" }]
   },
   {
     "name": "linovia/sentry-hipchat",
     "url": "https://github.com/linovia/sentry-hipchat",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/linovia/sentry-hipchat/pull/28",
-        "number": "#28"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/linovia/sentry-hipchat/pull/28", "number": "#28" }]
   },
   {
     "name": "lxml/lxml-stubs",
     "url": "https://github.com/lxml/lxml-stubs",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/lxml/lxml-stubs/pull/20",
-        "number": "#20"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/lxml/lxml-stubs/pull/20", "number": "#20" }]
   },
   {
     "name": "microsoft/TypeScript-Website",
     "url": "https://github.com/microsoft/TypeScript-Website",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/microsoft/TypeScript-Website/pull/266",
-        "number": "#266"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/microsoft/TypeScript-Website/pull/266", "number": "#266" }]
   },
   {
     "name": "oneuijs/You-Dont-Need-jQuery",
     "url": "https://github.com/oneuijs/You-Dont-Need-jQuery",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/5",
-        "number": "#5"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/11",
-        "number": "#11"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/issues/42",
-        "number": "#42"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/issues/73",
-        "number": "#73"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/74",
-        "number": "#74"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/80",
-        "number": "#80"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/176",
-        "number": "#176"
-      }
+      { "type": "pr", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/5", "number": "#5" },
+      { "type": "pr", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/11", "number": "#11" },
+      { "type": "issue", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/issues/42", "number": "#42" },
+      { "type": "issue", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/issues/73", "number": "#73" },
+      { "type": "pr", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/74", "number": "#74" },
+      { "type": "pr", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/80", "number": "#80" },
+      { "type": "pr", "url": "https://github.com/oneuijs/You-Dont-Need-jQuery/pull/176", "number": "#176" }
     ]
   },
   {
     "name": "parcel-bundler/parcel",
     "url": "https://github.com/parcel-bundler/parcel",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/parcel-bundler/parcel/issues/187",
-        "number": "#187"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/parcel-bundler/parcel/issues/187", "number": "#187" }]
   },
   {
     "name": "parcel-bundler/website",
     "url": "https://github.com/parcel-bundler/website",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/43",
-        "number": "#43"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/44",
-        "number": "#44"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/47",
-        "number": "#47"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/82",
-        "number": "#82"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/parcel-bundler/website/pull/122",
-        "number": "#122"
-      }
+      { "type": "pr", "url": "https://github.com/parcel-bundler/website/pull/43", "number": "#43" },
+      { "type": "pr", "url": "https://github.com/parcel-bundler/website/pull/44", "number": "#44" },
+      { "type": "pr", "url": "https://github.com/parcel-bundler/website/pull/47", "number": "#47" },
+      { "type": "pr", "url": "https://github.com/parcel-bundler/website/pull/82", "number": "#82" },
+      { "type": "pr", "url": "https://github.com/parcel-bundler/website/pull/122", "number": "#122" }
     ]
   },
   {
     "name": "planetarium/bencodex-viewer",
     "url": "https://github.com/planetarium/bencodex-viewer",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/planetarium/bencodex-viewer/pull/2",
-        "number": "#2"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/planetarium/bencodex-viewer/pull/2", "number": "#2" }]
   },
   {
     "name": "planetarium/libplanet-explorer-frontend",
     "url": "https://github.com/planetarium/libplanet-explorer-frontend",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/planetarium/libplanet-explorer-frontend/pull/34",
-        "number": "#34"
-      }
+      { "type": "pr", "url": "https://github.com/planetarium/libplanet-explorer-frontend/pull/34", "number": "#34" }
+    ]
+  },
+  {
+    "name": "pygments/pygments",
+    "url": "https://github.com/pygments/pygments",
+    "items": [
+      { "type": "issue", "url": "https://github.com/pygments/pygments/issues/833", "number": "#833" },
+      { "type": "issue", "url": "https://github.com/pygments/pygments/issues/868", "number": "#868" }
     ]
   },
   {
     "name": "pypy/pypy",
-    "url": "https://bitbucket.org/pypy/pypy",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/pypy/pypy/pull-requests/346",
-        "number": "#346"
-      }
-    ]
+    "url": "https://foss.heptapod.net/pypy/pypy",
+    "items": [{ "type": "pr", "url": "https://foss.heptapod.net/pypy/pypy/-/merge_requests/346", "number": "#346" }]
   },
   {
     "name": "sass/libsass-python",
     "url": "https://github.com/sass/libsass-python",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/sass/libsass-python/pull/27",
-        "number": "#27"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/sass/libsass-python/issues/29",
-        "number": "#29"
-      }
+      { "type": "pr", "url": "https://github.com/sass/libsass-python/pull/27", "number": "#27" },
+      { "type": "issue", "url": "https://github.com/sass/libsass-python/issues/29", "number": "#29" }
     ]
   },
   {
     "name": "screendriver/plugin-sass",
     "url": "https://github.com/screendriver/plugin-sass",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/screendriver/plugin-sass/issues/13",
-        "number": "#13"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/screendriver/plugin-sass/issues/13", "number": "#13" }]
   },
   {
     "name": "smurfix/flask-script",
     "url": "https://github.com/smurfix/flask-script",
     "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/smurfix/flask-script/pull/115",
-        "number": "#115"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/smurfix/flask-script/pull/116",
-        "number": "#116"
-      }
+      { "type": "pr", "url": "https://github.com/smurfix/flask-script/pull/115", "number": "#115" },
+      { "type": "pr", "url": "https://github.com/smurfix/flask-script/pull/116", "number": "#116" }
     ]
   },
   {
     "name": "spoqa/import-order",
     "url": "https://github.com/spoqa/import-order",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/spoqa/import-order/issues/26",
-        "number": "#26"
-      },
-      {
-        "type": "pr",
-        "url": "https://github.com/spoqa/import-order/pull/27",
-        "number": "#27"
-      }
+      { "type": "issue", "url": "https://github.com/spoqa/import-order/issues/26", "number": "#26" },
+      { "type": "pr", "url": "https://github.com/spoqa/import-order/pull/27", "number": "#27" }
     ]
   },
   {
     "name": "spoqa/spoqa-han-sans",
     "url": "https://github.com/spoqa/spoqa-han-sans",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/spoqa/spoqa-han-sans/pull/58",
-        "number": "#58"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/spoqa/spoqa-han-sans/pull/58", "number": "#58" }]
   },
   {
     "name": "spoqa/sqlalchemy-enum34",
     "url": "https://github.com/spoqa/sqlalchemy-enum34",
     "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/spoqa/sqlalchemy-enum34/issues/3",
-        "number": "#3"
-      },
-      {
-        "type": "issue",
-        "url": "https://github.com/spoqa/sqlalchemy-enum34/issues/4",
-        "number": "#4"
-      }
+      { "type": "issue", "url": "https://github.com/spoqa/sqlalchemy-enum34/issues/3", "number": "#3" },
+      { "type": "issue", "url": "https://github.com/spoqa/sqlalchemy-enum34/issues/4", "number": "#4" }
     ]
   },
   {
     "name": "squizlabs/PHP_CodeSniffer",
     "url": "https://github.com/squizlabs/PHP_CodeSniffer",
-    "items": [
-      {
-        "type": "issue",
-        "url": "https://github.com/squizlabs/PHP_CodeSniffer/issues/760",
-        "number": "#760"
-      }
-    ]
+    "items": [{ "type": "issue", "url": "https://github.com/squizlabs/PHP_CodeSniffer/issues/760", "number": "#760" }]
   },
   {
     "name": "wagtail/Willow",
     "url": "https://github.com/wagtail/Willow",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/wagtail/Willow/pull/57",
-        "number": "#57"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/wagtail/Willow/pull/57", "number": "#57" }]
   },
   {
     "name": "xnuk/cinema-finder",
     "url": "https://github.com/xnuk/cinema-finder",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://github.com/xnuk/cinema-finder/pull/1",
-        "number": "#1"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://github.com/xnuk/cinema-finder/pull/1", "number": "#1" }]
   },
   {
     "name": "zzzeek/alembic",
     "url": "https://bitbucket.org/zzzeek/alembic",
-    "items": [
-      {
-        "type": "pr",
-        "url": "https://bitbucket.org/zzzeek/alembic/pull-requests/54",
-        "number": "#54"
-      }
-    ]
+    "items": [{ "type": "pr", "url": "https://bitbucket.org/zzzeek/alembic/pull-requests/54", "number": "#54" }]
   }
 ]

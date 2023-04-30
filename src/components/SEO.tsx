@@ -1,18 +1,25 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import React from 'react';
+import type { FC } from 'react';
+import type { ProfilePage } from 'schema-dts';
 
 import { site } from '@/core/constants';
 
 interface SEOProps {
   title?: string;
-  description?: string;
+  description: string;
+  noindex?: boolean;
+  structuredData?: ProfilePage;
 }
 
-const SEO: React.FC<SEOProps> = ({ title, description }) => {
+const SEO: FC<SEOProps> = ({ title, description, noindex = false, structuredData }) => {
   const router = useRouter();
   const url = `${site.url}${router.pathname}`;
   const titleText = title ? `${title} - ${site.title}` : site.title;
+  const JSONLD = {
+    '@context': 'https://schema.org',
+    ...structuredData,
+  };
 
   return (
     <Head>
@@ -38,6 +45,13 @@ const SEO: React.FC<SEOProps> = ({ title, description }) => {
       <meta name='author' content={site.owner} />
       <meta name='description' content={description} />
       <meta name='keywords' content={site.tags.join(',')} />
+      {noindex ? (
+        <meta name='robots' content='noindex' />
+      ) : (
+        structuredData && (
+          <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(JSONLD) }} />
+        )
+      )}
     </Head>
   );
 };

@@ -1,4 +1,4 @@
-const path = require('path');
+import path from 'node:path';
 
 /** @type {import('next-sitemap').IConfig} */
 const config = {
@@ -8,4 +8,4 @@ const config = {
   generateRobotsTxt: true,
 };
 
-module.exports = config;
+export default config;

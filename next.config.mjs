@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-  compiler: {
-    emotion: true,
-  },
   trailingSlash: true,
+  output: 'export',
+  productionBrowserSourceMaps: true,
 };
 
-module.exports = nextConfig;
+export default nextConfig;

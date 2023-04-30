@@ -1,17 +1,15 @@
 import Script from 'next/script';
-import React from 'react';
+import type { FC } from 'react';
 
 interface GoogleAnalyticsScriptProps {
-  measurement_id: string;
+  measurementId: string;
 }
-export const GoogleAnalyticsScript: React.FC<GoogleAnalyticsScriptProps> = ({
-  measurement_id,
-}) => {
+export const GoogleAnalyticsScript: FC<GoogleAnalyticsScriptProps> = ({ measurementId }) => {
   return (
     <>
       <Script
         id='google_analytics'
-        src={`https://www.googletagmanager.com/gtag/js?id=${measurement_id}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
         strategy='afterInteractive'
         async
       />

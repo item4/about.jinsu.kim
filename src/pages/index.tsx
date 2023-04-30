@@ -1,41 +1,30 @@
 import type { NextPage } from 'next';
-
-import styled from '@emotion/styled';
 import Link from 'next/link';
 
 import Layout from '@/components/Layout';
 import SEO from '@/components/SEO';
 
-const PageList = styled.ul`
-  margin-left: 2.5rem;
-`;
-const PageLink = styled.a`
-  font-family: 'Merriweather Sans', serif;
-  font-size: 1.3rem;
-`;
-
 const IndexPage: NextPage = () => {
   return (
-    <Layout>
-      <SEO />
-      <h1>Index</h1>
-      <PageList>
+    <Layout pageType='index'>
+      <SEO description='item4라는 별명을 쓰는 한국인 개발자 김진수의 자기소개 사이트' />
+      <ul className='index'>
         <li>
           <Link href='/resume'>
-            <PageLink>Résumé</PageLink>
+            <span>이력서</span>
           </Link>
         </li>
         <li>
           <Link href='/parttime'>
-            <PageLink>Part-time Job</PageLink>
+            <span>파트타임</span>
           </Link>
         </li>
         <li>
           <Link href='/faq'>
-            <PageLink>FAQ</PageLink>
+            <span>FAQ</span>
           </Link>
         </li>
-      </PageList>
+      </ul>
     </Layout>
   );
 };

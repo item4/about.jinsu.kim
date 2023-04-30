@@ -25,10 +25,10 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.7'
+          node-version: '18.16'
       - name: Get yarn cache
         id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+        run: echo "dir=$(yarn cache dir)" >> $GITHUB_OUTPUT
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
@@ -37,11 +37,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - name: Install
-        run: yarn install
+        run: yarn
       - name: Check type errors
-        run: yarn type-check
+        run: "yarn check:type"
       - name: Check coding convention
-        run: yarn lint
+        run: "yarn check:lint"
       - name: Generate static website pages
         run: yarn build
       - name: Upload artifacts

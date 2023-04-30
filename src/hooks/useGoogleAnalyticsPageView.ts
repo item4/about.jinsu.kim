@@ -13,16 +13,12 @@ type gtagFunctionConfig = (
   measurement_id: string,
   config: gtagParams & { send_page_view?: boolean },
 ) => void;
-type gtagFunctionExtra = (
-  method: 'event',
-  category: string,
-  params?: gtagParams,
-) => void;
+type gtagFunctionExtra = (method: 'event', category: string, params?: gtagParams) => void;
 type gtagFunction = gtagFunctionJs & gtagFunctionConfig & gtagFunctionExtra;
 declare global {
   interface Window {
     gtag: gtagFunction;
-    dataLayer: any[];
+    dataLayer: unknown[];
   }
 }
 
@@ -33,6 +29,7 @@ export const useGoogleAnalyticsPageView = (measurement_id: string) => {
     window.gtag =
       window.gtag ||
       function () {
+        // eslint-disable-next-line prefer-rest-params
         window.dataLayer.push(arguments);
       };
     window.gtag('js', new Date());
