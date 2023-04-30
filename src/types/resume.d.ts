@@ -22,6 +22,8 @@ export interface ContributionDetail {
 export interface Contribution {
   name: string;
   url: string;
+  group: number;
+  order: number;
   items: ContributionDetail[];
 }
 export interface NotablePoint {

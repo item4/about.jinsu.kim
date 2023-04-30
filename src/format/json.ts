@@ -11,9 +11,27 @@ const main = async () => {
   const contributionDataPath = path.join(process.cwd(), 'src', 'data', 'contributions.json');
   const contributionData: Contribution[] = JSON.parse(await fs.readFile(contributionDataPath, 'utf8'));
   const result = contributionData.sort((a, b) => {
-    if (a.name < b.name) return -1;
-    else if (a.name > b.name) return 1;
-    else return 0;
+    if (a.group < b.group) {
+      return -1;
+    }
+    if (a.group > b.group) {
+      return 1;
+    }
+    if (a.order < b.order) {
+      return -1;
+    }
+    if (a.order > b.order) {
+      return 1;
+    }
+    const nameA = a.name.split('/')[1].toLowerCase();
+    const nameB = b.name.split('/')[1].toLowerCase();
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+    return 0;
   });
   const prettierOptions = await prettier.resolveConfig(contributionDataPath, { config: prettierConfigPath });
   const formatted = prettier.format(JSON.stringify(result), {
