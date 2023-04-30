@@ -39,7 +39,7 @@
     "serve": "^14.2.0"
   },
   "scripts": {
-    "build": "yarn build:next && yarn:build:sitemap && yarn build:etc",
+    "build": "yarn build:next && yarn build:sitemap && yarn build:etc",
     "build:next": "next build",
     "build:sitemap": "next-sitemap --config next-sitemap.config.mjs",
     "build:etc": "yarn swc-node src/core/postbuild",
