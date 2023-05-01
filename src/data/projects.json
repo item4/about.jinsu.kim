@@ -20,6 +20,10 @@
       "repo_url": "https://github.com/item4/kfonts",
       "keywords": ["CSS", "React", "Library", "NPM"]
     },
+    "drf-yasg-examples": {
+      "repo_url": "https://github.com/item4/drf-yasg-examples",
+      "keywords": ["Python", "Django", "Library", "Poetry", "PyPI", "Documentation"]
+    },
     "item4 dev story": {
       "repo_url": "https://github.com/item4/item4.github.io",
       "keywords": ["TypeScript", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
@@ -44,9 +48,9 @@
   "keywords": {
     "프로그래밍 언어": ["Python", "Rust", "TypeScript", "CSS"],
     "유형": ["Slack Bot", "Library", "CLI Tool", "API Service", "Website"],
-    "Python 생태계": ["asyncio", "aiohttp", "pytest", "Poetry", "Ruff", "Black", "mypy"],
+    "Python 생태계": ["asyncio", "Django", "aiohttp", "pytest", "Poetry", "Ruff", "Black", "mypy"],
     "Frontend 생태계": ["React", "Next.js", "ESLint", "Prettier"],
-    "개발 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM"],
-    "기타": ["Archived"]
+    "빌드 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM"],
+    "기타": ["Documentation", "Archived"]
   }
 }
