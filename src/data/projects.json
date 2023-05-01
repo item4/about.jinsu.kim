@@ -40,14 +40,18 @@
       "repo_url": "https://github.com/item4/aiohttp-doh",
       "keywords": ["Python", "Library", "aiohttp", "PyPI"]
     },
+    "canIEuse": {
+      "repo_url": "https://github.com/item4/canIEuse",
+      "keywords": ["JavaScript", "CSS", "Document", "Archived"]
+    },
     "성 키우기 도구모음": {
       "repo_url": "https://github.com/item4/growcastle.tools",
       "keywords": ["TypeScript", "React", "Website", "Archived"]
     }
   },
   "keywords": {
-    "프로그래밍 언어": ["Python", "Rust", "TypeScript", "CSS"],
-    "유형": ["Slack Bot", "Library", "CLI Tool", "API Service", "Website"],
+    "프로그래밍 언어": ["Python", "Rust", "TypeScript", "JavaScript", "CSS"],
+    "유형": ["Slack Bot", "Library", "CLI Tool", "API Service", "Website", "Document"],
     "Python 생태계": ["asyncio", "Django", "aiohttp", "pytest", "Poetry", "Ruff", "Black", "mypy"],
     "Frontend 생태계": ["React", "Next.js", "ESLint", "Prettier"],
     "빌드 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM"],
