@@ -7,17 +7,17 @@ const OpensourceContributionSection: FC = () => {
   return (
     <section>
       <h2>오픈소스 기여</h2>
-      <dl>
-        {data.map((contrib, index) => {
+      <dl className='contribution'>
+        {data.map((contrib) => {
           return (
-            <Fragment key={index}>
+            <Fragment key={contrib.name}>
               <dt>
                 <a href={contrib.url} rel='external'>
                   {contrib.name}
                 </a>
               </dt>
               <dd>
-                <ul className='contribution'>
+                <ul>
                   {contrib.items.map((item) => {
                     return (
                       <li key={item.number}>
