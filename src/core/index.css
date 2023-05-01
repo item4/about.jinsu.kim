@@ -192,6 +192,31 @@ main.index li a[href='/faq/'] {
 }
 
 /* resume page only */
+.project {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(20%, max-content) minmax(60%, max-content);
+  max-width: 80vw;
+  margin: auto;
+}
+.project > dl ul li:not(:last-of-type) {
+  margin-block-end: 0;
+}
+.project > dl.highlight :is(dt, dd, li) {
+  color: #888;
+}
+.project > dl.highlight .active {
+  color: #000;
+}
+.project > dl.highlight li.active {
+  text-decoration: underline;
+}
+.project > ul {
+  list-style-position: outside;
+}
+.project > ul a.active {
+  font-weight: bold;
+}
 dl.contribution {
   max-width: 90vw;
 }
@@ -235,6 +260,28 @@ main.faq ol {
 }
 
 @media (max-width: 870px) {
+  .project {
+    display: block;
+    margin: unset;
+    padding-inline: var(--sub-section-padding-inline);
+  }
+  .pc-only,
+  .project > dl {
+    display: none;
+  }
+  .project > ul,
+  .project > ul li {
+    width: fit-content;
+  }
+  .project > ul a::after {
+    color: #888;
+    content: '(' attr(href) ')';
+    font-size: 0.8rem;
+    margin-inline-start: 0.5rem;
+  }
+  .project > ul a.active {
+    font-weight: initial;
+  }
   dl.contribution,
   dl.contribution :is(dt, dd) {
     display: block;

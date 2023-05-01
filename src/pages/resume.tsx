@@ -5,6 +5,7 @@ import SEO from '@/components/SEO';
 import NotablePointSection from '@/components/resume/NotablePointSection';
 import OpensourceContributionSection from '@/components/resume/OpensourceContributionSection';
 import ProfileSection from '@/components/resume/ProfileSection';
+import ProjectSection from '@/components/resume/ProjectSection';
 import SummarySection from '@/components/resume/SummarySection';
 import WorkExperienceSection from '@/components/resume/WorkExperienceSection';
 import { RESUME_PAGE } from '@/core/structuredData';
@@ -17,6 +18,7 @@ const ResumePage: NextPage = () => {
       <ProfileSection />
       <SummarySection />
       <WorkExperienceSection />
+      <ProjectSection />
       <OpensourceContributionSection />
       <NotablePointSection />
     </Layout>

@@ -30,3 +30,10 @@ export interface NotablePoint {
   url: string;
   descriptions: string[];
 }
+export interface ProjectKeywordMap {
+  [category: string]: string[];
+}
+export interface Project {
+  repo_url: string;
+  keywords: string[];
+}

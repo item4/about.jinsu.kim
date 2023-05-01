@@ -16,6 +16,15 @@ declare module '@/data/contributions.json' {
   export = data;
 }
 
+declare module '@/data/projects.json' {
+  import type { ProjectKeywordMap, Project } from '@/types/resume';
+  const data: {
+    projects: Record<string, Project>;
+    keywords: ProjectKeywordMap;
+  };
+  export = data;
+}
+
 declare module '@/data/notable-points.json' {
   import type { NotablePoint } from '@/types/resume';
   const data: NotablePoint[];
