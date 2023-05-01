@@ -40,7 +40,7 @@ const PartTimeJobPage: NextPage = () => {
       <section>
         <h2>지불 수단</h2>
         <ul>
-          <li>KRW 계좌이체 (default, recommand)</li>
+          <li>KRW 계좌이체 (default, recommended)</li>
           <li>KRW Google Gift Card (fallback)</li>
           <li>BTC: 35Y8fGLru7LpcR9auaD4PiNKU79keevpjd (KRW 대비 가격 20% 할증)</li>
           <li>ETH: 0xfcf871a37f396fad5b16917f081f3cb970b9020a (KRW 대비 가격 20% 할증)</li>
