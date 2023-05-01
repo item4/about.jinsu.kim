@@ -10,6 +10,8 @@
   --index-faq-bg-color: hsl(38deg 88% 87%);
   --link-underline-width: 0.15rem;
   --link-underline-color: hsl(210deg 80% 80%);
+  --sub-section-padding-inline: 1rem;
+  --nested-dl-margin-inline: 1rem;
 }
 body {
   font-family: var(--font-family, sans-serif);
@@ -58,7 +60,7 @@ main {
   width: 95vw;
 }
 section > :is(section, dl, ul, ol, p) {
-  padding-inline: 1rem;
+  padding-inline: var(--sub-section-padding-inline);
   margin-block-end: 1rem;
 }
 
@@ -138,10 +140,10 @@ dd:has(> section) {
   left: -2.5rem;
 }
 dd > section > dl {
-  margin-inline: 1rem;
+  margin-inline: var(--nested-dl-margin-inline);
 }
 dd > section > dl :is(dd, .inline) {
-  max-width: calc(90vw - 12rem);
+  max-width: calc(90vw - 10rem - var(--nested-dl-margin-inline) * 2);
 }
 dd > ul {
   margin: 0;
@@ -190,9 +192,14 @@ main.index li a[href='/faq/'] {
 }
 
 /* resume page only */
+dl.contribution {
+  max-width: 90vw;
+}
 dl.contribution ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  max-width: 50vw;
 }
 dl.contribution ul li {
   flex-basis: fit-content;
@@ -204,6 +211,9 @@ dl.contribution ul li:not(:last-of-type) {
 dl.contribution ul a {
   border-block-end: var(--link-underline-width) dotted var(--link-underline-color);
   text-decoration: none;
+}
+dl.contribution ul a:is(:hover, :focus) {
+  font-weight: bold;
 }
 dl.contribution ul a::before {
   content: '#';
@@ -224,9 +234,39 @@ main.faq ol {
   list-style-position: inside;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 870px) {
+  dl.contribution,
+  dl.contribution :is(dt, dd) {
+    display: block;
+    flex: unset;
+  }
+  dl.contribution dt {
+    text-align: unset;
+    margin-block-end: 0.5rem;
+  }
+  dl.contribution dd {
+    margin-block-end: 1rem;
+    margin-inline: 0.5rem;
+  }
+  dl.contribution dd ul::before {
+    color: #888;
+    content: '⦁';
+    margin-inline-end: 0.5rem;
+    vertical-align: baseline;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --sub-section-padding-inline: 0.5rem;
+    --nested-dl-margin-inline: 0rem;
+  }
   header {
     display: none;
+  }
+  main {
+    padding-block-start: 1rem;
+    width: 90vw;
   }
 }
 
