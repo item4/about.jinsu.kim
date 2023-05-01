@@ -75,7 +75,7 @@ main:not(.index) a[href] {
   border-block-end: var(--link-underline-width) solid var(--link-underline-color);
 }
 
-main:not(.index) :not(ul.inline, dl.contribution ul) > li::before {
+main:not(.index) :not(ul.inline, dl.contribution ul, ol) > li::before {
   color: #444;
   content: '⦁';
   margin-inline-end: 0.5rem;
