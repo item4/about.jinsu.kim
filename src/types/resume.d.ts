@@ -15,9 +15,8 @@ export interface WorkExperience {
   }[];
 }
 export interface ContributionDetail {
-  type: 'issue' | 'pr';
   url: string;
-  number: string;
+  number: number;
 }
 export interface Contribution {
   name: string;
