@@ -1,6 +1,6 @@
 import type { ProfilePage } from 'schema-dts';
 
-import workExperienceData from '@/data/work-experiences.json';
+import workExperienceData from '@/data/work-experiences.json' assert { type: 'json' };
 
 export const RESUME_PAGE: ProfilePage = {
   '@type': 'ProfilePage',

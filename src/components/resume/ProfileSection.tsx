@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import data from '@/data/related-links.json';
+import data from '@/data/related-links.json' assert { type: 'json' };
 
 const ProfileSection: FC = () => {
   return (

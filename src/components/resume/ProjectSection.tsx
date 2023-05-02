@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Fragment, useState } from 'react';
 
-import data from '@/data/projects.json';
+import data from '@/data/projects.json' assert { type: 'json' };
 
 type Data = typeof data;
 type ProjectName = keyof Data['projects'];
