@@ -39,9 +39,9 @@ jobs:
       - name: Install
         run: yarn
       - name: Check type errors
-        run: "yarn check:type"
+        run: 'yarn check:type'
       - name: Check coding convention
-        run: "yarn check:lint"
+        run: 'yarn check:lint'
       - name: Generate static website pages
         run: yarn build
       - name: Upload artifacts
