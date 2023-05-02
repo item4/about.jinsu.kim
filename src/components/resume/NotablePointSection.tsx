@@ -1,6 +1,7 @@
 import type { FC } from 'react';
 
 import data from '@/data/notable-points.json' assert { type: 'json' };
+
 const NotablePointSection: FC = () => {
   return (
     <section>

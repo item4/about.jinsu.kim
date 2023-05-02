@@ -15,6 +15,7 @@ module.exports = {
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never', propElementValues: 'always' }],
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
+    'import/newline-after-import': ['error', { count: 1 }],
     'import/no-duplicates': 'error',
     'import/order': [
       'error',
