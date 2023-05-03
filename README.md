@@ -12,7 +12,7 @@ yarn
 
 ```bash
 # Setup husky for pre-commit hooks
-yarn setup:husky
+yarn setup
 # Launch development server
 yarn start
 ```

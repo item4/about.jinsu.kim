@@ -43,6 +43,7 @@
     "build:next": "next build",
     "build:sitemap": "next-sitemap --config next-sitemap.config.mjs",
     "build:etc": "yarn swc-node src/core/postbuild/index.ts",
+    "setup": "yarn setup:husky",
     "setup:husky": "husky install",
     "check": "yarn check:lint && yarn check:type",
     "check:lint": "next lint",
