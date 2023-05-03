@@ -41,7 +41,6 @@ module.exports = {
         alwaysTryTypes: true,
         project: './tsconfig.json',
       },
-      'import/ignore': ['.css$'],
     },
   },
 };
