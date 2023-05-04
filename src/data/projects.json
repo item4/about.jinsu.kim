@@ -26,11 +26,11 @@
     },
     "item4 dev story": {
       "repo_url": "https://github.com/item4/item4.github.io",
-      "keywords": ["TypeScript", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
+      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
     },
     "About Jinsu Kim": {
       "repo_url": "https://github.com/item4/about.jinsu.kim",
-      "keywords": ["TypeScript", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
+      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
     },
     "ugoira": {
       "repo_url": "https://github.com/item4/ugoira",
@@ -53,7 +53,7 @@
     "프로그래밍 언어": ["Python", "Rust", "TypeScript", "JavaScript", "CSS"],
     "유형": ["Slack Bot", "Library", "CLI Tool", "API Service", "Website", "Document"],
     "Python 생태계": ["asyncio", "Django", "aiohttp", "pytest", "Poetry", "Ruff", "Black", "mypy", "Read the Docs"],
-    "Frontend 생태계": ["React", "Next.js", "ESLint", "Prettier"],
+    "Frontend 생태계": ["ESM", "React", "Next.js", "ESLint", "Prettier"],
     "빌드 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM"],
     "기타": ["Documentation", "Archived"]
   }
