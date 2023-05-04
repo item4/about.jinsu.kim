@@ -4,7 +4,8 @@
       "repo_url": "https://github.com/item4/yui",
       "keywords": [
         "Python",
-        "Slack Bot",
+        "단일 프로그램",
+        "챗봇",
         "asyncio",
         "aiohttp",
         "Poetry",
@@ -18,43 +19,46 @@
     },
     "@kfonts": {
       "repo_url": "https://github.com/item4/kfonts",
-      "keywords": ["CSS", "React", "Library", "NPM"]
+      "keywords": ["CSS", "웹 폰트", "React", "라이브러리", "NPM"]
     },
     "drf-yasg-examples": {
       "repo_url": "https://github.com/item4/drf-yasg-examples",
-      "keywords": ["Python", "Django", "Library", "Poetry", "PyPI", "Documentation"]
+      "keywords": ["Python", "Django", "라이브러리", "Poetry", "PyPI", "문서화 도구"]
     },
     "item4 dev story": {
       "repo_url": "https://github.com/item4/item4.github.io",
-      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
+      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "웹사이트", "GitHub Actions"]
     },
     "About Jinsu Kim": {
       "repo_url": "https://github.com/item4/about.jinsu.kim",
-      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "Website", "GitHub Actions"]
+      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "웹사이트", "GitHub Actions"]
     },
     "ugoira": {
       "repo_url": "https://github.com/item4/ugoira",
-      "keywords": ["Python", "CLI Tool", "pytest", "Read the Docs", "PyPI"]
+      "keywords": ["Python", "CLI 도구", "pytest", "Read the Docs", "PyPI"]
     },
     "aiohttp-doh": {
       "repo_url": "https://github.com/item4/aiohttp-doh",
-      "keywords": ["Python", "Library", "aiohttp", "PyPI"]
+      "keywords": ["Python", "라이브러리", "aiohttp", "PyPI"]
     },
     "canIEuse": {
       "repo_url": "https://github.com/item4/canIEuse",
-      "keywords": ["JavaScript", "CSS", "Document", "Archived"]
+      "keywords": ["JavaScript", "CSS", "문서", "개발 중단됨"]
     },
     "성 키우기 도구모음": {
       "repo_url": "https://github.com/item4/growcastle.tools",
-      "keywords": ["TypeScript", "React", "Website", "Archived"]
+      "keywords": ["TypeScript", "React", "웹사이트", "개발 중단됨"]
     }
   },
   "keywords": {
     "프로그래밍 언어": ["Python", "Rust", "TypeScript", "JavaScript", "CSS"],
-    "유형": ["Slack Bot", "Library", "CLI Tool", "API Service", "Website", "Document"],
-    "Python 생태계": ["asyncio", "Django", "aiohttp", "pytest", "Poetry", "Ruff", "Black", "mypy", "Read the Docs"],
-    "Frontend 생태계": ["ESM", "React", "Next.js", "ESLint", "Prettier"],
-    "빌드 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM"],
-    "기타": ["Documentation", "Archived"]
+    "유형": ["단일 프로그램", "라이브러리", "CLI 도구", "API 서비스", "웹사이트", "문서"],
+    "용도": ["챗봇", "웹 폰트", "문서화 도구"],
+    "Python 프로젝트 구성": ["asyncio", "Django", "aiohttp", "Poetry"],
+    "Python 코드 품질 관리": ["pytest", "Ruff", "Black", "mypy"],
+    "Frontend 프로젝트 구성": ["ESM", "React", "Next.js"],
+    "Frontend 코드 품질 관리": ["ESLint", "Prettier"],
+    "빌드 및 배포": ["GitHub Actions", "Docker", "PyPI", "NPM", "Read the Docs"],
+    "기타": ["개발 중단됨"]
   }
 }
