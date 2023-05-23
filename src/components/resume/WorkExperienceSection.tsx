@@ -40,6 +40,8 @@ const WorkExperienceSection: FC = () => {
                 부터 <time>{work.ended_at}</time>
                 까지
               </dd>
+              <dt>업무 개요</dt>
+              <dd>{work.total_summary}</dd>
               <dt>업무 내용</dt>
               <dd>
                 {work.tasks.map(({ summary, desc, keywords }) => {

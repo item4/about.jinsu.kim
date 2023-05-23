@@ -5,6 +5,7 @@
     "position": "백엔드 개발자",
     "started_at": "2021년 6월",
     "ended_at": "2023년 4월",
+    "total_summary": "Python Django 기반 백엔드 서버 개발 및 CI/CD 개선, React 기반 프론트엔드 구축",
     "tasks": [
       {
         "summary": "Python 백엔드 서버 개발",
@@ -56,6 +57,7 @@
     "position": "백엔드 개발자",
     "started_at": "2020년 4월",
     "ended_at": "2021년 2월",
+    "total_summary": "Python Django 기반 백엔드 서버 개발 및 Shopify, TypeScript 등을 활용한 부가적 개발",
     "tasks": [
       {
         "summary": "Python 백엔드 서버 개발",
@@ -86,6 +88,7 @@
     "position": "백엔드 개발자",
     "started_at": "2018년 4월",
     "ended_at": "2019년 7월",
+    "total_summary": "Python Django 기반 백엔드 서버 개발부터 AWS 환경으로의 배포, Vue.js와 TypeScript 기반 수정 등등",
     "tasks": [
       {
         "summary": "Python 백엔드 서버 개발",
@@ -113,6 +116,7 @@
     "position": "웹 개발 인턴",
     "started_at": "2014년 12월",
     "ended_at": "2015년 1월",
+    "total_summary": "Python Django 기반 백엔드 서버 개발 등등",
     "tasks": [
       {
         "summary": "Python 백엔드 서버 개발",
@@ -131,6 +135,7 @@
     "position": "웹 개발자",
     "started_at": "2012년 11월",
     "ended_at": "2014년 1월",
+    "total_summary": "jQuery나 PHP등을 활용한 웹 사이트 용역 개발",
     "tasks": [
       {
         "summary": "웹사이트 개발",

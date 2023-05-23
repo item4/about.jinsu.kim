@@ -8,6 +8,7 @@ export interface WorkExperience {
   position: string;
   started_at: string;
   ended_at: string;
+  total_summary: string;
   tasks: {
     summary: string;
     desc: string[];
