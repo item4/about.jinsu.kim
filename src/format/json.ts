@@ -1,15 +1,30 @@
 /* eslint-disable import/no-named-as-default-member */
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import * as process from 'process';
 
+import { Validator } from '@cfworker/json-schema';
 import prettier from 'prettier';
 
 import type { Contribution, ContributionDetail } from '@/types/resume';
 
 const main = async () => {
+  const formatting = process.argv[process.argv.length - 1] === '--format';
   const prettierConfigPath = path.join(process.cwd(), '.prettierrc.json');
+  const contributionSchemaPath = path.join(process.cwd(), 'schemas', 'contributions.json');
   const contributionDataPath = path.join(process.cwd(), 'src', 'data', 'contributions.json');
+  const contributionSchema = JSON.parse(await fs.readFile(contributionSchemaPath, 'utf8'));
+  const schemaValidator = new Validator(contributionSchema, '2020-12', false);
   const contributionData: Contribution[] = JSON.parse(await fs.readFile(contributionDataPath, 'utf8'));
+  const validation = schemaValidator.validate(contributionData);
+  if (!validation.valid) {
+    console.error(...validation.errors);
+    process.exit(1);
+  }
+  if (!formatting) {
+    process.exit(0);
+  }
+
   contributionData.forEach((contrib) => {
     contrib.items = contrib.items
       .map((item) => {

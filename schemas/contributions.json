@@ -5,10 +5,10 @@
   "description": "A dataset of open source contributions",
   "type": "array",
   "items": {
-    "$ref": "#/$defs/contribution",
-    "minContains": 1,
-    "uniqueItems": true
+    "$ref": "#/$defs/contribution"
   },
+  "minItems": 1,
+  "uniqueItems": true,
   "$defs": {
     "contribution": {
       "type": "object",
@@ -37,10 +37,10 @@
           "type": "array",
           "description": "List of link and number of each contributions",
           "items": {
-            "$ref": "#/$defs/link",
-            "minContains": 1,
-            "uniqueItems": true
-          }
+            "$ref": "#/$defs/link"
+          },
+          "minItems": 1,
+          "uniqueItems": true
         }
       }
     },
