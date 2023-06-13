@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/item4/about.jinsu.kim/tree/main/schemas/contributions.json",
+  "title": "Contributions",
+  "description": "A dataset of open source contributions",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/contribution",
+    "minContains": 1,
+    "uniqueItems": true
+  },
+  "$defs": {
+    "contribution": {
+      "type": "object",
+      "required": ["name", "url", "group", "order", "items"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "A name of open source project repository"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The URL of open source project repository"
+        },
+        "group": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Group number for sorting items"
+        },
+        "order": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Ordering for sorting items"
+        },
+        "items": {
+          "type": "array",
+          "description": "List of link and number of each contributions",
+          "items": {
+            "$ref": "#/$defs/link",
+            "minContains": 1,
+            "uniqueItems": true
+          }
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "required": ["number", "url"],
+      "properties": {
+        "number": {
+          "type": "number",
+          "minimum": 1,
+          "description": "The unique number of contribution link"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "description": "URL of contribution"
+        }
+      }
+    }
+  }
+}
