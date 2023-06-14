@@ -324,6 +324,9 @@ main.faq ol {
   main {
     width: 100vw;
   }
+  dl.contribution ul {
+    max-width: unset;
+  }
   dl.contribution ul li:not(:last-of-type)::after {
     content: ',';
   }

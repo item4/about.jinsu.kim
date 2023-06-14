@@ -14,6 +14,7 @@ export interface WorkExperience {
     desc: string[];
     keywords: string[];
   }[];
+  break_before: boolean;
 }
 export interface ContributionDetail {
   url: string;

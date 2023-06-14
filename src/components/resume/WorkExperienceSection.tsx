@@ -2,19 +2,11 @@ import type { FC } from 'react';
 
 import data from '@/data/work-experiences.json' assert { type: 'json' };
 
-const sum = (arr: number[]): number => arr.reduce((p, c) => p + c, 0);
 const WorkExperienceSection: FC = () => {
-  let lineCount = 14; // before works
-  let needBreaking = false;
   return (
     <section>
       <h2>업무 경력</h2>
       {data.map((work) => {
-        let className = undefined;
-        if (needBreaking) {
-          className = 'page-break';
-          needBreaking = false;
-        }
         const name = work.url ? (
           <a href={work.url} rel='external'>
             {work.name}
@@ -22,14 +14,8 @@ const WorkExperienceSection: FC = () => {
         ) : (
           work.name
         );
-        lineCount += 4 + sum(work.tasks.map(({ desc }) => sum(desc.map((text) => (text.length / 40) | 0))));
-        if (lineCount >= 18) {
-          needBreaking = true;
-          lineCount = 0;
-        }
-
         return (
-          <section key={work.name} className={className}>
+          <section key={work.name} className={work.break_before ? 'page-break' : undefined}>
             <h3>{name}</h3>
             <dl>
               <dt>포지션</dt>

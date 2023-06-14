@@ -49,7 +49,8 @@
         ],
         "keywords": ["Slack"]
       }
-    ]
+    ],
+    "break_before": false
   },
   {
     "name": "ODK Media",
@@ -80,7 +81,8 @@
         ],
         "keywords": ["TypeScript"]
       }
-    ]
+    ],
+    "break_before": true
   },
   {
     "name": "브랜더진",
@@ -108,7 +110,8 @@
         ],
         "keywords": ["Python", "Django", "django-rest-framework", "AWS", "Docker", "CircleCI", "TypeScript", "Vue.js"]
       }
-    ]
+    ],
+    "break_before": false
   },
   {
     "name": "XS Inc.",
@@ -127,7 +130,8 @@
         ],
         "keywords": ["Python", "Django", "NGINX", "WSGI"]
       }
-    ]
+    ],
+    "break_before": false
   },
   {
     "name": "비즈원",
@@ -147,6 +151,7 @@
         ],
         "keywords": ["PHP", "JavaScirpt", "jQuery"]
       }
-    ]
+    ],
+    "break_before": true
   }
 ]
