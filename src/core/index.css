@@ -155,6 +155,9 @@ dd > ul > li {
 dd > section:not(:last-of-type) {
   margin-block-end: 1.2rem;
 }
+.print-only {
+  display: none;
+}
 
 /* index page only */
 main.index ul {
@@ -318,6 +321,9 @@ main.faq ol {
 }
 
 @media print {
+  .print-only {
+    display: initial;
+  }
   header {
     display: none;
   }

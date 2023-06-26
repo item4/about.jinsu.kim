@@ -24,6 +24,11 @@ const ProfileSection: FC = () => {
         <dt>Links</dt>
         <dd>
           <ul className='inline'>
+            <li className='print-only'>
+              <a href='https://about.jinsu.kim/resume/' rel='me'>
+                공개 이력서 (웹 버전)
+              </a>
+            </li>
             {data.map((link) => (
               <li key={link.name}>
                 <a href={link.url} rel='me'>
