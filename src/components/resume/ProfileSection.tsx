@@ -4,7 +4,7 @@ import data from '@/data/related-links.json' assert { type: 'json' };
 
 const ProfileSection: FC = () => {
   return (
-    <section>
+    <section className='profile'>
       <h2>기본 정보</h2>
       <dl>
         <dt>이름</dt>

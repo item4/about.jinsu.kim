@@ -330,8 +330,22 @@ main.faq ol {
   main {
     width: 100vw;
   }
-  main .project > ul a[href] {
+  main :is(.project, .profile) a[href] {
     border-block-end: unset;
+  }
+  main .profile ul.inline,
+  main .profile ul.inline li {
+    display: block;
+    margin-block-end: 0;
+  }
+  main .profile ul.inline li::after {
+    content: unset;
+  }
+  main .profile ul.inline li a[href]::after {
+    color: #888;
+    content: '(' attr(href) ')';
+    font-size: 0.85rem;
+    margin-inline-start: 0.5rem;
   }
   dl.contribution {
     display: grid;
