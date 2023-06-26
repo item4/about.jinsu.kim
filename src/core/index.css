@@ -324,11 +324,35 @@ main.faq ol {
   main {
     width: 100vw;
   }
+  main .project > ul a[href] {
+    border-block-end: unset;
+  }
+  dl.contribution {
+    display: grid;
+    grid-template-columns: fit-content(40vw) auto;
+  }
+  dl.contribution :is(dt, dd) {
+    margin-block-end: 0;
+  }
+  dl.contribution dt {
+    grid-column-start: 1;
+    text-align: right;
+  }
+  dl.contribution dd {
+    grid-column-start: 2;
+    margin-inline: 0;
+  }
   dl.contribution ul {
     max-width: unset;
   }
+  dl.contribution dd ul::before {
+    content: unset;
+  }
   dl.contribution ul li:not(:last-of-type)::after {
     content: ',';
+  }
+  dl.contribution dd ul a {
+    border-block-end: unset !important;
   }
   .page-break {
     break-before: page;
