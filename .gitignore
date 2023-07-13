@@ -12,6 +12,5 @@ node_modules
 .out
 .swc
 tsconfig.tsbuildinfo
-next-env.d.ts
 
 .idea
