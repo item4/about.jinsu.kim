@@ -66,7 +66,7 @@ const main = async () => {
     return 0;
   });
   const prettierOptions = await prettier.resolveConfig(contributionDataPath, { config: prettierConfigPath });
-  const formatted = prettier.format(JSON.stringify(result), {
+  const formatted = await prettier.format(JSON.stringify(result), {
     ...prettierOptions,
     filepath: contributionDataPath,
   });
