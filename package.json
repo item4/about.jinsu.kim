@@ -50,7 +50,7 @@
     "check:lint": "next lint",
     "check:type": "tsc --noEmit",
     "dev": "next dev",
-    "dev:serve": "serve out",
+    "dev:serve": "serve .out",
     "format": "yarn format:json && yarn format:lint && yarn format:prettier",
     "format:json": "yarn swc-node src/format/json.ts --format",
     "format:lint": "next lint --fix",
