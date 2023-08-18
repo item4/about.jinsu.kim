@@ -1,5 +1,31 @@
 [
   {
+    "name": "Mediquitous",
+    "url": "https://mediquitous.com/",
+    "position": "백엔드 개발자",
+    "started_at": "2023년 8월",
+    "ended_at": "현재",
+    "total_summary": "Python Django 기반 백엔드 서버와 React/Svelte 기반 프론트엔드 개발 및 개선",
+    "tasks": [
+      {
+        "summary": "Python 백엔드 서버 개발",
+        "desc": ["Django 기반의 서버로 쇼핑몰 서비스를 개발 및 개선해나갈 예정입니다."],
+        "keywords": ["Python", "Django"]
+      },
+      {
+        "summary": "React 기반 프론트엔드 개발",
+        "desc": ["React 기반 프론트엔드로 엔드유저용 사이트를 개발 및 개선해나갈 예정입니다."],
+        "keywords": ["TypeScript", "React", "Next.js"]
+      },
+      {
+        "summary": "Svelte 기반 프론트엔드 개발",
+        "desc": ["Svelte 기반 프론트엔드로 백오피스용 사이트를 개발 및 개선해나갈 예정입니다."],
+        "keywords": ["TypeScript", "Svelte", "Vite"]
+      }
+    ],
+    "break_before": true
+  },
+  {
     "name": "Alicorn",
     "url": "https://www.rocketpunch.com/",
     "position": "백엔드 개발자",
