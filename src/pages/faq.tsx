@@ -11,7 +11,7 @@ const FAQPage: NextPage = () => {
       <h1>FAQ</h1>
       <section>
         <h2>구직중이신가요?</h2>
-        <p>현재 구직중입니다.</p>
+        <p>현재 구직중이 아닙니다.</p>
       </section>
       <section>
         <h2>외주를 받으시나요?</h2>
