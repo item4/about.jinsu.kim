@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Link from 'next/link';
 
 import Layout from '@/components/Layout';
 import SEO from '@/components/SEO';
@@ -15,10 +14,7 @@ const FAQPage: NextPage = () => {
       </section>
       <section>
         <h2>외주를 받으시나요?</h2>
-        <p>
-          건강상태에 무리를 주지 않는 가벼운 업무는 취급합니다. 자세한 내용은 <Link href='/parttime'>파트타임</Link>{' '}
-          페이지를 참조해주세요.
-        </p>
+        <p>현재 건강이 좋지 않아 받지 않습니다.</p>
       </section>
       <section>
         <h2>병역(군대) 문제는 어떻게 되어 있나요?</h2>
@@ -27,7 +23,7 @@ const FAQPage: NextPage = () => {
       <section>
         <h2>연락처를 알려주세요</h2>
         <p>
-          이력서 본문에 있는 메일 주소, 트위터, 혹은 Keybase.io를 통해 연락주시면 됩니다. 다른 연락처는 스팸 방지를 위해
+          이력서 본문에 있는 메일 주소, 트위터, 혹은 마스토돈을 통해 연락주시면 됩니다. 다른 연락처는 스팸 방지를 위해
           공개하지 않습니다.
         </p>
       </section>
@@ -59,13 +55,6 @@ const FAQPage: NextPage = () => {
       <section>
         <h2>장애등급이 어떻게 되시나요?</h2>
         <p>제가 앓는 질환은 장애등급이 나오지 않습니다.</p>
-      </section>
-      <section>
-        <h2>만나서 이야기를 하려면 어떻게 해야할까요?</h2>
-        <p>
-          만날 수 있는지 여부는 그날그날 제 상태에 따라 다릅니다. 저는 말을 할 수 없는 관계로 필담 혹은 노트북을 이용한
-          대화가 가능한 환경이 조성되어 있어야합니다.
-        </p>
       </section>
     </Layout>
   );

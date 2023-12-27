@@ -9,6 +9,10 @@ const PartTimeJobPage: NextPage = () => {
       <SEO title='파트타임' description='item4가 진행하는 파트타임 일거리에 대한 소개' noindex />
       <h1>파트타임</h1>
       <section>
+        <h2>안내사항</h2>
+        <p>현재 건강이 좋지 않아 관련 활동을 중단한 상태입니다. 연락주셔도 답변을 드리기 힘든 점 양해 부탁드립니다.</p>
+      </section>
+      <section>
         <h2>간략 소개</h2>
         <p>일상생활과 정신건강에 무리가 되지 않는 선에서, 간단한 코딩 및 코딩 관련 업무를 대리수행해드립니다.</p>
       </section>

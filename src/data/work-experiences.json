@@ -4,22 +4,24 @@
     "url": "https://mediquitous.com/",
     "position": "백엔드 개발자",
     "started_at": "2023년 8월",
-    "ended_at": "현재",
+    "ended_at": "2023년 11월",
     "total_summary": "Python Django 기반 백엔드 서버와 React/Svelte 기반 프론트엔드 개발 및 개선",
     "tasks": [
       {
         "summary": "Python 백엔드 서버 개발",
-        "desc": ["Django 기반의 서버로 쇼핑몰 서비스를 개발 및 개선해나갈 예정입니다."],
+        "desc": ["Django 기반의 서버로 쇼핑몰 서비스 코드를 정비했습니다."],
         "keywords": ["Python", "Django"]
       },
       {
         "summary": "React 기반 프론트엔드 개발",
-        "desc": ["React 기반 프론트엔드로 엔드유저용 사이트를 개발 및 개선해나갈 예정입니다."],
+        "desc": [
+          "React 기반 프론트엔드로 일본어 엔드유저용 사이트의 하위호환성을 보장하는 URL 규칙 재정립 등의 세부 작업을 진행했습니다."
+        ],
         "keywords": ["TypeScript", "React", "Next.js"]
       },
       {
         "summary": "Svelte 기반 프론트엔드 개발",
-        "desc": ["Svelte 기반 프론트엔드로 백오피스용 사이트를 개발 및 개선해나갈 예정입니다."],
+        "desc": ["Svelte 기반 프론트엔드로 백오피스용 사이트의 CS업무 편의성을 개선하였습니다."],
         "keywords": ["TypeScript", "Svelte", "Vite"]
       }
     ],
