@@ -9,7 +9,7 @@
 node_modules
 
 .next
-.out
+out
 .swc
 tsconfig.tsbuildinfo
 
