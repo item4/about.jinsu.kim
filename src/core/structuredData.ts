@@ -7,7 +7,7 @@ export const RESUME_PAGE: ProfilePage = {
   name: '이력서',
   url: 'https://about.jinsu.kim/resume',
   description: 'item4라는 별명을 쓰는 한국인 개발자 김진수의 공개 이력서',
-  about: {
+  mainEntity: {
     '@type': 'Person',
     '@id': 'https://about.jinsu.kim',
     name: '김진수',
@@ -34,10 +34,5 @@ export const RESUME_PAGE: ProfilePage = {
   publisher: {
     '@type': 'Person',
     '@id': 'https://about.jinsu.kim',
-  },
-  mainEntity: {
-    '@type': 'WebPageElement',
-    '@id': 'https://about.jinsu.kim/resume',
-    cssSelector: '.resume',
   },
 };
