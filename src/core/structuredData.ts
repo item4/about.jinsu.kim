@@ -35,4 +35,9 @@ export const RESUME_PAGE: ProfilePage = {
     '@type': 'Person',
     '@id': 'https://about.jinsu.kim',
   },
+  mainEntity: {
+    '@type': 'WebPageElement',
+    '@id': 'https://about.jinsu.kim/resume',
+    cssSelector: '.resume',
+  },
 };
