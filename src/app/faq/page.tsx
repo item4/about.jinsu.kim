@@ -1,12 +1,34 @@
-import type { NextPage } from 'next';
+import type { Metadata } from 'next';
 
 import Layout from '@/components/Layout';
-import SEO from '@/components/SEO';
+import { site } from '@/core/constants';
 
-const FAQPage: NextPage = () => {
+const title = `FAQ - ${site.title}`;
+const description = '자주 묻는 질문들을 정리해두었습니다';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/faq',
+  },
+  title,
+  description,
+  robots: {
+    index: false,
+  },
+  openGraph: {
+    siteName: site.title,
+    title,
+    description,
+  },
+  twitter: {
+    title,
+    description,
+  },
+};
+
+export default function FAQPage() {
   return (
     <Layout pageType='faq'>
-      <SEO title='FAQ' description='자주 묻는 질문들을 정리해두었습니다' noindex />
       <h1>FAQ</h1>
       <section>
         <h2>구직중이신가요?</h2>
@@ -58,5 +80,4 @@ const FAQPage: NextPage = () => {
       </section>
     </Layout>
   );
-};
-export default FAQPage;
+}

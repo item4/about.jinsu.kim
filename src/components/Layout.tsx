@@ -1,5 +1,7 @@
+'use client';
+
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import type { FC, ReactNode } from 'react';
 
 interface LayoutProps {
@@ -8,8 +10,7 @@ interface LayoutProps {
 }
 
 const Layout: FC<LayoutProps> = ({ pageType, children }) => {
-  const router = useRouter();
-  const path = router.pathname;
+  const path = usePathname();
   return (
     <>
       <header>
@@ -19,17 +20,17 @@ const Layout: FC<LayoutProps> = ({ pageType, children }) => {
         <nav>
           <ul>
             <li>
-              <Link href='/resume' aria-current={path === '/resume' ? 'page' : undefined}>
+              <Link href='/resume/' aria-current={path === '/resume/' ? 'page' : undefined}>
                 이력서
               </Link>
             </li>
             <li>
-              <Link href='/parttime' aria-current={path === '/parttime' ? 'page' : undefined}>
+              <Link href='/parttime/' aria-current={path === '/parttime/' ? 'page' : undefined}>
                 파트타임
               </Link>
             </li>
             <li>
-              <Link href='/faq' aria-current={path === '/faq' ? 'page' : undefined}>
+              <Link href='/faq/' aria-current={path === '/faq/' ? 'page' : undefined}>
                 FAQ
               </Link>
             </li>

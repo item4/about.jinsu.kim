@@ -1,12 +1,33 @@
-import type { NextPage } from 'next';
+import type { Metadata } from 'next';
 
 import Layout from '@/components/Layout';
-import SEO from '@/components/SEO';
+import { site } from '@/core/constants';
 
-const PartTimeJobPage: NextPage = () => {
+const title = `파트타임 - ${site.title}`;
+const description = 'item4가 진행하는 파트타임 일거리에 대한 소개';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/parttime',
+  },
+  title,
+  description,
+  robots: {
+    index: false,
+  },
+  openGraph: {
+    siteName: site.title,
+    title,
+    description,
+  },
+  twitter: {
+    title,
+    description,
+  },
+};
+export default function PartTimePage() {
   return (
     <Layout>
-      <SEO title='파트타임' description='item4가 진행하는 파트타임 일거리에 대한 소개' noindex />
       <h1>파트타임</h1>
       <section>
         <h2>안내사항</h2>
@@ -79,5 +100,4 @@ const PartTimeJobPage: NextPage = () => {
       </section>
     </Layout>
   );
-};
-export default PartTimeJobPage;
+}
