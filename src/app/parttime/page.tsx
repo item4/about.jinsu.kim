@@ -8,7 +8,7 @@ const description = 'item4가 진행하는 파트타임 일거리에 대한 소�
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/parttime',
+    canonical: '/parttime/',
   },
   title,
   description,

@@ -15,7 +15,7 @@ const description = '김진수(item4)의 공개 이력서';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/resume',
+    canonical: '/resume/',
   },
   title,
   description,

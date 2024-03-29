@@ -8,7 +8,7 @@ const description = '자주 묻는 질문들을 정리해두었습니다';
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: '/faq',
+    canonical: '/faq/',
   },
   title,
   description,
