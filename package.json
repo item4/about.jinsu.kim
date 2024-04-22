@@ -35,7 +35,7 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "serve": "^14.2.1"
+    "serve": "^14.2.2"
   },
   "scripts": {
     "build": "yarn build:next && yarn build:etc",
