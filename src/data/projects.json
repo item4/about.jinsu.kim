@@ -45,9 +45,9 @@
       "repo_url": "https://github.com/item4/canIEuse",
       "keywords": ["JavaScript", "CSS", "문서", "개발 중단됨"]
     },
-    "성 키우기 도구모음": {
+    "GrowCastle Toolkit": {
       "repo_url": "https://github.com/item4/growcastle.tools",
-      "keywords": ["TypeScript", "React", "웹사이트", "개발 중단됨"]
+      "keywords": ["TypeScript", "ESM", "React", "Next.js", "ESLint", "Prettier", "웹사이트"]
     }
   },
   "keywords": {
