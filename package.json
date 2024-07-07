@@ -7,7 +7,7 @@
   "dependencies": {
     "@next/env": "^14.2.4",
     "@next/third-parties": "^14.2.4",
-    "@swc-node/register": "^1.10.2",
+    "@swc-node/register": "1.10.0",
     "@swc/core": "^1.6.13",
     "@types/node": "^20.14.10",
     "@types/react": "^18.3.3",
