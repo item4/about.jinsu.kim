@@ -4,7 +4,7 @@ import path from 'node:path';
 import * as process from 'process';
 
 import { Validator } from '@cfworker/json-schema';
-import prettier from 'prettier';
+import { resolveConfig, format as prettierFormat } from 'prettier';
 
 import type { Contribution, ContributionDetail } from '@/types/resume';
 
@@ -65,8 +65,8 @@ const main = async () => {
     }
     return 0;
   });
-  const prettierOptions = await prettier.resolveConfig(contributionDataPath, { config: prettierConfigPath });
-  const formatted = await prettier.format(JSON.stringify(result), {
+  const prettierOptions = await resolveConfig(contributionDataPath, { config: prettierConfigPath });
+  const formatted = await prettierFormat(JSON.stringify(result), {
     ...prettierOptions,
     filepath: contributionDataPath,
   });
