@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "packageManager": "yarn@4.4.1",
+  "packageManager": "yarn@4.5.0",
   "dependencies": {
     "@next/env": "^14.2.11",
     "@next/third-parties": "^14.2.11",
