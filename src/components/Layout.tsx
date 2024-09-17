@@ -25,11 +25,6 @@ const Layout: FC<LayoutProps> = ({ pageType, children }) => {
               </Link>
             </li>
             <li>
-              <Link href='/parttime/' aria-current={path === '/parttime/' ? 'page' : undefined}>
-                파트타임
-              </Link>
-            </li>
-            <li>
               <Link href='/faq/' aria-current={path === '/faq/' ? 'page' : undefined}>
                 FAQ
               </Link>
