@@ -6,7 +6,6 @@
   --issue-color: hsl(194deg 66% 80%);
   --pr-color: hsl(120deg 39% 80%);
   --index-resume-bg-color: hsl(199deg 52% 88%);
-  --index-part-time-bg-color: hsl(114deg 29% 86%);
   --index-faq-bg-color: hsl(38deg 88% 87%);
   --link-underline-width: 0.15rem;
   --link-underline-color: hsl(210deg 80% 80%);
@@ -186,9 +185,6 @@ main.index li a:is(:hover, :focus) {
 }
 main.index li a[href='/resume/'] {
   --bg-color: var(--index-resume-bg-color);
-}
-main.index li a[href='/parttime/'] {
-  --bg-color: var(--index-part-time-bg-color);
 }
 main.index li a[href='/faq/'] {
   --bg-color: var(--index-faq-bg-color);
