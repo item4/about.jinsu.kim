@@ -12,11 +12,6 @@ export default function Home() {
           </Link>
         </li>
         <li>
-          <Link href='/parttime'>
-            <span>파트타임</span>
-          </Link>
-        </li>
-        <li>
           <Link href='/faq'>
             <span>FAQ</span>
           </Link>
