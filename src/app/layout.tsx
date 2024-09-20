@@ -2,7 +2,8 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 
-import { GOOGLE_ANALYTICS_MEASUREMENT_ID, site } from '@/core/constants';
+import { site } from '@/core/constants';
+
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css' assert { type: 'css' };
 import 'the-new-css-reset/css/reset.css' assert { type: 'css' };
 import '@/core/index.css' assert { type: 'css' };
@@ -52,7 +53,7 @@ export default function RootLayout({
   return (
     <html lang='ko' prefix='og: https://ogp.me/ns#'>
       <body>{children}</body>
-      <GoogleAnalytics gaId={GOOGLE_ANALYTICS_MEASUREMENT_ID} />
+      {process.env.NEXT_PUBLIC_ANALYTICS_ID && <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_ANALYTICS_ID} />}
     </html>
   );
 }
