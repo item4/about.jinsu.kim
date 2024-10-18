@@ -42,7 +42,7 @@
     "build:next": "next build",
     "build:etc": "yarn swc-node src/core/postbuild/index.ts",
     "setup": "yarn setup:husky",
-    "setup:husky": "husky install",
+    "setup:husky": "husky init",
     "check": "yarn check:json && yarn check:lint && yarn check:type",
     "check:json": "yarn swc-node src/format/json.ts",
     "check:lint": "next lint",
@@ -54,6 +54,7 @@
     "format:lint": "next lint --fix",
     "format:prettier": "prettier --write .",
     "start": "yarn dev",
-    "swc-node": "yarn node --import @swc-node/register/esm-register"
+    "swc-node": "yarn node --import @swc-node/register/esm-register",
+    "prepare": "husky"
   }
 }
