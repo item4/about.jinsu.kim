@@ -1,6 +1,7 @@
 'use client';
 
 import type { FC } from 'react';
+
 import { Fragment, useState } from 'react';
 
 import data from '@/data/projects.json' assert { type: 'json' };

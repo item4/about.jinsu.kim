@@ -1,6 +1,7 @@
-import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import { site } from '@/core/constants';
 

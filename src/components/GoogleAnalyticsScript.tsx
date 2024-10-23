@@ -1,5 +1,6 @@
-import Script from 'next/script';
 import type { FC } from 'react';
+
+import Script from 'next/script';
 
 interface GoogleAnalyticsScriptProps {
   measurementId: string;

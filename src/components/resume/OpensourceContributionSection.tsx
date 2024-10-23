@@ -1,4 +1,5 @@
 import type { FC } from 'react';
+
 import { Fragment } from 'react';
 
 import data from '@/data/contributions.json' assert { type: 'json' };
