@@ -21,8 +21,8 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@cfworker/json-schema": "^2.0.1",
-    "@eslint/compat": "^1.2.2",
+    "@cfworker/json-schema": "^3.0.0",
+    "@eslint/compat": "^1.2.3",
     "@eslint/eslintrc": "^3.1.0",
     "@eslint/js": "^9.14.0",
     "@next/eslint-plugin-next": "^15.0.3",
