@@ -5,10 +5,10 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@cfworker/json-schema@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@cfworker/json-schema@npm:3.0.0"
-  checksum: 10/cac4ff26c0aca0c9471408872124e9229593e9778145f3e2c55da9b4d68cac80ea24998224ba265b640b3c0aa901966fd4014f8ac937d4c75e4cd4dc8ab38b61
+"@cfworker/json-schema@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@cfworker/json-schema@npm:3.0.1"
+  checksum: 10/52d62b3d933f1355b218bd57ef3433df9156e7fefb3d8c9a621134f84507787eb6b2a6f25cd5753bcdf99fb945c800493e5fefcd882005b9284abb0f9a3a832a
   languageName: node
   linkType: hard
 
@@ -3949,7 +3949,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "resume@workspace:."
   dependencies:
-    "@cfworker/json-schema": "npm:^3.0.0"
+    "@cfworker/json-schema": "npm:^3.0.1"
     "@eslint/compat": "npm:^1.2.3"
     "@eslint/eslintrc": "npm:^3.1.0"
     "@eslint/js": "npm:^9.14.0"
