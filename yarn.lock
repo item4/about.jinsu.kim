@@ -775,12 +775,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.10.6":
-  version: 22.10.6
-  resolution: "@types/node@npm:22.10.6"
+"@types/node@npm:^22.10.7":
+  version: 22.10.7
+  resolution: "@types/node@npm:22.10.7"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10/ac93c9b6337ddb70176abade1ca4cdec24cde93cfc19023f3e001d80cb42f1d3c2487dd1626ce016985953319de30528d9e73dc5c6e2e28be9eaa9ec0237fc1d
+  checksum: 10/64cde1c2f5e5f7d597d3bd462f52c3c2d688a66623eb75d25e1d1d63d384ef553a27100635ad0dbb7d74da517048aa636947863eb624cf85f25d2f22370ce474
   languageName: node
   linkType: hard
 
@@ -793,12 +793,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^19.0.6":
-  version: 19.0.6
-  resolution: "@types/react@npm:19.0.6"
+"@types/react@npm:^19.0.7":
+  version: 19.0.7
+  resolution: "@types/react@npm:19.0.7"
   dependencies:
     csstype: "npm:^3.0.2"
-  checksum: 10/dc7604e4a0ee338447acaf6fded732e3a9528c4411ad8d6a2504ffb45c3613d5347a02a426d0b314015673317010977e3db01f69bb0257219cacda1884ce31f4
+  checksum: 10/09522132bde715888e57c61fc89a87db06699872535450296f1c975c5014a7953ff08c3bff6b37d4a4515ceeb65b09cc5f841513cc8fede65fec788790b21154
   languageName: node
   linkType: hard
 
@@ -1769,11 +1769,11 @@ __metadata:
   linkType: hard
 
 "es-object-atoms@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "es-object-atoms@npm:1.0.1"
+  version: 1.1.1
+  resolution: "es-object-atoms@npm:1.1.1"
   dependencies:
     es-errors: "npm:^1.3.0"
-  checksum: 10/1126b21a8f61f5005c2ebff68c23ec73f17925427e9a202fbd64529dc5896a6e200dca12413ce32d1af73960b7dd6f9e89174643e3fbfe6c6deee666ca02bdd3
+  checksum: 10/54fe77de288451dae51c37bfbfe3ec86732dc3778f98f3eb3bdb4bf48063b2c0b8f9c93542656986149d08aa5be3204286e2276053d19582b76753f1a2728867
   languageName: node
   linkType: hard
 
@@ -2973,9 +2973,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:^15.3.0":
-  version: 15.3.0
-  resolution: "lint-staged@npm:15.3.0"
+"lint-staged@npm:^15.4.0":
+  version: 15.4.0
+  resolution: "lint-staged@npm:15.4.0"
   dependencies:
     chalk: "npm:~5.4.1"
     commander: "npm:~12.1.0"
@@ -2989,7 +2989,7 @@ __metadata:
     yaml: "npm:~2.6.1"
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 10/b19ce450641f6cc76be8399658423f0dfa9f9a471aaa427c10bef6a1de2017f1c2547e293de908a57b9202ee20a19fd2305aec3e435cb1d4cfc1d03ace843e9f
+  checksum: 10/1fed6a273643f93da27c6152d37f30dd9a79338b8cb0a1f6673ba829f3a73362ca48e3fe2561c8cc6cbc39987d60ca9f51e6665d110d7d3b71640236a8d03444
   languageName: node
   linkType: hard
 
@@ -3817,8 +3817,8 @@ __metadata:
     "@next/third-parties": "npm:^15.1.4"
     "@swc-node/register": "npm:^1.10.9"
     "@swc/core": "npm:^1.10.7"
-    "@types/node": "npm:^22.10.6"
-    "@types/react": "npm:^19.0.6"
+    "@types/node": "npm:^22.10.7"
+    "@types/react": "npm:^19.0.7"
     "@types/react-dom": "npm:^19.0.3"
     "@typescript-eslint/eslint-plugin": "npm:^8.20.0"
     "@typescript-eslint/parser": "npm:^8.20.0"
@@ -3830,7 +3830,7 @@ __metadata:
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
     eslint-plugin-react: "npm:^7.37.4"
     husky: "npm:^9.1.7"
-    lint-staged: "npm:^15.3.0"
+    lint-staged: "npm:^15.4.0"
     next: "npm:^15.1.4"
     pretendard: "npm:^1.3.9"
     prettier: "npm:^3.4.2"
