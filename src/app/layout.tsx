@@ -5,9 +5,9 @@ import { GoogleAnalytics } from '@next/third-parties/google';
 
 import { site } from '@/core/constants';
 
-import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css' assert { type: 'css' };
-import 'the-new-css-reset/css/reset.css' assert { type: 'css' };
-import '@/core/index.css' assert { type: 'css' };
+import '@/core/index.css' with { type: 'css' };
+import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css' with { type: 'css' };
+import 'the-new-css-reset/css/reset.css' with { type: 'css' };
 
 const title = site.title;
 const description = 'item4라는 별명을 쓰는 한국인 개발자 김진수의 자기소개 사이트';
