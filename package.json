@@ -8,8 +8,8 @@
     "@next/env": "^15.1.7",
     "@next/third-parties": "^15.1.7",
     "@swc-node/register": "^1.10.9",
-    "@swc/core": "^1.10.15",
-    "@types/node": "^22.13.1",
+    "@swc/core": "^1.10.16",
+    "@types/node": "^22.13.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "next": "^15.1.7",
@@ -37,7 +37,7 @@
     "eslint-plugin-react": "^7.37.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
-    "prettier": "^3.5.0",
+    "prettier": "^3.5.1",
     "serve": "^14.2.4"
   },
   "scripts": {
