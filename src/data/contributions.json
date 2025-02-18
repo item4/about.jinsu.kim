@@ -84,7 +84,10 @@
     "url": "https://github.com/gawel/aiocron",
     "group": 10,
     "order": 1,
-    "items": [{ "number": 9, "url": "https://github.com/gawel/aiocron/issues/9" }]
+    "items": [
+      { "number": 9, "url": "https://github.com/gawel/aiocron/issues/9" },
+      { "number": 43, "url": "https://github.com/gawel/aiocron/issues/43" }
+    ]
   },
   {
     "name": "pnuckowski/aioresponses",
@@ -137,6 +140,17 @@
     "group": 10,
     "order": 1,
     "items": [{ "number": 259, "url": "https://github.com/kvesteri/sqlalchemy-utils/issues/259" }]
+  },
+  {
+    "name": "tossicat/tossicat-python",
+    "url": "https://github.com/tossicat/tossicat-python",
+    "group": 10,
+    "order": 1,
+    "items": [
+      { "number": 1, "url": "https://github.com/tossicat/tossicat-python/issues/1" },
+      { "number": 2, "url": "https://github.com/tossicat/tossicat-python/pull/2" },
+      { "number": 3, "url": "https://github.com/tossicat/tossicat-python/issues/3" }
+    ]
   },
   {
     "name": "python-babel/babel",
@@ -480,21 +494,29 @@
       { "number": 1451, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1451" },
       { "number": 1599, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1599" },
       { "number": 1605, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1605" },
-      { "number": 1631, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1631" }
+      { "number": 1631, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1631" },
+      { "number": 1885, "url": "https://github.com/Fate-Grand-Automata/FGA/pull/1885" }
     ]
+  },
+  {
+    "name": "tossicat/tossicat-core",
+    "url": "https://github.com/tossicat/tossicat-core",
+    "group": 13,
+    "order": 1,
+    "items": [{ "number": 16, "url": "https://github.com/tossicat/tossicat-core/issues/16" }]
   },
   {
     "name": "justinribeiro/dockerfiles",
     "url": "https://github.com/justinribeiro/dockerfiles",
     "group": 13,
-    "order": 1,
+    "order": 2,
     "items": [{ "number": 38, "url": "https://github.com/justinribeiro/dockerfiles/issues/38" }]
   },
   {
     "name": "fixerAPI/fixer",
     "url": "https://github.com/fixerAPI/fixer",
     "group": 13,
-    "order": 1,
+    "order": 2,
     "items": [{ "number": 76, "url": "https://github.com/fixerAPI/fixer/issues/76" }]
   },
   {
