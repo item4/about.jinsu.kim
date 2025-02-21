@@ -3,8 +3,7 @@ import type { ReactNode } from 'react';
 
 import { GoogleAnalytics } from '@next/third-parties/google';
 
-import { site } from '@/core/constants';
-
+import { site } from '@/core/constants.ts';
 import '@/core/index.css' with { type: 'css' };
 import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css' with { type: 'css' };
 import 'the-new-css-reset/css/reset.css' with { type: 'css' };

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import Layout from '@/components/Layout';
-import { site } from '@/core/constants';
+import Layout from '@/components/Layout.tsx';
+import { site } from '@/core/constants.ts';
 
 const title = `파트타임 - ${site.title}`;
 const description = 'item4가 진행하는 파트타임 일거리에 대한 소개';

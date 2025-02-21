@@ -1,4 +1,4 @@
-import { generateConfigFiles } from './github';
+import { generateConfigFiles } from './github.ts';
 
 const main = async () => {
   await generateConfigFiles();

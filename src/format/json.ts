@@ -5,7 +5,7 @@ import * as process from 'process';
 import { Validator } from '@cfworker/json-schema';
 import { resolveConfig, format as prettierFormat } from 'prettier';
 
-import type { Contribution, ContributionDetail } from '@/types/resume';
+import type { Contribution, ContributionDetail } from '@/types/resume.ts';
 
 const main = async () => {
   const formatting = process.argv[process.argv.length - 1] === '--format';

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import Layout from '@/components/Layout';
-import { site } from '@/core/constants';
+import Layout from '@/components/Layout.tsx';
+import { site } from '@/core/constants.ts';
 
 const title = `FAQ - ${site.title}`;
 const description = '자주 묻는 질문들을 정리해두었습니다';
