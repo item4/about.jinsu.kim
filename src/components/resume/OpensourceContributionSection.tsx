@@ -2,7 +2,7 @@ import type { FC } from 'react';
 
 import { Fragment } from 'react';
 
-import data from '@/data/contributions.json' assert { type: 'json' };
+import data from '@/data/contributions.json' with { type: 'json' };
 
 const OpensourceContributionSection: FC = () => {
   return (

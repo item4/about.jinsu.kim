@@ -167,6 +167,7 @@ main.index ul {
 }
 main.index li {
   margin-block-end: 2rem;
+  /* eslint-disable-next-line css/no-invalid-properties */
   width: min(90vw, 50rem);
 }
 main.index li a {

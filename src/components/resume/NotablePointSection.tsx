@@ -1,13 +1,11 @@
 import type { FC } from 'react';
 
-import data from '@/data/notable-points.json' assert { type: 'json' };
+import data from '@/data/notable-points.json' with { type: 'json' };
 
 const NotablePointSection: FC = () => {
   return (
     <section>
-      <h2>
-        <a id='notable-points'>참고사항</a>
-      </h2>
+      <h2 id='notable-points'>참고사항</h2>
       <p>저는 다음과 같은 문제들로 정기적으로 병원 진료를 받고 있습니다.</p>
       {data.map((topic, index) => {
         const title = topic.url ? (

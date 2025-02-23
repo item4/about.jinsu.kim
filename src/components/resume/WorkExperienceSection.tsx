@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 
-import data from '@/data/work-experiences.json' assert { type: 'json' };
+import data from '@/data/work-experiences.json' with { type: 'json' };
 
 const WorkExperienceSection: FC = () => {
   return (
