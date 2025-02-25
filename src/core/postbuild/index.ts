@@ -1,4 +1,4 @@
-import { generateConfigFiles } from './github.ts';
+import { generateConfigFiles } from '@/core/postbuild/github.ts';
 
 const main = async () => {
   await generateConfigFiles();
