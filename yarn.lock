@@ -803,12 +803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.13.7":
-  version: 22.13.7
-  resolution: "@types/node@npm:22.13.7"
+"@types/node@npm:^22.13.8":
+  version: 22.13.8
+  resolution: "@types/node@npm:22.13.8"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10/05dae7014a4970b06dee4818573dee9d98faf431d96c7f649585c55c7a9c603e264a3817663ca28f3603598bb9703b13afeb38244570c15de731ac67dd9dafc4
+  checksum: 10/b69de3caab80336747bf41b5063478d23b196b9594c6f2eb819791380cc571676087dceb0fde9531ef7a1293f3eae12a9aaf79d8de349378c29a17c5e657bc78
   languageName: node
   linkType: hard
 
@@ -3899,7 +3899,7 @@ __metadata:
     "@next/third-parties": "npm:^15.2.0"
     "@swc-node/register": "npm:^1.10.9"
     "@swc/core": "npm:^1.11.5"
-    "@types/node": "npm:^22.13.7"
+    "@types/node": "npm:^22.13.8"
     "@types/react": "npm:^19.0.10"
     "@types/react-dom": "npm:^19.0.4"
     eslint: "npm:^9.21.0"
@@ -3917,7 +3917,7 @@ __metadata:
     prettier: "npm:^3.5.2"
     react: "npm:^19.0.0"
     react-dom: "npm:^19.0.0"
-    schema-dts: "npm:^1.1.2"
+    schema-dts: "npm:^1.1.5"
     serve: "npm:^14.2.4"
     the-new-css-reset: "npm:^1.11.3"
     typescript: "npm:^5.8.2"
@@ -4003,12 +4003,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-dts@npm:^1.1.2":
-  version: 1.1.2
-  resolution: "schema-dts@npm:1.1.2"
-  peerDependencies:
-    typescript: ">=4.1.0"
-  checksum: 10/c87489241cd042641e549c9e41e7687afa71494521f13ddf1ab5fecfc08803c312c4e7a286e077fcc3efece9b5b41aeee9e653ab673ca4988687a890f5831ec6
+"schema-dts@npm:^1.1.5":
+  version: 1.1.5
+  resolution: "schema-dts@npm:1.1.5"
+  checksum: 10/74f8376449241f008349cbd938e30e2174f0c974bb5155c852bdbbb4873a0f151a12601cf2fe115ae0811a0f7ccaefd3525e21c2a8f0fab7ada9c0309230db0a
   languageName: node
   linkType: hard
 
