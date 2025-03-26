@@ -146,7 +146,7 @@ const config = [
     extends: [css.configs.recommended],
     language: 'css/css',
     rules: {
-      'css/require-baseline': [
+      'css/use-baseline': [
         'error',
         {
           available: 'newly',
