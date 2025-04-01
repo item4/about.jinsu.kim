@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "type": "module",
-  "packageManager": "yarn@4.8.0",
+  "packageManager": "yarn@4.8.1",
   "dependencies": {
     "@next/third-parties": "^15.2.4",
     "@swc-node/register": "^1.10.10",
