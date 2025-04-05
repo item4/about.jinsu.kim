@@ -166,9 +166,10 @@ main.index ul {
   align-items: center;
 }
 main.index li {
+  --width: min(90vw, 50rem);
   margin-block-end: 2rem;
 
-  width: min(90vw, 50rem);
+  width: var(--width, width);
 }
 main.index li a {
   background: var(--bg-color, unset);
