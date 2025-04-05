@@ -17,15 +17,15 @@
     "react-dom": "^19.1.0",
     "schema-dts": "^1.1.5",
     "the-new-css-reset": "^1.11.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@cfworker/json-schema": "^4.1.1",
     "@eslint/compat": "^1.2.8",
     "@eslint/css": "^0.6.0",
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^9.24.0",
     "@next/eslint-plugin-next": "^15.2.4",
-    "eslint": "^9.23.0",
+    "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-import-resolver-typescript": "^4.3.1",
     "eslint-plugin-import": "^2.31.0",
