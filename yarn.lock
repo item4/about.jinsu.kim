@@ -380,8 +380,8 @@ __metadata:
   linkType: hard
 
 "@modelcontextprotocol/sdk@npm:^1.8.0":
-  version: 1.11.0
-  resolution: "@modelcontextprotocol/sdk@npm:1.11.0"
+  version: 1.11.1
+  resolution: "@modelcontextprotocol/sdk@npm:1.11.1"
   dependencies:
     content-type: "npm:^1.0.5"
     cors: "npm:^2.8.5"
@@ -393,7 +393,7 @@ __metadata:
     raw-body: "npm:^3.0.0"
     zod: "npm:^3.23.8"
     zod-to-json-schema: "npm:^3.24.1"
-  checksum: 10/527413fd2b18f75e031cda7f73a662098f3c5f1224b9c6b0b903d5a1f79e23e23a4f4b8e6971bac7eb46a74ed65ae05e8e548f7b7a3f7f6d179c3f6d10825fbc
+  checksum: 10/bf388e3f5082839ccf32eb4f16e086ead71310f30c3103ff99f337d7bcfc6da6b3377dc9bd64ac9b862969487081c36889faea02c5c30805695e8addac96b9a8
   languageName: node
   linkType: hard
 
@@ -835,12 +835,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.15":
-  version: 22.15.15
-  resolution: "@types/node@npm:22.15.15"
+"@types/node@npm:^22.15.17":
+  version: 22.15.17
+  resolution: "@types/node@npm:22.15.17"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10/26e9c2e272b5cc7b342a6e6708e4551d5346e712bd57c4b49eb08470304325d5ed245f8ae425ea3958cab75240581af56eb39e7bf63d01e1412c056be0b0a562
+  checksum: 10/3f5870ec1ac16b1dd8e5817de81164df9b69e4cf19cce692cb7c9b1af1deaecfd98b591b56155fcc4aa582f7189a4fc0c8d7d3226fa0387403db615a12dd8cb6
   languageName: node
   linkType: hard
 
@@ -4391,7 +4391,7 @@ __metadata:
     "@next/third-parties": "npm:^15.3.2"
     "@swc-node/register": "npm:^1.10.10"
     "@swc/core": "npm:^1.11.24"
-    "@types/node": "npm:^22.15.15"
+    "@types/node": "npm:^22.15.17"
     "@types/react": "npm:^19.1.3"
     "@types/react-dom": "npm:^19.1.3"
     eslint: "npm:^9.26.0"
