@@ -371,6 +371,7 @@ main.faq ol {
     content: ',';
   }
   dl.contribution dd ul a {
+    /* eslint-disable-next-line css/no-important */
     border-block-end: unset !important;
   }
   .page-break {
