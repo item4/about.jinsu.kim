@@ -329,6 +329,16 @@
     "items": [{ "number": 1, "url": "https://github.com/dahlia/dahlia.github.io/pull/1" }]
   },
   {
+    "name": "lazygyu/roulette",
+    "url": "https://github.com/lazygyu/roulette",
+    "group": 11,
+    "order": 3,
+    "items": [
+      { "number": 28, "url": "https://github.com/lazygyu/roulette/pull/28" },
+      { "number": 30, "url": "https://github.com/lazygyu/roulette/pull/30" }
+    ]
+  },
+  {
     "name": "dahlia/seonbi",
     "url": "https://github.com/dahlia/seonbi",
     "group": 11,
@@ -432,6 +442,13 @@
       { "number": 27, "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea/issues/27" },
       { "number": 29, "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea/pull/29" }
     ]
+  },
+  {
+    "name": "moreal/agile-egloos-archive",
+    "url": "https://github.com/moreal/agile-egloos-archive",
+    "group": 12,
+    "order": 0,
+    "items": [{ "number": 1, "url": "https://github.com/moreal/agile-egloos-archive/pull/1" }]
   },
   {
     "name": "benjioh5/CS-Univ-Wiki",
