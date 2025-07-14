@@ -7,7 +7,7 @@
   "dependencies": {
     "@next/third-parties": "^15.3.5",
     "@swc-node/register": "^1.10.10",
-    "@swc/core": "^1.12.11",
+    "@swc/core": "^1.12.14",
     "@types/node": "^24.0.13",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
@@ -37,7 +37,7 @@
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "serve": "^14.2.4",
-    "typescript-eslint": "^8.36.0"
+    "typescript-eslint": "^8.37.0"
   },
   "scripts": {
     "build": "yarn build:next && yarn build:etc",
