@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
   output: 'export',
   cleanDistDir: true,
   productionBrowserSourceMaps: true,
-  eslint: {
-    dirs: ['.'],
-  },
 };
 
 export default nextConfig;
