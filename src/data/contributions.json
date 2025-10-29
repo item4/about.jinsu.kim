@@ -433,6 +433,13 @@
     "items": [{ "number": 1, "url": "https://github.com/xnuk/cinema-finder/pull/1" }]
   },
   {
+    "name": "moreal/agile-egloos-archive",
+    "url": "https://github.com/moreal/agile-egloos-archive",
+    "group": 12,
+    "order": 0,
+    "items": [{ "number": 1, "url": "https://github.com/moreal/agile-egloos-archive/pull/1" }]
+  },
+  {
     "name": "milooy/remote-or-flexible-work-company-in-korea",
     "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea",
     "group": 12,
@@ -442,13 +449,6 @@
       { "number": 27, "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea/issues/27" },
       { "number": 29, "url": "https://github.com/milooy/remote-or-flexible-work-company-in-korea/pull/29" }
     ]
-  },
-  {
-    "name": "moreal/agile-egloos-archive",
-    "url": "https://github.com/moreal/agile-egloos-archive",
-    "group": 12,
-    "order": 0,
-    "items": [{ "number": 1, "url": "https://github.com/moreal/agile-egloos-archive/pull/1" }]
   },
   {
     "name": "benjioh5/CS-Univ-Wiki",
