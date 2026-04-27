@@ -248,8 +248,13 @@ dl.contribution ul a::before {
 dl.contribution ul a[href*='/issues/'] {
   --link-underline-color: var(--issue-color);
 }
-dl.contribution ul a:is([href^="https://github.com/"][href*="/pull/"], [href^="https://bitbucket.org/"][href*="/pull-requests/"], [href^="https://foss.heptapod.net/"][href*="/merge_requests/"])
-{
+dl.contribution
+  ul
+  a:is(
+    [href^='https://github.com/'][href*='/pull/'],
+    [href^='https://bitbucket.org/'][href*='/pull-requests/'],
+    [href^='https://foss.heptapod.net/'][href*='/merge_requests/']
+  ) {
   --link-underline-color: var(--pr-color);
 }
 main.resume ul.work {

@@ -15,18 +15,17 @@
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
     "allowImportingTsExtensions": true,
-    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/components/*": ["src/components/*"],
-      "@/core/*": ["src/core/*"],
-      "@/data/*": ["src/data/*"],
-      "@/hooks/*": ["src/hooks/*"],
-      "@/types/*": ["src/types/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/core/*": ["./src/core/*"],
+      "@/data/*": ["./src/data/*"],
+      "@/hooks/*": ["./src/hooks/*"],
+      "@/types/*": ["./src/types/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],

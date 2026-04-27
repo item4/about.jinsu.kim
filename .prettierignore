@@ -19,6 +19,7 @@ node_modules
 
 # output
 .next
+next-env.d.ts
 out
 
 # common
